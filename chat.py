@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Medicbot"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -41,6 +41,7 @@ def get_response(msg):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
     if prob.item() > 0.75:
+        #respon bot
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
@@ -51,9 +52,9 @@ def get_response(msg):
 if __name__ == "__main__":
     print("halo! apa ada yang bisa saya bantu?")
     while True:
-        # sentence = "do you use credit cards?"
+        # menghentikan program
         sentence = input("You: ")
-        if sentence == "quit":
+        if sentence == "exit":
             break
 
         resp = get_response(sentence)

@@ -170,7 +170,9 @@
       "input": [
         "deskripsi Antimo Anak Rasa Jeruk 5 ml 10 Sachet",
         "Antimo Anak Rasa Jeruk 5 ml 10 Sachet",
-        "obat Antimo Anak Rasa Jeruk 5 ml 10 Sachet"
+        "obat Antimo Anak Rasa Jeruk 5 ml 10 Sachet",
+        "obat antimo anak",
+        "antimo anak"
       ],
       "responses":
       [
@@ -209,7 +211,8 @@
       "input": [
         "deskripsi Bedak Salicyl 60 g",
         "Antimo Bedak Salicyl 60 g",
-        "obat Bedak Salicyl 60 g"
+        "obat Bedak Salicyl 60 g",
+        "obat bedak salicyl"
       ],
       "responses":
       [
@@ -288,7 +291,8 @@
       "input": [
         "deskripsi Betadine Solution 60 ml",
         "Betadine Solution 60 ml",
-        "obat Betadine Solution 60 ml"
+        "obat Betadine Solution 60 ml",
+        "obat betadine solution"
       ],
       "responses":
       [

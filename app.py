@@ -9,7 +9,7 @@ CORS(app)
 def predict():
     text = request.get_json().get("message")
     
-    #todo: check if text is valid
+    #check if text is valid
 
     response = get_response(text)
     message = {"answer":response}
