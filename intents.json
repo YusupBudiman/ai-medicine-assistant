@@ -1,0 +1,3896 @@
+{
+  "intents": [
+    {
+      "tag":"greeting",
+      "input": [
+        "hello",
+        "halo",
+        "hi",
+        "hai",
+        "hey",
+        "hola"
+      ],
+      "responses": [
+          "Halo juga",
+          "hola, ada yang bisa saya bantu ?",
+          "halo, selamat datang",
+          "hai juga"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input": [
+        "Thank you",
+        "Thanks",
+        "terimakasih",
+        "bye",
+        "sampai jumpa",
+        "thanks for info",
+        "okay bye",
+        "goodbye",
+        "see you later",
+        "babai",
+        "bai",
+        "cya"
+      ],
+      "responses": [
+          "Okay, Bye",
+          "Have a nice day",
+          "Adios",
+          "Goodbye",
+          "see you later",
+          "baibai",
+          "sampai jumpa lagi",
+          "semoga harimu menyenangkan",
+          "moga lekas sembuh"
+        ]
+    },
+    
+    {
+      "tag":"obat1",
+      "input": [
+        "ambeven",
+        "deskripsi ambeven",
+        "obat ambeven"
+      ],
+      "responses":
+      [
+        "Ambeven\n\nHarga :\nRp 16.000 - Rp 37.000 Per strip (10 kapsul)\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu meringankan gejala wasir\n\nDosis :\n2 kapsul 3 kali per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat2",
+      "input": [
+        "deskripsi anacetine sirup 60 ml",
+        "anacetine sirup 60 ml",
+        "obat anacetine sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Anacetine Sirup 60 ml\n\nHarga :\nRp 9.200 - Rp 19.800 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringingankan gejala flu\n\nDosis :\nAnak 2 - 6 tahun : 3 kali sehari 5 mL sirup\nanak 6 - 12 tahun : 3 kali sehari 10 mL sirup\ndewasa : 3 kali sehari 20 mL sirup\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat3",
+      "input": [
+        "deskripsi anakonidin sirup 30 ml",
+        "anakonidin sirup 30 ml",
+        "anakonidin sirup",
+        "obat anakonidin sirup 30 ml"
+        
+      ],
+      "responses":
+      [
+        "Anakonidin Sirup 30 ml\n\nHarga :\nRp7.400 - Rp11.700 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan batuk & pilek\n\nDosis :\nAnak 2-5 tahun : 3 kali sehari 1 sendok takar (5 mL)\nAnak 6-12 tahun : 3 kali sehari 2 sendok takar (10 mL)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat4",
+      "input": [
+        "deskripsi anakonidin sirup 60 ml",
+        "anakonidin sirup 60 ml",
+        "obat anakonidin sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Anakonidin Sirup 60 ml\n\nHarga :\nRp10.000 - Rp18.000 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan batuk & pilek\n\nDosis :\nAnak 2-5 tahun : 3 kali sehari 1 sendok takar (5 mL)\nAnak 6-12 tahun : 3 kali sehari 2 sendok takar (10 mL)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat5",
+      "input": [
+        "deskripsi Antangin JRG 4 Tablet",
+        "Antangin JRG 4 Tablet",
+        "obat Antangin JRG 4 Tablet"
+      ],
+      "responses":
+      [
+        "Antangin JRG 4 Tablet\n\nHarga :\nRp2.300 - Rp7.500\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meredakan masuk angin, meriang, rasa mual, perut kembung, capek dan pusing serta melegakan tenggorokan\n\nDosis :\nDewasa: 2 tablet, diminum 3 kali per hari, bila perlu 4 tablet 2-3 x per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat6",
+      "input": [
+        "deskripsi Antangin Good Night 4 Tablet",
+        "Antangin Good Night 4 Tablet",
+        "obat Antangin Good Night 4 Tablet"
+      ],
+      "responses":
+      [
+        "Antangin Good Night 4 Tablet\n\nHarga :\nRp5.100 - Rp7.900 Per strip\n\nKategori :\nHerbal\n\nIndikasi Umum :\nUntuk membantu meredakan gejala masuk angin dan menghangatkan badan serta membantu meringankan gangguan sulit tidur\n\nDosis :2-4 tablet per hari\n\nAturan Pakai :\nSebelum Tidur"
+      ]
+    },
+
+    {
+      "tag":"obat7",
+      "input": [
+        "deskripsi Antangin Gingermocha 15 ml",
+        "Antangin Gingermocha 15 ml",
+        "obat Antangin Gingermocha 15 ml"
+      ],
+      "responses":
+      [
+        "Antangin Gingermocha 15 ml\n\nHarga :\nRp1.500 - Rp4.900 Per sachet\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meredakan masuk angin, meriang, rasa mual, perut kembung, capek dan pusing serta melegakan tenggorokan\n\nDosis :Dewasa: 3 x sehari 1 sachet, Anak usia 6-12 tahun: 3 x sehari 1/2 sachet\n\nAturan Pakai :\nSesudah Makan"
+      ]
+    },
+
+    {
+      "tag":"obat8",
+      "input": [
+        "deskripsi Antangin Junior Honey Mint 5 Sachet",
+        "Antangin Junior Honey Mint 5 Sachet",
+        "obat Antangin Junior Honey Mint 5 Sachet"
+      ],
+      "responses":
+      [
+        "Antangin Junior Honey Mint 5 Sachet\n\nHarga :\nRp3.000 - Rp17.300 Per Box\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meredakan masuk angin, perut kembung, mual dan muntah, membantu melegakan tenggorokan\n\nDosis :Anak 1 tahun: 3 x sehari 1/2 sachet, Anak 2-12 tahun: 3 x sehari 1 sachet\n\nAturan Pakai :\nLangsung diminum atau dicampur dengan 1/2 gelas air hangat"
+      ]
+    },
+
+    {
+      "tag":"obat9",
+      "input": [
+        "deskripsi Antimo 50 mg 10 Tablet",
+        "Antimo 50 mg 10 Tablet",
+        "obat Antimo 50 mg 10 Tablet"
+      ],
+      "responses":
+      [
+        "Antimo 50 mg 10 Tablet\n\nHarga :\nRp4.300 - Rp6.500 Per Strip\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nAntivertigo, anti mabok, pening dan mual selama perjalanan dengan kendaraan bermotor,kapal laut dan pesawat udara, baik untuk dewasa maupun anak-anak\n\nDosis :Dewasa dan anak di atas 12 tahun: 1 tablet (50 mg), sehari tidak lebih dari 8 tablet (400 mg), Anak usia 8-12 tahun : 0.5 tablet (25 mg), sehari tidak lebih dari 3 tablet (150 mg)\n\nAturan Pakai :\nSesudah Makan"
+      ]
+    },
+  
+    {
+      "tag":"obat10",
+      "input": [
+        "deskripsi Antimo Anak Rasa Jeruk 5 ml 10 Sachet",
+        "Antimo Anak Rasa Jeruk 5 ml 10 Sachet",
+        "obat Antimo Anak Rasa Jeruk 5 ml 10 Sachet"
+      ],
+      "responses":
+      [
+        "Antimo Anak Rasa Jeruk 5 ml 10 Sachet\n\nHarga :\nRp12.400 - Rp20.000 Per Box\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMabuk, muntah dalam perjalanan yang diderita jika mempergunakan kendaraan bermotor,kapal, kereta api atau pesawat udara\n\nDosis :Hiperemesis : Anak 2-6 tahun : 1-2 sachet setiap 6-8 jam jika perlu, tidak lebih dari sehari 75 mg, Anak 6-12 tahun : 2 sachet setiap 6-8 jam jika perlu, tidak lebih dari sehari 150 mg Diminum 1/2 jam sebelum berpergian dan lebih baik setelah makan\n\nAturan Pakai :\njam sebelum berpergian dan lebih baik setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat11",
+      "input": [
+        "deskripsi Asifit 30 Kaplet",
+        "Asifit 30 Kaplet",
+        "obat Asifit 30 Kaplet"
+      ],
+      "responses":
+      [
+        "Asifit 30 Kaplet\n\nHarga :\nRp59.400 - Rp141.500 Per Box\n\nKategori :\nIbu dan Anak, Kebutuhan Ibu\n\nIndikasi Umum :\nMembantu produksi dan memperlancar ASI, Menjaga stamina ibu selama menyusui\n\nDosis :\n3 kali sehari 1-2 kaplet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat12",
+      "input": [
+        "deskripsi Uni Bebi Cough Sirup 60 ml",
+        "Uni Bebi Cough Sirup 60 ml",
+        "obat Uni Bebi Cough Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Uni Bebi Cough Sirup 60 ml\n\nHarga :\nRp6.100 - Rp11.200 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nDapat menyembuhkan batuk berdahak, batuk panas, batuk pilek,demam dan influenza disebabkan hawa / musim atau alergi lain\n\nDosis :Anak 2 - 6 tahun: 1-2 sendok takar (5-10 ml), diberikan 3-4 kali per hari\nAnak 6 - 9 tahun: 2-3 sendok (10-15 ml), diberikan 3-4 kali per hari\nAnak 9 - 12 tahun: 3-4 sendok (15-20 ml), diberikan 3-4 kali per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat13",
+      "input": [
+        "deskripsi Bedak Salicyl 60 g",
+        "Antimo Bedak Salicyl 60 g",
+        "obat Bedak Salicyl 60 g"
+      ],
+      "responses":
+      [
+        "Bedak Salicyl 60 g\n\nHarga :\nRp6.500 - Rp15.600 Per Pot\n\nKategori :\nPerawatan Diri\n\nIndikasi Umum :\nMengurangi gatal akibat biang keringat\n\nDosis :\nTaburkan setiap habis mandi\n\nAturan Pakai :\nTaburkan setiap habis mandi"
+      ]
+    },
+
+    {
+      "tag":"obat14",
+      "input": [
+        "deskripsi Berocca Performance 10 Tablet Effervescent",
+        "Berocca Performance 10 Tablet Effervescentt",
+        "obat Berocca Performance 10 Tablet Effervescent"
+      ],
+      "responses":
+      [
+        "Berocca Performance 10 Tablet Effervescent\n\nHarga :\nRp30.700 - Rp76.900 Per Tube\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMemenuhi kebutuhan vitamin esensial dan mineral harian\nMemelihara stamina dan daya tahan tubuh\n\nDosis :Dewasa : 1 tablet/hari\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat15",
+      "input": [
+        "deskripsi Betadine Mouthwash and Gargle 100 ml",
+        "Betadine Mouthwash and Gargle 100 ml",
+        "obat Betadine Mouthwash and Gargle 100 ml"
+      ],
+      "responses":
+      [
+        "Betadine Mouthwash and Gargle 100 ml\n\nHarga :\nRp23.500 - Rp29.400Per Botol\n\nKategori :\nKebutuhan Mulut & Tenggorokan\n\nIndikasi Umum :\nObat kumur antiseptik untuk rongga mulut seperti gigi berlubang, gusi bengkak,sakit tenggorokan, sariawan, bau mulut dan nafas tak segar\n\nDosis :1 Cup (15 ml) untuk berkumur selama 30 detik\nDilakukan 3-5 kali per hari, atau sesuai kebutuhan\n\nAturan Pakai :\nTuangkan Betadine obat kumur 15 ml pada tutup botol dan kumurlah selama 30- 60 detik"
+      ]
+    },
+
+    {
+      "tag":"obat16",
+      "input": [
+        "deskripsi Betadine Skin Cleanser Antiseptic 100 ml",
+        "Betadine Skin Cleanser Antiseptic 100 ml",
+        "obat Betadine Skin Cleanser Antiseptic 100 ml"
+      ],
+      "responses":
+      [
+        "Betadine Skin Cleanser Antiseptic 100 ml\n\nHarga :\nRp23.000 - Rp69.500 Per Botol\n\nKategori :\nAntiseptik\n\nIndikasi Umum :\nProduk ini digunakan untuk mandi sehabis berenang, bermain atau olahraga lainnya\nSebagai pengobatan untuk penyakit kulit seperti : jerawat, gatal-gatal dan lain-lain\nMembersihkan kulit tangan waktu sebelum operasi\nMembersihkan daerah yang akan dioperasi\n\nDosis :Sesuai kebutuhan\n\nAturan Pakai :\nTuang sabun ke telapak tangan/ spons\nUsapkan secara merata ke seluruh tubuh, Bilas sampai bersih"
+      ]
+    },
+
+    {
+      "tag":"obat17",
+      "input": [
+        "deskripsi Betadine Solution 15 ml",
+        "Betadine Solution 15 ml",
+        "Betadine Solution",
+        "obat Betadine Solution 15 ml"
+      ],
+      "responses":
+      [
+        "Betadine Solution 15 ml\n\nHarga :\nRp15.300 - Rp26.200 Per Botol\n\nKategori :\nP3K\n\nIndikasi Umum :\nCairan antiseptik pada luka untuk membunuh kuman penyebab infeksi\n\nDosis :\nDapat digunakan beberapa kali dalam sehari dengan konsentrasi penuh baik untuk mengoles maupun kompres\n\nAturan Pakai :\nOles atau kompres pada bagian yang luka"
+      ]
+    },
+
+    {
+      "tag":"obat18",
+      "input": [
+        "deskripsi Betadine Solution 30 ml",
+        "Betadine Solution 30 ml",
+        "obat Betadine Solution 30 ml"
+      ],
+      "responses":
+      [
+        "Betadine Solution 30 ml\n\nHarga :\nRp22.800 - Rp42.000 Per Botol\n\nKategori :\nP3K\n\nIndikasi Umum :\nCairan antiseptik pada luka untuk membunuh kuman penyebab infeksi\n\nDosis :\nDapat digunakan beberapa kali dalam sehari dengan konsentrasi penuh baik untuk mengoles maupun kompres\n\nAturan Pakai :\nOles atau kompres pada bagian yang luka"
+      ]
+    },
+
+    {
+      "tag":"obat19",
+      "input": [
+        "deskripsi Betadine Solution 60 ml",
+        "Betadine Solution 60 ml",
+        "obat Betadine Solution 60 ml"
+      ],
+      "responses":
+      [
+        "Betadine Solution 60 ml\n\nHarga :\nRp26.000 - Rp72.000 Per Botol\n\nKategori :\nP3K\n\nIndikasi Umum :\nCairan antiseptik pada luka untuk membunuh kuman penyebab infeksi\n\nDosis :\nDapat digunakan beberapa kali dalam sehari dengan konsentrasi penuh baik untuk mengoles maupun kompres\n\nAturan Pakai :\nOles atau kompres pada bagian yang luka"
+      ]
+    },
+
+    {
+      "tag":"obat20",
+      "input": [
+        "deskripsi Betadine Vaginal Douche 10% 100 ml Plus Dengan Alat",
+        "Betadine Vaginal Douche 10% 100 ml Plus Dengan Alat",
+        "obat Betadine Vaginal Douche 10% 100 ml Plus Dengan Alat"
+      ],
+      "responses":
+      [
+        "Betadine Vaginal Douche 10% 100 ml Plus Dengan Alat\n\nHarga :\nRp84.000 - Rp159.400 Per Box\n\nKategori :\nAntiseptik\n\nIndikasi Umum :\nINFORMASI OBAT INI HANYA UNTUK KALANGAN MEDIS. Sebagai disinfektan Vagina\nDigunakan untuk mengobati gejala iritasi ringan, gatal-gatal & keputihan yang disebabkan oleh\nTrichomonas vaginalis, Candida albicans& Gardnerella vaginalis\n\nDosis :\nPENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER\nTerapi : 30-960 mL betadine dalam air hangat 1 kali sehari selama 6 hari\nUpaya pembersihan rutin : 15-960 mL betadine dalam air hangat 1-2 kali/minggu\n\nAturan Pakai :\nIsi botol plastik yang tersedia dengan larutan sampai batas A (untuk menjaga kebersihan) atau sampai batas B (untuk mengobati infeksi) Tambahkan air hangat sampai batas C, kocok hingga merata"
+      ]
+    },
+
+    {
+      "tag":"obat21",
+      "input": [
+        "deskripsi Biogesic 500 mg 4 Tablet",
+        "Biogesic 500 mg 4 Tablet",
+        "obat Biogesic 500 mg 4 Tablet"
+      ],
+      "responses":
+      [
+        "Biogesic 500 mg 4 Tablet\n\nHarga :\nRp1.700 - Rp3.100 Per Strip\n\nKategori :\nDemam\n\nIndikasi Umum :\nMeredakan sakit kepala, sakit gigi, nyeri otot, menurunkan demam yang menyertai flu & paska vaksinasi\n\nDosis :\nDewasa: 1 - 2 kaplet, 3 sampai 4 kali per hari, Penggunaan maximum 8 kaplet per hari\nAnak (7 - 12 tahun): 0.5 - 1 kaplet, 3 sampai 4 kali per hari, Penggunaan maximum 4 kaplet per hari\n\nAturan Pakai :\nObat dapat diminum sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat22",
+      "input": [
+        "deskripsi Biolysin Sirup 100 ml",
+        "Biolysin Sirup 100 ml",
+        "obat Biolysin Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "Biolysin Sirup 100 ml\n\nHarga :\nRp15.600 - Rp40.700 Per Botol\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen vitamin untuk anak, masa pertumbuhan, penyembuhan dan pasca operasi\n\nDosis :\nDewasa : 1-2 sendok takar/hari\nAnak 1-12 tahun : 1 sendok takar/hari\n\nAturan Pakai :\nDapat diberikan bersama makanan agar diabsorpsi lebih baik atau jika timbul rasa tidak nyaman pada GI"
+      ]
+    },
+
+    {
+      "tag":"obat23",
+      "input": [
+        "deskripsi Biolysin Kids Rasa Orange 30 Tablet",
+        "Biolysin Kids Rasa Orange 30 Tablet",
+        "obat Biolysin Kids Rasa Orange 30 Tablet"
+      ],
+      "responses":
+      [
+        "Biolysin Kids Rasa Orange 30 Tablet\n\nHarga :\nRp9.800 - Rp24.000 Per Botol\n\nKategori :\nIbu dan Anak, Vitamin & Suplemen\n\nIndikasi Umum :\nSuplemen vitamin untuk anak terutama selama masa pertumbuhan dan pemulihan dari sakit\n\nDosis :\nAnak : 1 kali sehari 1 tablet"
+      ]
+    },
+
+    {
+      "tag":"obat24",
+      "input": [
+        "deskripsi Biolysin Smart Sirup Rasa Jeruk 100 ml",
+        "Biolysin Smart Sirup Rasa Jeruk 100 ml",
+        "obat Biolysin Smart Sirup Rasa Jeruk 100 ml"
+      ],
+      "responses":
+      [
+        "Biolysin Smart Sirup Rasa Jeruk 100 ml\n\nHarga :\nRp14.000 - Rp33.900 Per Botol\n\nKategori :\nIbu dan Anak, Vitamin & Suplemen\n\nIndikasi Umum :\nSuplemen untuk nutrisi otak dan membantu pemulihan kondisi tubuh sehabis sakit\n\nDosis :\nAnak 1-6 tahun: 1 sendok takar (15 ml) perhari\nAnak 6-12 tahun: 1 sendok takar (15 ml), 2 kali sehari\nAnak 0-1 tahun : 1/2 sendok takar/hari"
+      ]
+    },
+
+    {
+      "tag":"obat25",
+      "input": [
+        "deskripsi Biolysin Smart Sirup Rasa Jeruk 60 ml",
+        "Biolysin Smart Sirup Rasa Jeruk 60 ml",
+        "Biolysin Smart Sirup",
+        "obat Biolysin Smart Sirup Rasa Jeruk 60 ml"
+      ],
+      "responses":
+      [
+        "Biolysin Smart Sirup Rasa Jeruk 60 ml\n\nHarga :\nRp11.800 - Rp27.000 Per Botol\n\nKategori :\nIbu dan Anak, Vitamin & Suplemen\n\nIndikasi Umum :\nSuplemen untuk nutrisi otak dan membantu pemulihan kondisi tubuh sehabis sakit\n\nDosis :\nSuplemen untuk nutrisi otak dan membantu pemulihan kondisi tubuh sehabis sakit\n\nDosis :\nAnak 1-6 tahun: 1 sendok takar (15 ml) perhari\nAnak 6-12 tahun: 1 sendok takar (15 ml), 2 kali sehari\nAnak 0-1 tahun : 1/2 sendok takar/hari"
+      ]
+    },
+
+    {
+      "tag":"obat26",
+      "input": [
+        "deskripsi Biovision 10 Kapsul",
+        "Biovision 10 Kapsul",
+        "Biovision",
+        "obat Biovision 10 Kapsul"
+      ],
+      "responses":
+      [
+        "Biovision 10 Kapsul\n\nHarga :\nRp26.100 - Rp57.000 Per Strip\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMakanan tambahan bermanfaat dalam membangun menghilangkan kelelahan mata disebabkan sering menggunakan komputer,menonton televisi dan membaca dalam waktu lama serta membantu menjaga mata tetap sehat\n\nDosis :\n1 kali sehari 1 kapsul\n\nAturan Pakai :\nSesudah Makan"
+      ]
+    },
+
+    {
+      "tag":"obat27",
+      "input": [
+        "deskripsi Bisolvon 8 mg 10 Tablet",
+        "Bisolvon 8 mg 10 Tablet",
+        "obat Bisolvon 8 mg 10 Tablet"
+      ],
+      "responses":
+      [
+        "Bisolvon 8 mg 10 Tablet\n\nHarga :\nRp24.000 - Rp30.500 Per Strip\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMukolitik untuk batuk produktif\n\nDosis :\nDewasa dan anak >10 tahun : 3 kali sehari 1 tablet\nAnak 5-10 tahun : 3 kali sehari 1/2 tablet\nAnak 2-5 tahun : 2 kali sehari 1/2 tablet\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat28",
+      "input": [
+        "deskripsi Bodrex 20 Tablet",
+        "Bodrex 20 Tablet",
+        "obat Bodrex 20 Tablet"
+      ],
+      "responses":
+      [
+        "Bodrex 20 Tablet\n\nHarga :\nRp4.700 - Rp11.200 Per Box\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nMeringankan sakit kepala, sakit gigi dan menurunkan demam\n\nDosis :\nDewasa dan anak lebih dari 12 tahun : 1 tablet, 3-4 kali sehari\nAnak 6-12 tahun : 0.5 - 1 tablet, 3-4 kali sehari\n\nAturan Pakai :\nDikonsumsi setelah makanan"
+      ]
+    },
+
+    {
+      "tag":"obat29",
+      "input": [
+        "deskripsi Bodrex Extra 4 Kaplet",
+        "Bodrex Extra 4 Kaplet",
+        "obat Bodrex Extra 4 Kaplet"
+      ],
+      "responses":
+      [
+        "Bodrex Extra 4 Kaplet\n\nHarga :\nRp2.100 - Rp3.100 Per Strip\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nUntuk meredakan sakit kepala\n\nDosis :\nDewasa dan anak >12 tahun : 1-2 kaplet\nAnak 6-12 tahun : 1/2-1 kaplet, Diberikan 3-4 kali sehari\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat30",
+      "input": [
+        "deskripsi Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml",
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml",
+        "obat Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml\n\nHarga :\nRp11.000 - Rp16.000 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan gejala flu yang disertai dengan batuk kering\n\nDosis :\nDewasa : 3 kali sehari 15 mL. Anak : 3 kali sehari 7.5 mL\n\nAturan Pakai :\nBerikan bersama makanan"
+      ]
+    },
+
+    {
+      "tag":"obat31",
+      "input": [
+        "deskripsi Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet",
+        "Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet",
+        "obat Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet"
+      ],
+      "responses":
+      [
+        "Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet\n\nHarga :\nRp2.000 - Rp2.700 Per Strip\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan gejala flu yang disertai dengan batuk berdahak\n\nDosis :\nDewasa : 3 kali sehari 1 kaplet\nAnak : 3 kali sehari 1/2 kaplet\n\nAturan Pakai :\nBerikan bersama makanan"
+      ]
+    },
+
+    {
+      "tag":"obat32",
+      "input": [
+        "deskripsi Bodrex Migra 4 Kaplet",
+        "Bodrex Migra 4 Kaplet",
+        "obat Bodrex Migra 4 Kaplet"
+      ],
+      "responses":
+      [
+        "Bodrex Migra 4 Kaplet\n\nHarga :\nRp2.500 - Rp3.900 Per Strip\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nMeredakan sakit kepala sebelah (migraine)\n\nDosis :\nDewasa : 3 kali sehari 1 kaplet atau menurut petunjuk dokter\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat33",
+      "input": [
+        "deskripsi Bodrexin 80 mg 16 Tablet",
+        "Bodrexin 80 mg 16 Tablet",
+        "obat Bodrexin 80 mg 16 Tablet"
+      ],
+      "responses":
+      [
+        "Bodrexin 80 mg 16 Tablet\n\nHarga :\nRp1.600 - Rp7.500 Per Box\n\nKategori :\nDemam\n\nIndikasi Umum :\nMenurunkan demam dan meringankan rasa nyeri pada anak-anak\n\nDosis :\nAnak 2-3 Tahun : 1 tablet\nAnak 4-5 Tahun : 2 tablet\nAnak 6-8 Tahun : 3 tablet\nJika perlu bisa diulang tiap 4 jam atau menurut petunjuk dokter\n\nAturan Pakai :\nTablet harus diminum atau dihisap setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat34",
+      "input": [
+        "deskripsi Bodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml",
+        "Bodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml",
+        "obat Bodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml"
+      ],
+      "responses":
+      [
+        "Bodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml\n\nHarga :\nRp11.400 - Rp16.000 Per Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan gejala flu, seperti demam, sakit kepala,hidung tersumbat dan bersin-bersin yang disertai batuk berdahak\n\nDosis :\nAnak 6-12 tahun : 3 sendok takar 3 kali sehari\n\nAturan Pakai :\nBerikan bersama makanan"
+      ]
+    },
+
+    {
+      "tag":"obat35",
+      "input": [
+        "deskripsi CALADINE LOT 60 ML",
+        "CALADINE LOT 60 ML",
+        "CALADINE LOT",
+        "obat CALADINE LOT 60 ML"
+      ],
+      "responses":
+      [
+        "CALADINE LOT 60 ML\n\nHarga :\nRp 17.323 Per Botol\n\nKategori :\nKulit, Medicated Skin\n\nIndikasi Umum :\nMembantu mengatasi gatal di kulit akibat alergi. Sebagai anti-alergi, antiseptik dan penyejuk kulit\n\nDosis :\nOleskan 2-4 kali sehari\n\nAturan Pakai :\nBersihkan bagian kulit yang gatal, lalu oleskan Caladine Lotion\nSebaiknya digunakan sehabis mandi pagi dan sore hari"
+      ]
+    },
+
+    {
+      "tag":"obat36",
+      "input": [
+        "deskripsi CALADINE LOT 95 ML",
+        "CALADINE LOT 95 ML",
+        "obat CALADINE LOT 95 ML"
+      ],
+      "responses":
+      [
+        "CALADINE LOT 60 ML\n\nHarga :\nRp20.400 - Rp28.500 Per Botol\n\nKategori :\nKulit, Medicated Skin\n\nIndikasi Umum :\nMembantu mengatasi gatal di kulit akibat alergi. Sebagai anti-alergi, antiseptik dan penyejuk kulit\n\nDosis :\nOleskan 2-4 kali sehari\n\nAturan Pakai :\nBersihkan bagian kulit yang gatal, lalu oleskan Caladine Lotion\nSebaiknya digunakan sehabis mandi pagi dan sore hari"
+      ]
+    },
+
+    {
+      "tag":"obat37",
+      "input": [
+        "deskripsi Caladine Powder 60 g",
+        "Caladine Powder 60 g",
+        "obat Caladine Powder 60 g"
+      ],
+      "responses":
+      [
+        "Caladine Powder 60 g\n\nHarga :\nRp9.200 - Rp25.000 Per Botol\n\nKategori :\nKulit\n\nIndikasi Umum :\nBiang keringat, sebagai bedak taburkan setelah mandi, anti alergi, antiseptik, penyejuk kulit\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nTaburkan setelah habis mandi atau bila berkeringat"
+      ]
+    },
+
+    {
+      "tag":"obat38",
+      "input": [
+        "deskripsi Caladine Powder 100 g",
+        "Caladine Powder 100 g",
+        "Caladine Powder",
+        "obat Caladine Powder 100 g"
+      ],
+      "responses":
+      [
+        "Caladine Powder 100 g\n\nHarga :\nRp13.800 - Rp31.300 Per Botol\n\nKategori :\nKulit\n\nIndikasi Umum :\nBiang keringat, sebagai bedak taburkan setelah mandi, anti alergi, antiseptik, penyejuk kulit\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nTaburkan setelah habis mandi atau bila berkeringat"
+      ]
+    },
+
+    {
+      "tag":"obat39",
+      "input": [
+        "deskripsi Xonce 500 mg 2 Tablet",
+        "Xonce 500 mg 2 Tablet",
+        "obat Xonce 500 mg 2 Tablet"
+      ],
+      "responses":
+      [
+        "Xonce 500 mg 2 Tablet\n\nHarga :\nRp1.500 - Rp4.400 Per Strip\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nPencegahan dan terapi defisiensi vitamin C\n\nDosis :\n1 - 2 tablet per hari; dosis khusus\n2 tablet 2 atau 3 kali sehari untuk mambantu menyembuhkan luka\n1 - 2 tablet 2 atau 3 kali sehari untuk skorbut\n\nAturan Pakai :\nsesudah makan, pada waktu yang sama setiap harinya"
+      ]
+    },
+
+    {
+      "tag":"obat40",
+      "input": [
+        "deskripsi Zevit C 4 Kapsul",
+        "Zevit C 4 Kapsul",
+        "obat Zevit C 4 Kapsul"
+      ],
+      "responses":
+      [
+        "Zevit C 4 Kapsul\n\nHarga :\nRp4.200 - Rp10.200 Per Strip\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMemelihara daya tahan tubuh, Untuk mencukupi kebutuhan vitamin C dan untuk\nmengobati defisiensi vitamin C, sariawan, gusi berdarah, dan luka yang lambat sembuh\n\nDosis :\n1 kali sehari 1 kapsul\n\nAturan Pakai :\nDapat diberikan bersama makanan agar diabsorpsi lebih baik atau jika timbul rasa tidak nyaman pada GI"
+      ]
+    },
+
+    {
+      "tag":"obat41",
+      "input": [
+        "deskripsi Zeviton Kaplet",
+        "Zeviton Kaplet",
+        "obat Zeviton Kaplet"
+      ],
+      "responses":
+      [
+        "Zeviton Kaplet\n\nHarga :\nRp2.300 - Rp6.000 Per Tablet\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nDefisiensi vitamin B-komplex, vitamin C dan Zn\n\nDosis :\nDewasa dan anak > 12 tahun : 1 kali sehari 1 kaplet\n\nAturan Pakai :\nDapat diberikan bersama makanan untuk mengurangi rasa tidak nyaman pada GI"
+      ]
+    },
+
+    {
+      "tag":"obat42",
+      "input": [
+        "deskripsi Calsusol 30 Kapsul",
+        "Calsusol 30 Kapsul",
+        "Calsusol Kapsul",
+        "obat Calsusol 30 Kapsul"
+      ],
+      "responses":
+      [
+        "Calsusol 30 Kapsul\n\nHarga :\nRp36.900 - Rp60.500 Per Box\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meluruhkan batu ginjal\n\nDosis :\n1-2 kapsul sehari sekali\n\nAturan Pakai :\nDiberikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat43",
+      "input": [
+        "deskripsi Calsusol 50 Kapsul",
+        "Calsusol 50 Kapsul",
+        "obat Calsusol 50 Kapsul"
+      ],
+      "responses":
+      [
+        "Calsusol 50 Kapsul\n\nHarga :\nRp39.800 - Rp93.500 Per Box\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meluruhkan batu ginjal\n\nDosis :\n1-2 kapsul sehari sekali\n\nAturan Pakai :\nDiberikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat44",
+      "input": [
+        "deskripsi Cap Lang Balsam",
+        "Cap Lang Balsam",
+        "obat Cap Lang Balsam"
+      ],
+      "responses":
+      [
+        "Cap Lang Balsam\n\nHarga :\nRp4.400 - Rp11.000\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan pusing, masuk angin, pegal-pegal, nyeri sendi, keseleo, melegakan pernapasan, mabuk perjalanan dan gatal-gatal karena gigitan serangga\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nDioleskan pada bagian tubuh yang diinginkan, dapat diulangi seperlunya"
+      ]
+    },
+
+    {
+      "tag":"obat45",
+      "input": [
+        "deskripsi Cap lang Minyak Angin 24 ML",
+        "Cap lang Minyak Angin 24 ML",
+        "obat Cap lang Minyak Angin 24 ML"
+      ],
+      "responses":
+      [
+        "Cap lang Minyak Angin 24 ML\n\nHarga :\nRp27.300 - Rp63.800\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan gejala masuk angin, pusing, mabuk perjalanan, mual, pegal-pegal, da gatal-gatal karena gigitan nyamuk dan serangga\n\nDosis :\nDapat diulangi secukupnya\n\nAturan Pakai :\nOleskan pada bagian yang sakit atau membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat46",
+      "input": [
+        "deskripsi Cap Lang Minyak Sereh",
+        "Cap Lang Minyak Sereh",
+        "obat Cap Lang Minyak Sereh"
+      ],
+      "responses":
+      [
+        "Cap Lang Minyak Sereh\n\nHarga :\nRp6.500 - Rp20.900\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu mencegah gigtan nyamuk atau serangga, Membantu meredakan nyeri sendi, pegal-pegal dan keseleo\n\nDosis :\nSecukupnya\n\nAturan Pakai :\nOleskan pada bagian yang membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat47",
+      "input": [
+        "deskripsi Cap lang Minyak Angin 120 ML",
+        "Cap lang Minyak Angin 120 ML",
+        "Cap lang Minyak Angin",
+        "obat Cap lang Minyak Angin 120 ML"
+      ],
+      "responses":
+      [
+        "Cap lang Minyak Angin 120 ML\n\nHarga :\nRp39.700 - Rp71.000\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan gejala masuk angin, pusing, mabuk perjalanan, mual, pegal-pegal, da gatal-gatal karena gigitan nyamuk dan serangga\n\nDosis :\nDapat diulangi secukupnya\n\nAturan Pakai :\nOleskan pada bagian yang sakit atau membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat48",
+      "input": [
+        "deskripsi Cap lang Minyak Angin 30 ML",
+        "Cap lang Minyak Angin 30 ML",
+        "obat Cap lang Minyak Angin 30 ML"
+      ],
+      "responses":
+      [
+        "Cap lang Minyak Angin 30 ML\n\nHarga :\nRp11.100 - Rp20.000\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan gejala masuk angin, pusing, mabuk perjalanan, mual, pegal-pegal, da gatal-gatal karena gigitan nyamuk dan serangga\n\nDosis :\nDapat diulangi secukupnya\n\nAturan Pakai :\nOleskan pada bagian yang sakit atau membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat49",
+      "input": [
+        "deskripsi Cap lang Minyak Angin 60 ML",
+        "Cap lang Minyak Angin 60 ML",
+        "obat Cap lang Minyak Angin 60 ML"
+      ],
+      "responses":
+      [
+        "Cap lang Minyak Angin 60 ML\n\nHarga :\nRp20.500 - Rp37.000\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan gejala masuk angin, pusing, mabuk perjalanan, mual, pegal-pegal, da gatal-gatal karena gigitan nyamuk dan serangga\n\nDosis :\nDapat diulangi secukupnya\n\nAturan Pakai :\nOleskan pada bagian yang sakit atau membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat50",
+      "input": [
+        "deskripsi Caviplex Syr",
+        "Caviplex Syr",
+        "obat Caviplex Syr"
+      ],
+      "responses":
+      [
+        "Caviplex Syr\n\nHarga :\nRp6.600 - Rp19.5000\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nPertumbuhan tulang dan gigi, menambah nafsu makan, mencegah defisiensi, menambah dan menguatkan daya pikir, kebutuhan tubuh meningkat, misalnya masa pertumbuhan anak, ibu hamil dan menyusui, manula\n\nDosis :\nSirup Anak 3 kali sehari 1 sendok teh sirup\nDewasa 3 kali sehari 1 sendok makan sirup\n\nAturan Pakai :\nDikonsumsi bersamaan dengan makanan"
+      ]
+    },
+
+    {
+      "tag":"obat51",
+      "input": [
+        "deskripsi Cerebrofit Excel",
+        "Cerebrofit Excel",
+        "obat Cerebrofit Excel"
+      ],
+      "responses":
+      [
+        "Cerebrofit Excel\n\nHarga :\nRp16.100 - Rp39.600\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMemenuhi kebutuhan vitamin, mineral, dan nutrisi otak\n\nDosis :\n1-2 x sehari 1 tablet\n\nAturan Pakai :\nSesudah Makan"
+      ]
+    },
+
+    {
+      "tag":"obat52",
+      "input": [
+        "deskripsi Cerebrofit Ginko Biloba",
+        "Cerebrofit Ginko Biloba",
+        "obat Cerebrofit Ginko Biloba"
+      ],
+      "responses":
+      [
+        "Cerebrofit Ginko Biloba\n\nHarga :\nRp58.800 - Rp101.700\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMeningkatkan daya ingat, konsentrasi dan kewaspadaan, Memperlancar peredaran darah, Mencegah penyumbatan pembuluh darah arteri/stroke,Meningkatkan fungsi pendengaran, baik untuk vertigo dan tinnitus\n\nDosis :\n1-2 x sehari 1 tablet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat53",
+      "input": [
+        "deskripsi Cerebrofit Gold",
+        "Cerebrofit Gold",
+        "obat Cerebrofit Gold"
+      ],
+      "responses":
+      [
+        "Cerebrofit Gold\n\nHarga :\nRp27.700 - Rp49.200\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen multivitamin dan nutrisi otak untuk pertumbuhan, metabolisme, serta menjaga sistem imun tubuh\n\nDosis :\nAnak 6-12 tahun : 1 sendok takar (5 mL) 2 kali/hari\nAnak 1-6 tahun : 1 sendok takar (5 mL) 1 kali/hari\nBayi 4 bulan-1 tahun : 1/2 sendok takar (2.5 mL) 1 kali/hari\n\nAturan Pakai :\nDapat dicampur dengan susu, jus buah, atau makanan lain"
+      ]
+    },
+
+    {
+      "tag":"obat54",
+      "input": [
+        "deskripsi Cerebrofit Syr",
+        "Cerebrofit Syr",
+        "obat Cerebrofit Syr"
+      ],
+      "responses":
+      [
+        "Cerebrofit Syr\n\nHarga :\nRp27.700 - Rp49.200\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen multivitamin dan nutrisi otak untuk pertumbuhan, metabolisme, serta menjaga sistem imun tubuh\n\nDosis :\nAnak 6-12 tahun : 1 sendok takar (5 mL) 2 kali/hari\nAnak 1-6 tahun : 1 sendok takar (5 mL) 1 kali/hari\nBayi 4 bulan-1 tahun : 1/2 sendok takar (2.5 mL) 1 kali/hari\n\nAturan Pakai :\nDapat dicampur dengan susu, jus buah, atau makanan lain"
+      ]
+    },
+
+    {
+      "tag":"obat55",
+      "input": [
+        "deskripsi Citocetin",
+        "Citocetin",
+        "obat Citocetin"
+      ],
+      "responses":
+      [
+        "Citocetin\n\nHarga :\nRp5.100 - Rp16.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan gejala flu seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin yang disertai batuk\n\nDosis :\nBayi usia dibawah 1 tahun 3 x sehari 1/2 sendok takar (2,5 ml), Anak usia 1 - 6 tahun 3 x sehari 1 sendok takar (5 ml), Anak usia 6 - 12 tahun; 3 x sehari 2 sendok takar (10 ml), Dewasa 3 x sehari 4 sendok takar (20 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat56",
+      "input": [
+        "deskripsi Coldrexin",
+        "Coldrexin",
+        "obat Coldrexin"
+      ],
+      "responses":
+      [
+        "Coldrexin\n\nHarga :\nRp8.600 - Rp30.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nInfluenza, masuk angin, demam, batuk, pilek ,sakit kepala, hidung tersumbat\n\nDosis :\nAnak usia 2 - 6 tahun : 3 x 1/2 sendok teh, Anak usia 6 - 12 tahun : 3 x 1 sendok teh, Dewasa : 3 x sehari 2 sendok teh\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat57",
+      "input": [
+        "deskripsi Colfin syr",
+        "Colfin syr",
+        "obat Colfin syr"
+      ],
+      "responses":
+      [
+        "Colfin syr\n\nHarga :\nRp8.800 - Rp18.500\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan gejala flu seperti Demam, sakit Kepala, Hidung Tersumbat, Bersin-bersin dan Batuk\n\nDosis :\nDewasa: 3 kali sehari 4 sendok takar (20ml)\nDewasa: 3 kali sehari 4 sendok takar (20ml)\n\nAturan Pakai :\nDiminum sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat58",
+      "input": [
+        "deskripsi Combi Kid 12'S Fruit",
+        "Combi Kid 12'S Fruit",
+        "obat Combi Kid 12'S Fruit"
+      ],
+      "responses":
+      [
+        "Combi Kid 12'S Fruit\n\nHarga :\nRp16.100 - Rp21.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk yang disertai gejala-gejala flu pada anak seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin\n\nDosis :\nUmur 2 - 5 tahun : 3 x sehari 1 sendok takar (@ 5 ml)\nUmur 6 - 12 tahun : 3 x sehari 2 sendok takar (@10 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat59",
+      "input": [
+        "deskripsi Combi Kid 12'S Honey Lemon",
+        "Combi Kid 12'S Honey Lemon",
+        "obat Combi Kid 12'S Honey Lemon"
+      ],
+      "responses":
+      [
+        "Combi Kid 12'S Honey Lemon\n\nHarga :\nRp16.100 - Rp21.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk yang disertai gejala-gejala flu pada anak seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin\n\nDosis :\nUmur 2 - 5 tahun : 3 x sehari 1 sendok takar (@ 5 ml)\nUmur 6 - 12 tahun : 3 x sehari 2 sendok takar (@10 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat60",
+      "input": [
+        "deskripsi Copal Balsem",
+        "Copal Balsem",
+        "obat Copal Balsem"
+      ],
+      "responses":
+      [
+        "Copal Balsem\n\nHarga :\nRp16.500 - Rp25.400\n\nKategori :\nIbu dan Anak, Kebutuhan Bayi & Anak\n\nIndikasi Umum :\nMasuk angin, flu, hidung tersumbat, sakit kepala, sakit perut, digigit serangga\n\nDosis :\nGosokkan secukupnya\n\nAturan Pakai :\nOleskan secukupnya pada bagian yang membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat62",
+      "input": [
+        "deskripsi Copal Cest Rub",
+        "Copal Cest Rub",
+        "obat Copal Cest Rub"
+      ],
+      "responses":
+      [
+        "Copal Cest Rub\n\nHarga :\nRp.22.000\n\nKategori :\nIbu dan Anak, Kebutuhan Bayi & Anak\n\nIndikasi Umum :\nMasuk angin, flu, hidung tersumbat, sakit kepala, sakit perut, digigit serangga\n\nDosis :\nGosokkan secukupnya\n\nAturan Pakai :\nOleskan secukupnya pada bagian yang membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat62",
+      "input": [
+        "deskripsi Copal Tube",
+        "Copal Tube",
+        "obat Copal Tube"
+      ],
+      "responses":
+      [
+        "Copal Tube\n\nHarga :\nRp16.500 - Rp25.400\n\nKategori :\nIbu dan Anak, Kebutuhan Bayi & Anak\n\nIndikasi Umum :\nMasuk angin, flu, hidung tersumbat, sakit kepala, sakit perut, digigit serangga\n\nDosis :\nGosokkan secukupnya\n\nAturan Pakai :\nOleskan secukupnya pada bagian yang membutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat63",
+      "input": [
+        "deskripsi Coparcetine",
+        "Coparcetine",
+        "obat Coparcetine"
+      ],
+      "responses":
+      [
+        "Coparcetine\n\nHarga :\nRp5.500 - Rp13.400\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan gejala flu seperti demam, sakit kepala, hidung, dan bersin-bersin yang disertai batuk\n\nDosis :\nDewasa : 3 kali sehari 1 kaplet\nAnak usia 6-12 tahun : 3 kali sehari 0,5 kaplet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat64",
+      "input": [
+        "deskripsi CTM",
+        "CTM",
+        "obat CTM"
+      ],
+      "responses":
+      [
+        "CTM\n\nHarga :\nRp1.500 - Rp2.800\n\nKategori :\nAlergi, Medicated Skin\n\nIndikasi Umum :\nObat ini digunakan untuk mengatasi gejala alergi, seperti gatal-gatal, urtikaria, dermatitis\n\nDosis :\nDewasa : 1 Tablet, diminum 3-4 kali per hari\nAnak : 0.5 Tablet, diminum 3-4 kali per hari\n\nAturan Pakai :\nDiberikan bersama atau tanpa makanan"
+      ]
+    },
+
+    {
+      "tag":"obat65",
+      "input": [
+        "deskripsi Curcuma Emuls 200 ML",
+        "Curcuma Emuls 200 ML",
+        "obat Curcuma Emuls 200 ML"
+      ],
+      "responses":
+      [
+        "Curcuma Emuls 200 ML\n\nHarga :\nRp22.300 - Rp40.800\n\nKategori :\nIbu dan Anak\n\nIndikasi Umum :\nMembantu memperbaiki nafsu makann\nDosis :\nDewasa : 3 kali sehari 1 sendok makan (15 ml)\nAnak-anak : - Usia 6 - 12 tahun : 2 kali sehari 1 sendok makan (15 ml) - Usia 1 - 6 tahun : 1 kali sehari 1 sendok makan (15 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat66",
+      "input": [
+        "deskripsi Curcuma Emuls 400 ML",
+        "Curcuma Emuls 400 ML",
+        "Curcuma Emuls",
+        "obat Curcuma Emuls 400 ML"
+      ],
+      "responses":
+      [
+        "Curcuma Emuls 400 ML\n\nHarga :\nRp25.300 - Rp40.800\n\nKategori :\nIbu dan Anak\n\nIndikasi Umum :\nMembantu memperbaiki nafsu makann\nDosis :\nDewasa : 3 kali sehari 1 sendok makan (15 ml)\nAnak-anak : - Usia 6 - 12 tahun : 2 kali sehari 1 sendok makan (15 ml) - Usia 1 - 6 tahun : 1 kali sehari 1 sendok makan (15 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat67",
+      "input": [
+        "deskripsi Darsi",
+        "Darsi",
+        "obat Darsi"
+      ],
+      "responses":
+      [
+        "Darsi\n\nHarga :\nRp16.200 - Rp32.000\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu mengurangi jerawat, bisul, dan gatal-gatal\n\nDosis :\nDewasa: 2 x sehari 5 kapsul Anak: Setengah dosis dewasa\n\nAturan Pakai :\nDianjurkan minum air putih minimal 2,5 liter per hari"
+      ]
+    },
+
+    {
+      "tag":"obat68",
+      "input": [
+        "deskripsi Daryan Tule",
+        "Daryan Tule",
+        "obat Daryan Tule"
+      ],
+      "responses":
+      [
+        "Daryan Tule\n\nHarga :\nRp23.600 - Rp37.000\n\nKategori :\nP3K\n\nIndikasi Umum :\nLuka bakar, trauma, infeksi sekunder pada kulit, tukak & sirkumsisi\n\nDosis :\nPotong seluas daerah lesi & tempelkan pada lesi\n\nAturan Pakai :\ndi tempelkan pada luka"
+      ]
+    },
+
+    {
+      "tag":"obat69",
+      "input": [
+        "deskripsi Decolgen",
+        "Decolgen",
+        "obat Decolgen"
+      ],
+      "responses":
+      [
+        "Decolgen\n\nHarga :\nRp2.200 - Rp3.100\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nObat ini digunakan untuk meredakan gejala flu seperti sakit kepala, demam, bersin-bersin dan hidung tersumbat\n\nDosis :\nDewasa : 1 tablet, 3-4 kali sehari\nAnak-anak 6-12 tahun : 0,5 tablet, 3-4 kali sehari Atau menurut petunjuk dokter\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat70",
+      "input": [
+        "deskripsi Decolgen Fx",
+        "Decolgen Fx",
+        "obat Decolgen Fx"
+      ],
+      "responses":
+      [
+        "Decolgen Fx\n\nHarga :\nRp3.300 - Rp7.600\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan nyeri/sakit, menurunkan panas/demam, melegakan Hidung tersumbat & sebagai Antihistamin\n\nDosis :\n3 x sehari 1 tablet\n\nAturan Pakai :\nSesudah makan atau Sebelum makan"
+      ]
+    },
+
+    {
+      "tag":"obat71",
+      "input": [
+        "deskripsi Degirol",
+        "Degirol",
+        "obat Degirol"
+      ],
+      "responses":
+      [
+        "Degirol\n\nHarga :\nRp28.900 - Rp35.000\n\nKategori :\nKebutuhan Lebaran, Mulut & Tenggorokan\n\nIndikasi Umum :\nSakit tenggorokan, peradangan pada rongga mulut dan tenggorokan seperti gingivitis, faringitis, periodontitis, laringitis dan angina, infeksi selaput lendir mulut seperti stomatitis\n\nDosis :\nDewasa: 1 tablet dihisap, tiap 3 - 4 jam Maksimal 8 tablet per hari\n\nAturan Pakai :\nSatu tablet dibiarkan melarut perlahan-lahan di dalam mulut"
+      ]
+    },
+
+    {
+      "tag":"obat72",
+      "input": [
+        "deskripsi Dianeral",
+        "Dianeral",
+        "obat Dianeral"
+      ],
+      "responses":
+      [
+        "Dianeral\n\nHarga :\nRp40.000 - Rp64.700\n\nKategori :\nDiabetes, Produk Konsumer Diabetes\n\nIndikasi Umum :\nsusu pengganti makanan untuk penderita diabetes\n\nDosis :\nSecukupnya\n\nAturan Pakai :\ncampurkan 4 sendok takar susu dengan segelas air"
+      ]
+    },
+
+    {
+      "tag":"obat73",
+      "input": [
+        "deskripsi Diapet",
+        "Diapet",
+        "obat Diapet"
+      ],
+      "responses":
+      [
+        "Diapet\n\nHarga :\nRp2.100 - Rp6.500\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu mengurangi frekuansi buang air besar\n\nDosis :\nDewasa: Sehari 2 kali 2 kapsul Untuk diare akut: 2 kali 2 kapsul, dengan selang waktu 1 jam\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat74",
+      "input": [
+        "deskripsi Dulcolax",
+        "Dulcolax",
+        "obat Dulcolax"
+      ],
+      "responses":
+      [
+        "Dulcolax\n\nHarga :\nRp19.400 - Rp25.000\n\nKategori :\nSaluran Pencernaan, Kebutuhan Lebaran, Penawaran Special\n\nIndikasi Umum :\nUntuk mengatasi masalah sembelit/ susah BAB/ konstipasi. Untuk persiapan prosedur terapi diagnostic, terapi sebelum dan sesudah operasi dan dalam kondisi untuk mempercepat defekasi\n\nDosis :\nDewasa dan anak di atas usia 10 tahun : 1-2 tablet per hari\nAnak 6-10 tahun : 1 tablet sekali sehari\n\nAturan Pakai :\nTablet dianjurkan untuk diminum pada malam hari (waktu kerja obat 6-12 jam) untuk mendapatkan buang air besar keesokan harinya"
+      ]
+    },
+
+    {
+      "tag":"obat75",
+      "input": [
+        "deskripsi Enervon C 30",
+        "Enervon C 30",
+        "obat Enervon C 30"
+      ],
+      "responses":
+      [
+        "Enervon C 30\n\nHarga :\nRp39.000 - Rp60.700\n\nKategori :\nVitamin & Suplemen, Kebutuhan Lebaran, Penawaran Special\n\nIndikasi Umum :\nSuplemen vitamin untuk membantu menjaga daya tahan tubuh\n\nDosis :\n1 tablet per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat76",
+      "input": [
+        "deskripsi Enervon-C Effervescent",
+        "Enervon-C Effervescent",
+        "obat Enervon-C Effervescent"
+      ],
+      "responses":
+      [
+        "Enervon-C Effervescent\n\nHarga :\nRp26.300 - Rp58.500\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen untuk menjaga kesehatan/ketahanan tubuh\n\nDosis :\n1 x sehari 1 tablet\n\nAturan Pakai :\nDapat bersama makanan untuk absorpsi yang lebih baik"
+      ]
+    },
+
+    {
+      "tag":"obat77",
+      "input": [
+        "deskripsi Enervon C Syr",
+        "Enervon C Syr",
+        "obat Enervon C Syr"
+      ],
+      "responses":
+      [
+        "Enervon C Syr\n\nHarga :\nRp21.600 - Rp26.400\n\nKategori :\nIbu dan Anak, Vitamin & Suplemen\n\nIndikasi Umum :\nMemenuhi kebutuhan vitamin B kompleks, vitamin C, A & D serta memelihara kesehatan anak pada masa pertumbuhan\n\nDosis :\nAnak usia 1 - 6 tahun : 1 sendok takar (5 ml), 1 kali per hari\nAnak usia 6 - 12 tahun : 2 sendok takar (10 ml), 1 kali per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat78",
+      "input": [
+        "deskripsi Enkasari",
+        "Enkasari",
+        "obat Enkasari"
+      ],
+      "responses":
+      [
+        "Enkasari\n\nHarga :\nRp21.500 - Rp36.000\n\nKategori :\nKebutuhan Lebaran, Mulut & Tenggorokan\n\nIndikasi Umum :\nMembantu mengurangi sariawan, membantu menyegarkan mulut dan mengurangi bau mulut\n\nDosis :\nDewasa: 3 kali sehari 2 gelas takar\nAnak - anak > 5tahun : 2 kali sehari 1 gelas takar (1 gelas takar = 15ml)\nDikumur tidak untuk ditelan\n\nAturan Pakai :\nTuangkan Enkasari herbal obat kumur 15 ml pada tutup botol dan kumurlah selama 30 - 60 detik"
+      ]
+    },
+
+    {
+      "tag":"obat79",
+      "input": [
+        "deskripsi Entrasol",
+        "Entrasol",
+        "obat Entrasol"
+      ],
+      "responses":
+      [
+        "Entrasol\n\nHarga :\nRp30.400 - Rp58.800\n\nKategori :\nProduk Susu\n\nIndikasi Umum :\nUntuk usia 51 tahun ke atas agar tetap sehat dan aktif\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nSeperti pada penyajian susu biasa"
+      ]
+    },
+
+    {
+      "tag":"obat80",
+      "input": [
+        "deskripsi Entrostop",
+        "Entrostop",
+        "obat Entrostop"
+      ],
+      "responses":
+      [
+        "Entrostop\n\nHarga :\nRp14.000 - Rp19.500\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nUntuk mengatasi diare yang tidak diketahui penyebabnya dengan jelas, menyerap racun, dan memadatkan tinja\n\nDosis :\nDewasa dan Anak > 12 tahun : 2 tablet setiap kali setelah diare, maximum 12 tablet per hari\nAnak 6-12 tahun : 1 tablet setiap kali setelah diare, maximum 6 tablet per hari\n\nAturan Pakai :\nDikonsumsi sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat81",
+      "input": [
+        "deskripsi Entrostop Anak",
+        "Entrostop Anak",
+        "obat Entrostop Anak"
+      ],
+      "responses":
+      [
+        "Entrostop Anak\n\nHarga :\nRp2.100 - Rp4.900\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu mengurangi frekuensi buang air besar (mencret/ diare) dan membantu memadatkan tinja\n\nDosis :\nDewasa : 2 sachet 3 kali/hari\nAnak-Anak umur 6-12 tahun: 1 sachet 3 kali/hari\n\nAturan Pakai :\nDiberikan sesudah BAB\nKocok dahulu sebelum diminum"
+      ]
+    },
+
+    {
+      "tag":"obat82",
+      "input": [
+        "deskripsi Minyak Tawon DD 30ml",
+        "Minyak Tawon DD 30ml",
+        "obat Minyak Tawon DD 30ml"
+      ],
+      "responses":
+      [
+        "Minyak Tawon DD 30ml\n\nHarga :\nRp32.400 - Rp41.500\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMinyak gosok atau minyak urut yang dapat digunakan untuk membantu meredakan nyeri sendi,sakit gigi,bisul,sakit kepala,kudis,panu,gatal-gatal akibat digigit serangga,muntah,sakit perut dan batuk\n\nDosis :\nsesuai kebutuhan\n\nAturan Pakai :\noleskan pada bagian yang luka/sakit,biarkan meresap sampai kedalam kulit"
+      ]
+    },
+
+    {
+      "tag":"obat83",
+      "input": [
+        "deskripsi Minyak Tawon DD 60ml",
+        "Minyak Tawon DD 60ml",
+        "Minyak Tawon DD",
+        "obat Minyak Tawon DD 60ml"
+      ],
+      "responses":
+      [
+        "Minyak Tawon DD 60ml\n\nHarga :\nRp43.200 - Rp78.900\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMinyak gosok atau minyak urut yang dapat digunakan untuk membantu meredakan nyeri sendi,sakit gigi,bisul,sakit kepala,kudis,panu,gatal-gatal akibat digigit serangga,muntah,sakit perut dan batuk\n\nDosis :\nsesuai kebutuhan\n\nAturan Pakai :\noleskan pada bagian yang luka/sakit,biarkan meresap sampai kedalam kulit"
+      ]
+    },
+
+    {
+      "tag":"obat84",
+      "input": [
+        "deskripsi Minyak Tawon DD 90ml",
+        "Minyak Tawon DD 90ml",
+        "obat Minyak Tawon DD 90ml"
+      ],
+      "responses":
+      [
+        "Minyak Tawon DD 90ml\n\nHarga :\nRp43.200 - Rp98.400\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMinyak gosok atau minyak urut yang dapat digunakan untuk membantu meredakan nyeri sendi,sakit gigi,bisul,sakit kepala,kudis,panu,gatal-gatal akibat digigit serangga,muntah,sakit perut dan batuk\n\nDosis :\nsesuai kebutuhan\n\nAturan Pakai :\noleskan pada bagian yang luka/sakit,biarkan meresap sampai kedalam kulit"
+      ]
+    },
+
+    {
+      "tag":"obat85",
+      "input": [
+        "deskripsi Minyak urut geliga ",
+        "Minyak urut geliga ",
+        "obat Minyak urut geliga "
+      ],
+      "responses":
+      [
+        "Minyak urut geliga \n\nHarga :\nRp18.900 - Rp53.700\n\nKategori :\nOtot,Tulang dan sendi,Minyak angin & Balsam\n\nIndikasi Umum :\nUntuk meredakan nyeri otot,nyeri akibat pukulan,memar dan keseleo\n\nDosis :\ndi oleskan secukupnya pada bagian yang sakit\n\nAturan Pakai :\nOleskan pada bagian yang sakit"
+      ]
+    },
+
+    {
+      "tag":"obat86",
+      "input": [
+        "deskripsi Mixagrip",
+        "Mixagrip",
+        "obat Mixagrip"
+      ],
+      "responses":
+      [
+        "Mixagrip\n\nHarga :\nRp2.600 - Rp3.300\n\nKategori :\nBatuk & flu\n\nIndikasi Umum :\nMenyembuhkan gejala flu seperti bersin-bersin,hidung berair,hidung tersumbat,demam,sakit kepala,dan nyeri otot\n\nDosis :\nDewasa : 3-4 kali per hari 1-2 tablet\nAnak-anak : 3-4 kali per hari 1/2-1 tablet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat87",
+      "input": [
+        "deskripsi Minyak urut geliga",
+        "Minyak urut geliga",
+        "obat Minyak urut geliga"
+      ],
+      "responses":
+      [
+        "Minyak urut geliga\n\nHarga :\nRp18.900 - Rp53.700\n\nKategori :\nOtot,Tulang dan sendi,Minyak angin & Balsam\n\nIndikasi Umum :\nUntuk meredakan nyeri otot,nyeri akibat pukulan,memar dan keseleo\n\nDosis :\ndi oleskan secukupnya pada bagian yang sakit\n\nAturan Pakai :\nsecukupnya pada bagian yang sakit"
+      ]
+    },
+
+    {
+      "tag":"obat88",
+      "input": [
+        "deskripsi Teh Rosella Dieng Super Kuntum",
+        "Teh Rosella Dieng Super Kuntum",
+        "obat Teh Rosella Dieng Super Kuntum"
+      ],
+      "responses":
+      [
+        "Teh Rosella Dieng Super Kuntum\n\nHarga :\nRp11.800 - Rp22.000\n\nKategori :\nMakanan & Minuman\n\nIndikasi Umum :\nMeningkatkan stamina tubuh,mencegah terjadinya stroke dan penyakit jantung,memperkuat pembuluh darah,dapat mengatasi sariawan,menjaga dan meningkatkan daya tahan tubuh,membantu mengobati hipertensi,membantu mengobati asam urat,mengatasi gangguan pernafasan,menghilangkan efek negatif rokok,menetralkan racun,dapat membantu melangsingkan tubuh\n\nDosis :\nUntuk pencegahan 1 - 2 gelas 1 hari\nUntuk pengobatan 2 - 3 gelas 1 hari\n\nAturan Pakai :\nAmbil 2 - 3 kuntum / 1 sachet teh bunga Rosella, seduh dengan air panas / baru mendidih\nCampur gula batu / gula pasir 2 sendok makan\nTutup rapat hingga berwarna merah pekat\nTiap disajikan (bisa disajikan dingin dengan es)"
+      ]
+    },
+
+    {
+      "tag":"obat89",
+      "input": [
+        "deskripsi Cap Lang Minyak Telon 30 ml",
+        "Cap Lang Minyak Telon 30 ml",
+        "obat Cap Lang Minyak Telon 30 ml"
+      ],
+      "responses":
+      [
+        "Cap Lang Minyak Telon 30 ml\n\nHarga :\nRp9.900 - Rp25.400\n\nKategori :\nIbu dan Anak\n\nIndikasi Umum :\nMenjaga kehangatan tubuh bayi, membantu meredakan perut kembung, masuk angin, dan mencegah gigitan nyamuk serta digunakan sebagai minyak pijat untuk bayi\n\nDosis :\nOleskan minyak telon secukupnya pada dada, perut, dan telapak kaki\n\nAturan Pakai :\nDapat digunakan setiap hari, terutama sehabis mandi dan bila udara dingin"
+      ]
+    },
+
+    {
+      "tag":"obat90",
+      "input": [
+        "deskripsi Sabun Mutiara Keraton",
+        "Sabun Mutiara Keraton",
+        "obat Sabun Mutiara Keraton"
+      ],
+      "responses":
+      [
+        "Sabun Mutiara Keraton\n\nHarga :\nRp15.000 - Rp17.000\n\nKategori :\nPerawatan kulit\n\nIndikasi Umum :\nMenjadikan kulit tampak cerah, Terasa lembut dan halus,Membebaskan Flek,Jerawat,Bintik hitam,Menghilangkan Telapak Tangan yang kasar,Menghilangkan kerak sekitar Selangkangan,Menghilangkan kerak sekitar Payudara,Menghilangkan Muka berminyak,Menghilangkan kutu Air,Menghilangkan Tumit pecah-pecah,Menghilangkan Gatal-Gatal dan lain-lain\n\nDosis :\nSecukupnya\n\nAturan Pakai :\nUntuk bagian wajah: basahi tangan,kemudian gosok/oleskan sabun ke tangan sampai keluar busa/lotion putih,lalu usapkan ke muka pelan-pelan saja dengan pijatan memutar lembut ke seluruh wajah selama satu menit lalu bilas sampai bersih, untuk kulit kering bilas dengan air biasa,dan untuk kulit berminyak bilas dengan air harus diingat adalah jangan menekan dan menggosok terlalu keras"
+      ]
+    },
+
+    {
+      "tag":"obat91",
+      "input": [
+        "deskripsi My Baby Powder Soft & Gentle 150 g",
+        "My Baby Powder Soft & Gentle 150 g",
+        "obat My Baby Powder Soft & Gentle 150 g"
+      ],
+      "responses":
+      [
+        "My Baby Powder Soft & Gentle 150 g\n\nHarga :\nRp7.900 - Rp16.700\n\nKategori :\nIbu dan Anak\n\nIndikasi Umum :\nMembuat kulit bayi menjadi halus dan lembut\nMenyerap keringat sehingga kulit si kecil bebas iritasi\nMemberikan keharuman yang tahan lama\n\nDosis :\nSecukupnya\n\nAturan Pakai :\nDigunakan setelah mandi, diusapkan ke seluruh badan dan lakukan pijitan ringan agar bayi merasa nyaman"
+      ]
+    },
+
+    {
+      "tag":"obat92",
+      "input": [
+        "deskripsi Mylanta Sirup 150 ml",
+        "Mylanta Sirup 150 ml",
+        "obat Mylanta Sirup 150 ml"
+      ],
+      "responses":
+      [
+        "Mylanta Sirup 150 ml\n\nHarga :\nRp39.500 - Rp56.700\n\nKategori :\nSaluran Pencernaan, Kebutuhan Lebaran, Penawaran Special\n\nIndikasi Umum :\nObat ini digunakan untuk mengurangi gejala-gejala yang berhubungan dengan kelebihan asam lambung, gastritis, tukak lambung, tukak usus 12 jari, dengan gejala-gejala seperti mual, nyeri lambung, nyeri ulu hati\n\nDosis :\nDewasa : 1-2 sendok takar (5-10 mL) 3-4 kali sehari\nAnak-anak (6-12 tahun) : 1/2-1 sendok takar (2,5-5 mL), sebanyak 3-4 kali sehari\n\nAturan Pakai :\nDikonsumsi 1 jam sebelum makan atau 2 jam sesudah makan dan menjelang tidur"
+      ]
+    },
+
+    {
+      "tag":"obat93",
+      "input": [
+        "deskripsi Mylanta 10 Tablet",
+        "Mylanta 10 Tablet",
+        "obat Mylanta 10 Tablet"
+      ],
+      "responses":
+      [
+        "Mylanta 10 Tablet\n\nHarga :\nRp8.000 - Rp10.400\n\nKategori :\nSaluran Pencernaan, Kebutuhan Lebaran, Penawaran Special\n\nIndikasi Umum :\nUntuk mengurangi gejala-gejala yang ditimbulkan akibat kelebihan asam lambung, gastritis, asam lambung, tukak usus dua belas jari dengan gejala-gejala seperti mual, nyeri lambung, nyeri ulu hati\n\nDosis :\nDewasa : 1-2 tablet, diberikan 3-4 kali sehari\nAnak-anak 6-12 tahun : 0,5-1 tablet, diberikan 1-2 kali sehari\n\nAturan Pakai :\nDiminum 1 jam sebelum makan atau 2 jam setelah makan dan menjelang tidur, sebaiknya dikunyah dahulu"
+      ]
+    },
+
+    {
+      "tag":"obat94",
+      "input": [
+        "deskripsi Natra Bio Allergy Sinus 60 Tablet",
+        "Natra Bio Allergy Sinus 60 Tablet",
+        "obat Natra Bio Allergy Sinus 60 Tablet"
+      ],
+      "responses":
+      [
+        "Natra Bio Allergy Sinus 60 Tablet\n\nHarga :\nRp162.500 - Rp423.200\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMengatasi sinusitis dan gejala alergi yang sering kali ditandai dengan rasa sakit dan penekanan di daerah sinus, keluar ingus, mata berair, hidung tersumbat, sakit kepala, bersin-bersin dan demam\n\nDosis :\nDewasa: 1 tablet setiap 1/2-1 jam sampai gejala berkurang, dilanjutkan 1 tablet setiap 4 jam atau saat diperlukan\nAnak: 1/2 tablet setiap 1/2-1 jam sampai gejala berkurang, dilanjutkan 1/2 tablet setiap 4 jam atau saat diperlukan\n\nAturan Pakai :\nGunakan setiap 4 jam berikutnya atau saat diperlukan"
+      ]
+    },
+
+    {
+      "tag":"obat95",
+      "input": [
+        "deskripsi Neo Rheumacyl 20 Tablet",
+        "Neo Rheumacyl 20 Tablet",
+        "obat Neo Rheumacyl 20 Tablet"
+      ],
+      "responses":
+      [
+        "Neo Rheumacyl 20 Tablet\n\nHarga :\nRp9.500 - Rp12.100\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nUntuk meredakan nyeri otot, nyeri sendi, dan pegal linu\n\nDosis :\nDewasa : 1 tablet, 3-4 kali sehari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat96",
+      "input": [
+        "deskripsi Neo Rheumacyl Neuro 10 Kaplet",
+        "Neo Rheumacyl Neuro 10 Kaplet",
+        "obat Neo Rheumacyl Neuro 10 Kaplet"
+      ],
+      "responses":
+      [
+        "Neo Rheumacyl Neuro 10 Kaplet\n\nHarga :\nRp10.200 - Rp16.000\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nMeredakan rasa nyeri yang disertai kebas, kesemutan dan kram\n\nDosis :\n3 kali sehari 1 kapsul\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat97",
+      "input": [
+        "deskripsi Neo Ultracap 4 Kapsul",
+        "Neo Ultracap 4 Kapsul",
+        "obat Neo Ultracap 4 Kapsul"
+      ],
+      "responses":
+      [
+        "Neo Ultracap 4 Kapsul\n\nHarga :\nRp2.000 - Rp7.900\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMeredekan lelah, pegal pada otot, linu pada sendi dan tulang, badan lesu, migraine, kesemutan, kaki terasa lemas, beri-beri dan gangguan lainnya yang disebabkan karena kekurangan vit B\n\nDosis :\n2 kali sehari 1 kapsul\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat98",
+      "input": [
+        "deskripsi Neoasta Suspensi 60 ml",
+        "Neoasta Suspensi 60 ml",
+        "obat Neoasta Suspensi 60 ml"
+      ],
+      "responses":
+      [
+        "Neoasta Suspensi 60 ml\n\nHarga :\nRp8.500 - Rp15.900\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nUntuk pengobatan simtomatik pada diare dimana tidak diketahui penyebabnya dengan jelas\n\nDosis :\nDewasa dan anak-anak > 12 tahun : 30 ml, maksimum 180 ml per hari\nAnak-anak 6-12 tahun : 15 ml, maksimum 90 ml per hari. Pemberian setiap kali sesudah buang air besar\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat99",
+      "input": [
+        "deskripsi Neosanmag 4 Tablet",
+        "Neosanmag 4 Tablet",
+        "obat Neosanmag 4 Tablet"
+      ],
+      "responses":
+      [
+        "Neosanmag 4 Tablet\n\nHarga :\nRp2.000 - Rp5.000\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMeredakan gejala yang berhubungan dengan hiperasiditas seperti mual, nyeri lambung, rasa panas pada ulu hati, kembung, rasa penuh pada lambung yang tidak dapat diatasi dengan antasid saja\n\nDosis :\nDewasa dan anak > 12 tahun : 1 tablet, maksimal 2 tablet/hari\n\nAturan Pakai :\nSebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat100",
+      "input": [
+        "deskripsi Neosanmag Fast",
+        "Neosanmag Fast",
+        "obat Neosanmag Fast"
+      ],
+      "responses":
+      [
+        "Neosanmag Fast\n\nHarga :\nRp2.800 - Rp5.500\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMeredakan gejala hipersekresi lambung seperti mual, nyeri lambung, nyeri epigastrium, kembung, perut terasa penuh\n\nDosis :\nDewasa dan anak > 12 tahun : 1 tablet kunyah, maksimal 2 tablet kunyah/hari\n\nAturan Pakai :\nSebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat101",
+      "input": [
+        "deskripsi Neozep Forte",
+        "Neozep Forte",
+        "obat Neozep Forte"
+      ],
+      "responses":
+      [
+        "Neozep Forte\n\nHarga :\nRp2.500 - Rp4.100\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMengobati gejala flu, seperti: hidung tersumbat, demam, pusing, dan bersin-bersin\n\nDosis :\nDewasa: 3-4 x sehari 1 tablet Anak usia 6-12 tahun: 3-4 x sehari setengah tablet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat102",
+      "input": [
+        "deskripsi Norit 40 Tablet",
+        "Norit 40 Tablet",
+        "obat Norit 40 Tablet"
+      ],
+      "responses":
+      [
+        "Norit 40 Tablet\n\nHarga :\nRp16.500 - Rp29.000\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu mengurangi frekuensi buang air besar dan menyerap racun pada penderita diare\n\nDosis :\n5-7 tablet per dosis\nDosis maksimum, 20 tablet per hari\nTablet diminum dengan air\n\nAturan Pakai :\nDiminum sesuai dengan indikasi"
+      ]
+    },
+
+    {
+      "tag":"obat103",
+      "input": [
+        "deskripsi OB Herbal 100 ml",
+        "OB Herbal 100 ml",
+        "obat OB Herbal 100 ml"
+      ],
+      "responses":
+      [
+        "OB Herbal 100 ml\n\nHarga :\nRp16.300 - Rp39.700\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMembantu meredakan batuk dan membantu melegakan tenggorokan\n\nDosis :\nDewasa: 1 sendok makan (15 ml), 3 x sehari \nAnak-anak > 2 tahun: 1/2 sendok makan (7,5 ml), 3 x sehari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat104",
+      "input": [
+        "deskripsi OB Herbal 60 ml",
+        "OB Herbal 60 ml",
+        "OB Herbal",
+        "obat OB Herbal 60 ml"
+      ],
+      "responses":
+      [
+        "OB Herbal 60 ml\n\nHarga :\nRp11.900 - Rp21.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMembantu meredakan batuk dan membantu melegakan tenggorokan\n\nDosis :\nDewasa: 1 sendok makan (15 ml), 3 x sehari \nAnak-anak > 2 tahun: 1/2 sendok makan (7,5 ml), 3 x sehari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat105",
+      "input": [
+        "deskripsi OBH Combi Plus Batuk Flu Menthol 100 ml",
+        "OBH Combi Plus Batuk Flu Menthol 100 ml",
+        "obat OBH Combi Plus Batuk Flu Menthol 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Combi Plus Batuk Flu Menthol 100 ml\n\nHarga :\nRp18.500 - Rp26.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nObat ini digunakan untuk meredakan batuk yang disertai gejala-gejala flu seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin\n\nDosis :\nDewasa dan anak diatas 12 tahun : 3 kali sehari, 3 sendok takar (15 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat106",
+      "input": [
+        "deskripsi OBH Combi Plus Batuk Flu Menthol 60 ml",
+        "OBH Combi Plus Batuk Flu Menthol 60 ml",
+        "OBH Combi Plus Batuk Flu Menthol",
+        "obat OBH Combi Plus Batuk Flu Menthol 60 ml"
+      ],
+      "responses":
+      [
+        "OBH Combi Plus Batuk Flu Menthol 60 ml\n\nHarga :\nRp13.500 - Rp19.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nObat ini digunakan untuk meredakan batuk yang disertai gejala-gejala flu seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin\n\nDosis :\nDewasa dan anak diatas 12 tahun : 3 kali sehari, 3 sendok takar (15 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat107",
+      "input": [
+        "deskripsi OBH Combi Batuk Berdahak Menthol Sirup 100 ml",
+        "OBH Combi Batuk Berdahak Menthol Sirup 100 ml",
+        "obat OBH Combi Batuk Berdahak Menthol Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Combi Batuk Berdahak Menthol Sirup 100 ml\n\nHarga :\nRp14.600 - Rp19.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk yang disertai gejala-gejala flu seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin\n\nDosis :\nDosis anak (usia 6 - 12 tahun) : 3 kali sehari 1,5 sendok takar (@ 7,5 ml) \nDosis dewasa : 3 kali sehari 3 sendok takar (@15 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat108",
+      "input": [
+        "deskripsi OB Combi Batuk Pilek 60 ml",
+        "OB Combi Batuk Pilek 60 ml",
+        "obat OB Combi Batuk Pilek 60 ml"
+      ],
+      "responses":
+      [
+        "OB Combi Batuk Pilek 60 ml\n\nHarga :\nRp14.700 - Rp15.200\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan batuk dan pilek\n\nDosis :\nDewasa : 2 sendok takar (10 mL) 3 kali sehari\nAnak-anak usia 6-12 tahun : 1 sendok takar (5 mL) 3 kali sehari\n\nAturan Pakai :\nDapat diminum sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat109",
+      "input": [
+        "deskripsi OBH Combi Plus Anak Batuk Flu Strawberry 60 ml",
+        "OBH Combi Plus Anak Batuk Flu Strawberry 60 ml",
+        "obat OBH Combi Plus Anak Batuk Flu Strawberry 60 ml"
+      ],
+      "responses":
+      [
+        "OBH Combi Plus Anak Batuk Flu Strawberry 60 ml\n\nHarga :\nRp16.300 - Rp21.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk yang disertai gejala-gejala flu pada anak seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin\n\nDosis :\nUmur 2 - 5 tahun : 3 x sehari 1 sendok takar (@ 5 ml)\nUmur 6 - 12 tahun : 3 x sehari 2 sendok takar (@10 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat110",
+      "input": [
+        "deskripsi OBH Indoplus 100 ml",
+        "OBH Indoplus 100 ml",
+        "obat OBH Indoplus 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Indoplus 100 ml\n\nHarga :\nRp13.600 - Rp15.400\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan gejala-gejala flu yang menyertai batuk seperti demam, sakit kepala, hidung tersumbat, bersin-bersin\n\nDosis :\nUmur 2 - 5 tahun : 3 x sehari 1 sendok takar (@ 5 ml)\nUmur 6 - 12 tahun : 3 x sehari 2 sendok takar (@10 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat111",
+      "input": [
+        "deskripsi OBH Nellco Batuk Berdahak 100 ml",
+        "OBH Nellco Batuk Berdahak 100 ml",
+        "obat OBH Nellco Batuk Berdahak 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Nellco Batuk Berdahak 100 ml\n\nHarga :\nRp6.800 - Rp17.300\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan batuk berdahak\n\nDosis :\nDewasa : 3 sendok takar (15 ml), 3 kali sehari\nAnak 6 - 12 tahun : 1 1/2 sendok takar, 3 kali sehari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat112",
+      "input": [
+        "deskripsi OBH Nellco Plus Sirup 100 ml",
+        "OBH Nellco Plus Sirup 100 ml",
+        "obat OBH Nellco Plus Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Nellco Plus Sirup 100 ml\n\nHarga :\nRp26.600 - Rp34.400\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nEkspektoran pada gangguan batuk berdahak\n\nDosis :\n6-12 thn : sehari, 3 x 2 sendok takar (@ 5 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat113",
+      "input": [
+        "deskripsi OBH Nellco Special PE Anak Strawberry",
+        "OBH Nellco Special PE Anak Strawberry",
+        "obat OBH Nellco Special PE Anak Strawberry"
+      ],
+      "responses":
+      [
+        "OBH Nellco Special PE Anak Strawberry\n\nHarga :\nRp23.300 - Rp27.500\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan gejala-gejala flu seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin yang disertai batuk\n\nDosis :\nSehari 3 x 10 ml\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat114",
+      "input": [
+        "deskripsi OBH Nellco Special PE Sirup 100 ml",
+        "OBH Nellco Special PE Sirup 100 ml",
+        "obat OBH Nellco Special PE Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Nellco Special PE Sirup 100 ml\n\nHarga :\nRp39.000 - Rp51.700\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan gejala flu seperti demam, sakit kepala, hidung, dan bersin-bersin yang disertai batuk\n\nDosis :\nDewasa dan anak-anak usia diatas 12 tahun : 3 kali sehari 3 sendok takar\nAnak-anak usia 6 - 12 tahun : 3 kali sehari 1.5 sendok takar\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat115",
+      "input": [
+        "deskripsi OBH Nellco Special PE Sirup 55 ml",
+        "OBH Nellco Special PE Sirup 55 ml",
+        "OBH Nellco Special PE Sirup",
+        "obat OBH Nellco Special PE Sirup 55 ml"
+      ],
+      "responses":
+      [
+        "OBH Nellco Special PE Sirup 100 ml\n\nHarga :\nRp30.100 - Rp37.800\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeringankan gejala flu seperti demam, sakit kepala, hidung, dan bersin-bersin yang disertai batuk\n\nDosis :\nDewasa dan anak-anak usia diatas 12 tahun : 3 kali sehari 3 sendok takar\nAnak-anak usia 6 - 12 tahun : 3 kali sehari 1.5 sendok takar\n\nAturan Pakai :\nSesudah makan"
+      ]
+    }, 
+
+    {
+      "tag":"obat116",
+      "input": [
+        "deskripsi OBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml",
+        "OBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml",
+        "obat OBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "OBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml\n\nHarga :\nRp23.100 - Rp30.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nuntuk mengobati batuk yang disertai gejala influenza seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin\n\nDosis :\nAnak usia 2-5 tahun : 3x sehari 1 sendok teh\nanak usia 6-12 tahun : 3x sehari 2 sendok teh\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat117",
+      "input": [
+        "deskripsi OBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml",
+        "OBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml",
+        "obat OBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml\n\nHarga :\nRp29.000 - Rp34.300\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nuntuk mengobati batuk yang disertai gejala influenza seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin\n\nDosis :\nAnak usia 2-5 tahun : 3x sehari 1 sendok teh anak usia 6-12 tahun : 3x sehari 2 sendok teh\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat118",
+      "input": [
+        "deskripsi Rp22.500 - Rp35.400",
+        "Rp22.500 - Rp35.400",
+        "obat Rp22.500 - Rp35.400"
+      ],
+      "responses":
+      [
+        "Rp22.500 - Rp35.400\n\nHarga :\nRp22.500 - Rp35.400\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk dengan gejala flu seperti, demam, hidung tersumbat, bersin, dan sakit kepala\n\nDosis :\nDewasa dan anak >12 tahun: 3-4 kali sehari 3 sendok takar 5ml\nanak 6-12 tahun: 3-4 kali sehari 2 sendok takar 5ml\n\nAturan Pakai :\nDiminum setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat119",
+      "input": [
+        "deskripsi OBH Tropica Extra Rasa Menthol Sirup 60 ml",
+        "OBH Tropica Extra Rasa Menthol Sirup 60 ml",
+        "obat OBH Tropica Extra Rasa Menthol Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "OBH Tropica Extra Rasa Menthol Sirup 60 ml\n\nHarga :\nRp8.200 - Rp26.300\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nDapat meredakan batuk berdahak dan pilek\n\nDosis :\nDewasa dan anak >12 tahun: 3-4 kali sehari 3 sendok takar 5ml\nanak 6-12 tahun: 3-4 kali sehari 2 sendok takar 5ml\n\nAturan Pakai :\nDiminum setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat120",
+      "input": [
+        "deskripsi OBH Tropica Expectorant Menthol Sirup 100 ml",
+        "OBH Tropica Expectorant Menthol Sirup 100 ml",
+        "obat OBH Tropica Expectorant Menthol Sirup 100 ml"
+      ],
+      "responses":
+      [
+        "OBH Tropica Expectorant Menthol Sirup 100 ml\n\nHarga :\nRp24.100 - Rp33.500\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk dengan gejala flu seperti, demam, hidung tersumbat, bersin, dan sakit kepala\n\nDosis :\nDewasa dan anak >12 tahun: 3-4 kali sehari 3 sendok takar 5ml\nanak 6-12 tahun: 3-4 kali sehari 2 sendok takar 5ml\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat121",
+      "input": [
+        "ambeven",
+        "deskripsi ambeven",
+        "obat ambeven"
+      ],
+      "responses":
+      [
+        "Ambeven\n\nHarga :\nRp 16.000 - Rp 37.000 Per strip (10 kapsul)\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu meringankan gejala wasir\n\nDosis :\n2 kapsul 3 kali per hari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat122",
+      "input": [
+      "Deskripsi OBP Itrasal Sirup 100ml",
+      "OBP Itrasal Sirup 100 ml",
+      "Obat OBP Itrasal Sirup 100 ml"
+      
+      ],
+      "responses":
+      [
+      "OBP Itrasal Sirup 100 ml\n\nHarga :\nRp4.600 - Rp15.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMengobati batuk yang disertai dahak\n\nDosis :\nAnak-anak: 3-4 kali sehari, 1 sendok teh (5 ml)\nDewasa: 3-4 kali sehari, 2-3 sendok teh (10-15 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat123",
+      "input": [
+        "Deskripsi Oralit 200 4.1 g 1 Sachet",
+        "Oralit 200 4.1 g 1 Sachet",
+        "Obat Oralit 200 4.1 g 1 Sachet"
+      ],
+      "responses":
+      [
+        "Oralit 200 4.1 g 1 Sachet\n\nHarga :\nRp400 - Rp1.500\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nObat ini digunakan untuk mencegah dan mengobati dehidrasi akibat\n\nDosis :\nDibawah 1 tahun : 3 jam pertama 1,5 gelas, selanjutnya 1/2 gelas tiap kali mencret\nAnak 1 - 5 tahun: 3 jam pertama 3 gelas, selanjutnya 1 gelas tiap kali mencret\nAnak 5 - 12 tahun : 3 jam pertama 6 gelas, selanjutnya 1,5 gelas tiap kali mencret\nAnak lebih dari 12 tahun : 3 jam pertama 12 gelas, selanjutnya 2 gelas tiap kali mencret.\n\nAturan Pakai :\nDilarutkan dengan air matang. Larutan ini tidak dapat digunakan apabila lebih dari 24 jam"
+      ]
+    },
+
+    {
+      "tag":"obat124",
+      "input": [
+        "Deskripsi Oroxin Sirup",
+        "Oroxin Sirup",
+        "Obat Oroxin Sirup"
+      ],
+      "responses":
+      [
+        "Oroxin Sirup\n\nHarga :\nRp30.000 - Rp49.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk berdahak yang disertai kondisi alergi\n\nDosis :\nPENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat125",
+      "input": [
+        "Deskripsi Oskadon 4 Tablet",
+        "Oskadon 4 Tablet",
+        "Obat Oskadon 4 Tablet"
+      ],
+      "responses":
+      [
+        "Oskadon 4 Tablet\n\nHarga :\nRp1.900 - Rp3.500\n\nKategori :\nAnti Nyeri\n\nIndikasi Umum :\nMengurangi sakit kepala, pusing, menghilangkan segala macam rasa nyeri, dan menghilangkan demam\n\nDosis :\nDewasa : 3 kali sehari 1 tablet\n\nAturan Pakai :\nDikonsumsi setelah makanan"
+      ]
+    },
+
+    {
+      "tag":"obat126",
+      "input": [
+        "Deskripsi Oxoferin Solution ",
+        "Oxoferin Solution ",
+        "Obat Oxoferin Solution "
+      ],
+      "responses":
+      [
+        "Oxoferin Solution \n\nHarga :\nRp78.100 - Rp111.400\n\nKategori :\nAntiseptik\n\nIndikasi Umum :\nLuka terinfeksi, penyembuhan luka yang lambat sesudah traumatik atau sesudah operasi, ulkus dekubitus, ulkus kaki kronis pada insufisiensi vena, ulkus & luka akibat aliran darah arteri, mikroangiopati akibat diabetes atau akibat kelainan, ulkus dibetik, ganggren, luka bakar\n\nDosis :\nPENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER\n\nAturan Pakai :\nDiteteskan pada area luka/infeksi. Sebelum pemakaian, daerah sekitar luka dibersihkan terlebih dahulu dari obat-obatan yg digunakan"
+      ]
+    },
+
+    {
+      "tag":"obat127",
+      "input": [
+        "Deskripsi Pacdin Cough Sirup 60 ml",
+        "Pacdin Cough Sirup 60 ml",
+        "Obat Pacdin Cough Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Pacdin Cough Sirup 60 ml\n\nHarga :\nRp6.100 - Rp28.900\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nDemam, batuk berdahak, influenza\n\nDosis :\nAnak - anak 2 tahun sampai 6 tahun : 3 kali sehari 1 sendok takar (5ml), Anak - anak 6 tahun sampai 12 tahun : 3 kali sehari 2 sendok takar (5ml) atau menurut petunjuk dokter\n\nAturan Pakai :\nDiberikan bersama makan"
+      ]
+    },
+
+    {
+      "tag":"obat128",
+      "input": [
+        "Deskripsi Pamol 500 mg 10 Tablet",
+        "Pamol 500 mg 10 Tablet",
+        "Obat Pamol 500 mg 10 Tablet"
+      ],
+      "responses":
+      [
+        "Pamol 500 mg 10 Tablet\n\nHarga :\nRp9.000 - Rp14.000\n\nKategori :\nDemam\n\nIndikasi Umum :\nMeredakan sakit kepala, sakit gigi, nyeri otot, menurunkan demam dan nyeri paska vaksinasi\n\nDosis :\nDewasa: 1 - 2 kaplet, 3 sampai 4 kali per hari\nAnak (6 - 12 tahun): 1/2 - 1 kaplet\n\nAturan Pakai :\nDikonsumsi setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat129",
+      "input": [
+        "Deskripsi Panadol Anak-Anak Sirup 60 ml",
+        "Panadol Anak-Anak Sirup 60 ml",
+        "Obat Panadol Anak-Anak Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Panadol Anak-Anak Sirup 60 ml\n\nHarga :\nRp41.100 - Rp65.800\n\nKategori :\nDemam\n\nIndikasi Umum :\nObat ini dapat digunakan untuk meredakan rasa sakit seperti sakit kepala, sakit gigi dan menurunkan demam yang menyertai flu dan demam sesudah imunisasi atau vaksinasi\n\nDosis :\nAnak usia 1-2 tahun: 3,75 ml, diberikan 3-4 kali sehari\nAnak usia 2-3 tahun: 1 sendok takar (5 ml), diberikan 3-4 kali sehari\nAnak usia 4-5 tahun: 1,5 sendok takar (7,5 ml), diberikan 3-4 kali sehari\nAnak usia 6 tahun: 2 sendok takar (10 ml), diberikan 3-4 kali sehari\n\nAturan Pakai :\nDikonsumsi sebelum atau sesudah makan. Dapat langsung diminum atau dicampur dengan air/sari buah"
+      ]
+    },
+
+    {
+      "tag":"obat130",
+      "input": [
+        "Deskripsi Panadol Extra 10 Kaplet",
+        "Panadol Extra 10 Kaplet",
+        "Obat Panadol Extra 10 Kaplet"
+      ],
+      "responses":
+      [
+        "Panadol Extra 10 Kaplet\n\nHarga :\nRp11.600 - Rp19.500\n\nKategori :\nAnti Nyeri, Kebutuhan Lebaran, Penawaran Special\n\nIndikasi Umum :\nObat ini digunakan untuk meringankan sakit kepala dan sakit gigi\n\nDosis :\nDewasa dan anak-anak lebih dari 12 tahun : 1 Kaplet, ditelan dengan segelas air, 3-4 kali sehari bila gejala memburuk\n\nAturan Pakai :\nSebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat131",
+      "input": [
+        "Deskripsi Panadol hijau Flu & Batuk 10 Kaplet",
+        "Panadol hijau Flu & Batuk 10 Kaplet",
+        "Obat Panadol hijau Flu & Batuk 10 Kaplet"
+      ],
+      "responses":
+      [
+        "Panadol hijau Flu & Batuk 10 Kaplet\n\nHarga :\nRp15.300 - Rp20.000\n\nKategori :\nFlu dan Batuk\n\nIndikasi Umum :\nObat ini digunakan untuk meredakan gejala flu seperti demam, sakit kepala, hidung tersumbat dan batuk tidak berdahak\n\nDosis :\nDewasa: 1 kaplet 3 kali sehari Jangan melebihi 8 kaplet dalam tiap jangka waktu 24 jam Jangan diberikan kepada anak-anak di bawah umur 12 tahun, kecuali atas petunjuk dokter\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat132",
+      "input": [
+        "Deskripsi Panadol Anak-Anak Drops",
+        "Panadol Anak-Anak Drops",
+        "Obat Panadol Anak-Anak Drops"
+      ],
+      "responses":
+      [
+        "Panadol Anak-Anak Drops\n\nHarga :\nRp40.200 - Rp77.000\n\nKategori :\nDemam\n\nIndikasi Umum :\nMeredakan sakit Kepala, sakit Gigi, nyeri Otot, menurunkan demam yang menyertai Flu & paska vaksinasi\n\nDosis :\nAnak 2-3 tahun : 1,6 mL, Anak 10-24 bulan : 1.2 mL\nBayi 3-9 bulan : 0,8 mL\nSemua dosis : 3-4 x sehari dengan interval 4 jam\n\nAturan Pakai :\nSebelum atau sesudah makan, dapat diberikan bersama air atau jus buah"
+      ]
+    },
+
+    {
+      "tag":"obat133",
+      "input": [
+        "Deskripsi Paracetin Sirup 60 ml",
+        "Paracetin Sirup 60 ml",
+        "Obat Paracetin Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Paracetin Sirup 60 ml\n\nHarga :\nRp7.800 - Rp12.200\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMengurangi influenza, demam, batuk,bersin, pilek,sakit kepala dengan batuk\n\nDosis :\nDewasa :3-4 kali sehari 3-4 sendok takar(teh)\nanak 6-12 tahun :3-4 kali 2 sendok takar(teh)\nanak 2-6 tahun :3-4 kali 1 sendok takar(teh)\n\nAturan Pakai :\nBerikan setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat134",
+      "input": [
+        "Deskripsi Hormoviton Greng",
+        "Hormoviton Greng",
+        "Obat Hormoviton Greng"
+      ],
+      "responses":
+      [
+        "Hormoviton Greng\n\nHarga :\nRp5.500 - Rp12.100/Box\n\nKategori :\nHerbal, Kebutuhan Pria\n\nIndikasi Umum :\nSuplemen kesehatan untuk stamina pria\n\nDosis :\n1 kali sehari 1 sachet\n\nAturan Pakai :\n-"
+      ]
+    },
+
+    {
+      "tag":"obat135",
+      "input": [
+        "Deskripsi Hufagrip BP Sirup 60 ml",
+        "Hufagrip BP Sirup 60 ml",
+        "Obat Hufagrip BP Sirup 60 ml"
+      ],
+      "responses":
+      [
+        "Hufagrip BP Sirup 60 ml\n\nHarga :\nRp19.000 - Rp24.700/Botol\n\nKategori :\nFlu dan Batuk\n\nIndikasi Umum :\nUntuk meringankan batuk tidak berdahak dan pilek\n\nDosis :\nDewasa dan anak > 12 tahun : 3 x per hari, 2 sendok takar ( 10 ml)\nAnak (6-12 tahun) : 3 x per hari, 1 sendok takar (5 ml)\nAnak (2-6 tahun) : 3 x per hari, 0.5 sendok takar( 2,5 ml)\n\nAturan Pakai :\nDikonsumsi setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat136",
+      "input": [
+        "Deskripsi Hufagrip Flu",
+        "Hufagrip Flu",
+        "Obat Hufagrip Flu"
+      ],
+      "responses":
+      [
+        "Hufagrip Flu\n\nHarga :\nRp21.200 - Rp26.400\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan gejala- gejala flu seperti demam, sakit kepala, hidung tersumbat, dan bersin-bersin disertai batuk berdahak\n\nDosis :\nAnak (6-12 tahun) : 3 kali sehari 2 sendok takar (@10 ml)\nAnak (2-6 tahun) : 3 kali sehari 1 sendok takar (@ 5 ml)\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat137",
+      "input": [
+        "Deskripsi Hufagrip Pilek",
+        "Hufagrip Pilek",
+        "Obat Hufagrip Pilek"
+      ],
+      "responses":
+      [
+        "Hufagrip Pilek\n\nHarga :\nRp16.100 - Rp23.100/Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMenurunkan demam, meringankan nyeri ringan sampai sedang\n\nDosis :\nDewasa dan anak > 12 tahun: 3 kali sehari 2 sendok takar (10 ml)\nAnak 2 -6 tahun: 3 kali sehari 1/2 sendok takar/teh (2,5 ml)\nAnak 6-12 tahun: 3 kali sehari 1 sendok takar/teh (5 ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat138",
+      "input": [
+        "Deskripsi Hufagrip Tmp",
+        "Hufagrip Tmp",
+        "Obat Hufagrip Tmp"
+      ],
+      "responses":
+      [
+        "Hufagrip Tmp\n\nHarga :\nRp15.700 - Rp25.000/Botol\n\nKategori :\nDemam\n\nIndikasi Umum :\nPenurun panas, pusing, nyeri, sakit kepala\n\nDosis :\nAnak 1-12 th 3-4 x 5 mg/BB/hari\n8-12 th 3-4x sehari 2sdt(10ml)\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat139",
+      "input": [
+        "Deskripsi Hypafix 5cm X 5M",
+        "Hypafix 5cm X 5M",
+        "Obat Hypafix 5cm X 5M"
+      ],
+      "responses":
+      [
+        "Hypafix 5cm X 5M\n\nHarga :\nRp61.100 - Rp115.300/Pcs\n\nKategori :\nP3K\n\nIndikasi Umum :\nPlester yang merekatkan dalam segi medis seperti luka-luka atau infus namun memiliki kekuatan perekat lebih dibandingkan plester lainnya\n\nDosis :\nDigunakan sesuai dengan kebutuhan\n\nAturan Pakai :\nBuka kemasan, aplikasikan ke daerah yang akan ditutup lukanya"
+      ]
+    },
+
+    {
+      "tag":"obat140",
+      "input": [
+        "Deskripsi Ichtiyol",
+        "Ichtiyol",
+        "Obat Ichtiyol"
+      ],
+      "responses":
+      [
+        "Ichtiyol\n\nHarga :\nRp5.900 - Rp14.000/Pot\n\nKategori :\nKulit\n\nIndikasi Umum :\nBisul\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nOleskan pada bagian yang sakit setelah dibersihkan"
+      ]
+    },
+
+    {
+      "tag":"obat141",
+      "input": [
+        "Deskripsi Igastrum",
+        "Igastrum",
+        "Obat Igastrum"
+      ],
+      "responses":
+      [
+        "Igastrum\n\nHarga :\nRp35.400 - Rp63.700/Botol\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMeningkatkan sistem imun, sebagai nutrisi otak dan memelihara kesehatan : membantu meningkatkan nafsu makan\n\nDosis :\nAnak umur 4 bulan - 5 tahun : 1 sendok teh (5ml) per hari\nAnak diatas 5 tahun : 2 sendok teh (10ml) per hari\n\nAturan Pakai :\n-"
+      ]
+    },
+
+    {
+      "tag":"obat142",
+      "input": [
+        "Deskripsi Inza",
+        "Inza",
+        "Obat Inza"
+      ],
+      "responses":
+      [
+        "Inza\n\nHarga :\nRp2.000 - Rp4.000/strip\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan gejala flu seperti demam, sakit kepala, hidung tersumbat dan bersin-bersin\n\nDosis :\nAnak-anak 6-12 tahun : 3x sehari 1/2 kaplet Dewasa : 3 x sehari 1 kaplet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat143",
+      "input": [
+        "Deskripsi Inzana",
+        "Inzana",
+        "Obat Inzana"
+      ],
+      "responses":
+      [
+        "Inzana\n\nHarga :\nRp800 - Rp3.200/strip\n\nKategori :\nDemam\n\nIndikasi Umum :\nMeringankan gejala flu seperti demam, sakit kepala, hidung tersumbat, bersin-bersin\n\nDosis :\nAnak umur 1-2 tahun: 3 - 4 x sehari 1 tablet\nAnak umur 3-5 tahun: 3 - 4 x sehari 1 1/2 - 2 tablet\nAnak umur 6-12 tahun: 3 - 4 x sehari 2 1/2 - 5 tablet\n\nAturan Pakai :\nDiminum sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat144",
+      "input": [
+        "Deskripsi Ipi Vitamin",
+        "Ipi Vitamin",
+        "Obat Ipi Vitamin"
+      ],
+      "responses":
+      [
+        "Ipi Vitamin\n\nHarga :\nRp4.000 - Rp10.900/Botol\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMencegah dan mengurangi defisiensi tiamin (vitamin B1)\n\nDosis :\nDewasa 50 sampai 100 mcg/hari, dan untuk Anak-anak 5 sampai 30 mcg/hari atau menurut dari petunjuk dokter\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat145",
+      "input": [
+        "Deskripsi Kalpanax Krim",
+        "Kalpanax Krim",
+        "Obat Kalpanax Krim"
+      ],
+      "responses":
+      [
+        "Kalpanax Krim\n\nHarga :\nRp23.600 - Rp29.000/Tube\n\nKategori :\nKulit\n\nIndikasi Umum :\nMengatasi gatal jamur kulit dan penyakit infeksi jamur kulit lainnya seperti kutu air, panu, kadas dan kurap langsung tuntas sampai ke akarnya\n\nDosis :\nDioleskan ke bagian yang terinfeksi saat kering 2 kali sehari (pagi dan malam hari) atau saat terasa gatal\n\nAturan Pakai :\noleskan pada kulit setiap selesai mandi dan sebelum tidur malam"
+      ]
+    },
+
+    {
+      "tag":"obat146",
+      "input": [
+        "Deskripsi Komix",
+        "Komix",
+        "Obat Komix"
+      ],
+      "responses":
+      [
+        "Komix\n\nHarga :\nRp1.800 - Rp2.100/Sachet\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meredakan batuk berdahak dan pilek\n\nDosis :\nDewasa dan anak > 12 tahun: 3 kali per hari 2 sachet\nAnak 6 - 12 tahun: 3 kali per hari, 1 sachet\n\nAturan Pakai :\nDapat diminum sebelum atau setelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat147",
+      "input": [
+        "Deskripsi Komix Kid",
+        "Komix Kid",
+        "Obat Komix Kid"
+      ],
+      "responses":
+      [
+        "Komix Kid\n\nHarga :\nRp1.200 - Rp2.500/Sachet\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk meringankan batuk berdahak dan pilek\n\nDosis :\nAnak 6-12 tahun : 3 kali sehari 1 sachet\n\nAturan Pakai :\nSetelah makan"
+      ]
+    },
+
+    {
+      "tag":"obat148",
+      "input": [
+        "Deskripsi Konicare",
+        "Konicare",
+        "Obat Konicare"
+      ],
+      "responses":
+      [
+        "Konicare\n\nHarga :\nRp12.800-Rp26.400/Botol\n\nKategori :\nIbu dan Anak, Kebutuhan Bayi & Anak\n\nIndikasi Umum :\nMembantu meredakan perut kembung serta memberikan rasa hangat pada tubuh bayi dan membantu meredakan perut kembung\n\nDosis :\nDioleskan sesuai kebutuhan\n\nAturan Pakai :\nUsapkan secara merata pada perut, punggung dan dada termasuk bagian tubuh terbuka yang mudah digigit nyamuk seperti leher, tangan dan kaki, setiap kali sehabis mandi"
+      ]
+    },
+
+    {
+      "tag":"obat149",
+      "input": [
+        "Deskripsi Konicare Bedak",
+        "Konicare Bedak",
+        "Obat Konicare Bedak"
+      ],
+      "responses":
+      [
+        "Konicare Bedak\n\nHarga :\nRp9.100 - Rp30.000/Botol\n\nKategori :\nKulit\n\nIndikasi Umum :\nMencegah gatal karena biang keringat dan gangguan kulit lainnya, membantu mengurangi iritasi ringan seperti ruam popok pada bayi\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nDigunakan setiap hari pada kulit yang terkena biang keringat"
+      ]
+    },
+
+    {
+      "tag":"obat150",
+      "input": [
+        "Deskripsi Konicare Gel",
+        "Konicare Gel",
+        "Obat Konicare Gel"
+      ],
+      "responses":
+      [
+        "Konicare Gel\n\nHarga :\nRp8.200 - Rp22.500/Botol\n\nKategori :\nKulit\n\nIndikasi Umum :\nMengurangi gangguan gatal di kulit akibat gigitan nyamuk / serangga, iritasi ringan, biang keringat atau alergi\n\nDosis :\nOleskan secara merata pada bagian kulit yang gatal, ulangi bila perlu\n\nAturan Pakai :\nJangan terkena mata dan jauhkan dari jangkauan anak-anak"
+      ]
+    },
+
+    {
+      "tag":"obat151",
+      "input": [
+        "Deskripsi Konidin Sirup",
+        "Konidin Sirup",
+        "Obat Konidin Sirup"
+      ],
+      "responses":
+      [
+        "Konidin Sirup\n\nHarga :\nRp12.000 - Rp15.200/Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nBatuk karena alergi, flu, pilek atau sisa-sisa bronchitis\n\nDosis :\nDewasa & anak-anak di atas 12 tahun : 3x sehari 1-2 tablet Anak-anak 6-12 tahun: 3x sehari 1/2 -1 tablet Anak-anak 3-6 tahun: 3x sehari 1/4 - 1/2 tablet Atau menurut petunjuk dokter\n\nAturan Pakai :\nDikonsumsi bersamaan dengan makanan atau tidak"
+      ]
+    },
+
+    {
+      "tag":"obat152",
+      "input": [
+        "Deskripsi Konidin Lozenges Mint",
+        "Konidin Lozenges Mint",
+        "Obat Konidin Lozenges Mint"
+      ],
+      "responses":
+      [
+        "Konidin Lozenges Mint\n\nHarga :\nRp2.000 - Rp6.900/Sachet\n\nKategori :\nMulut & Tenggorokan\n\nIndikasi Umum :\nMengatasi batuk karena alergi, flu atau sisa-sisa bronchitis\n"
+      ]
+    },
+
+    {
+      "tag":"obat153",
+      "input": [
+        "Deskripsi L-Bio",
+        "L-Bio",
+        "Obat L-Bio"
+      ],
+      "responses":
+      [
+        "L-Bio\n\nHarga :\nRp126.000 - Rp177.800/Botol\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nMembantu memelihara kesehatan pencernaan\n\nDosis :\n1-3 kali sehari 1 kapsul (sesuai anjuran dokter)\n\nAturan Pakai :\nL-bio dapat diberikan langsung, dicampur pada makanan atau susu dan air"
+      ]
+    },
+
+    {
+      "tag":"obat154",
+      "input": [
+        "Deskripsi Lactacyd Teen Bloom",
+        "Lactacyd Teen Bloom",
+        "Obat Lactacyd Teen Bloom"
+      ],
+      "responses":
+      [
+        "Lactacyd Teen Bloom\n\nHarga :\nRp14.200 - Rp23.900/Botol\n\nKategori :\nPerawatan Diri\n"
+      ]
+    },
+
+    {
+      "tag":"obat155",
+      "input": [
+        "Deskripsi Lacto-B",
+        "Lacto-B",
+        "Obat Lacto-B"
+      ],
+      "responses":
+      [
+        "Lacto-B\n\nHarga :\nRp125.400 - Rp126.800/Pack\n\nIndikasi Umum :\nTerapi pengobatan diare dan intoleransi laktosa\n\nDosis :\nAnak 1-12 tahun 3 sachet/hari\n\nAturan Pakai :\nDapat dikonsumsi langsung dengan melarutkannya bersama air putih atau dikonsumsi bersama makanan untuk mengurangi ketidak-nyamanan pencernaan"
+      ]
+    },
+
+    {
+      "tag":"obat156",
+      "input": [
+        "Deskripsi Laserin Sirup",
+        "Laserin Sirup",
+        "Obat Laserin Sirup"
+      ],
+      "responses":
+      [
+        "Laserin Sirup\n\nHarga :\nRp21.200 - Rp33.900/Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMembantu meredakan batuk, masuk angin, muntah, sakit perut dan membantu melegakan tenggorokan\n\nDosis :\nDewasa: 3 x sehari 1-2 sendok makan\nAnak: 3 x sehari 1-2 sendok teh\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat157",
+      "input": [
+        "Deskripsi Laserin Madu",
+        "Laserin Madu",
+        "Obat Laserin Madu"
+      ],
+      "responses":
+      [
+        "Laserin Madu\n\nHarga :\nRp14.700 - Rp34.000/Botol\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nBatuk, masuk angin, asma, gangguan alat pernfasan (kolik), muntah-muntah, sakit perut, sesak nafas, selesma dan kurang nafsu makan\n\nDosis :\nAnak : 3 x sehari 1-2 sendok teh; Bayi : 2 x sehari 1/2 sendok teh\n\nAturan Pakai :\nsesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat158",
+      "input": [
+        "Deskripsi Listerin 250",
+        "Listerin 250",
+        "Obat Listerin 250"
+      ],
+      "responses":
+      [
+        "Listerin 250\n\nHarga :\nRp19.400 - Rp35.900/Botol\n\nKategori :\nKebutuhan Lebaran, Mulut & Tenggorokan\n\nIndikasi Umum :\nSebagai obat kumur antiseptik untuk membantu mengurangi kuman penyebab masalah mulut seperti membantu mencegah gigi berlubang, membantu mengurangi pembentukan karang gigi, membantu mengurangi plak, serta membantu menjaga gusi sehat untuk napas lebih segar\n\nDosis :\nBerkumur 2 kali sehari sebanyak 20 ml selama 30 detik\n\nAturan Pakai :\nBerkumurlah dengan Listerine Cool Mint setelah menyikat gigi"
+      ]
+    },
+
+    {
+      "tag":"obat159",
+      "input": [
+        "Deskripsi Merit Plus",
+        "Merit Plus",
+        "Obat Merit Plus"
+      ],
+      "responses":
+      [
+        "Merit Plus\n\nHarga :\nRp18.200 - Rp46.500/Box\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMeningkatkan pembakaran lemak tubuh, Mengurangi nafsu makan, Mengurangi penyerapan lemak dalam usus dan memperlancar buang air besar\n\nDosis :\n2 kali sehari @ 2 kapsul, pagi dan malam, 20 menit sebelum makan, maksimal 4 kapsul sehari\n\nAturan Pakai :\n-"
+      ]
+    },
+
+    {
+      "tag":"obat160",
+      "input": [
+        "Deskripsi Mextril",
+        "Mextril",
+        "Obat Mextril"
+      ],
+      "responses":
+      [
+        "Mextril\n\nHarga :\nRp2.400 - Rp4.500/Strip\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nUntuk mengatasi semua jenis batuk dan pilek\n\nDosis :\nDewasa 3-4 sehari 1 tablet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat161",
+      "input": [
+        "Deskripsi Minyak angin cap kapak",
+        "Minyak angin cap kapak",
+        "Obat Minyak angin cap kapak"
+      ],
+      "responses":
+      [
+        "Minyak angin cap kapak\n\nHarga :\nRp27.500 - Rp60.000/Botol\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMembantu meredakan sakit kepala, muntah dalam perjalanan, pilek, encok, keseleo\n\nDosis :\nDioleskan dibagian yang sakit\n\nAturan Pakai :\nGosokkan secukupnya pada kening, dada, hidung, atau pada bagian yang sakit lainnya"
+      ]
+    },
+
+    {
+      "tag":"obat162",
+      "input": [
+        "Deskripsi Minyak tawon cc",
+        "Minyak tawon cc",
+        "Obat Minyak tawon cc"
+      ],
+      "responses":
+      [
+        "Minyak tawon cc\n\nHarga :\nRp14.900 - Rp32.600/Botol\n\nKategori :\nMinyak Angin & Balsam\n\nIndikasi Umum :\nMinyak gosok atau minyak urut yang dapat digunakan untuk membantu meredakan nyeri sendi, sakit gigi, bisul, sakit kepala, kudis, panu, gatal-gatal akibat digigit serangga, muntah, sakit perut dan batuk\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nOleskan pada bagian yang luka atau sakit, biarkan meresep sampai ke dalam kulit"
+      ]
+    },
+
+    {
+      "tag":"obat163",
+      "input": [
+        "Deskripsi Salycil Nelco Non Menthol",
+        "Salycil Nelco Non Menthol",
+        "Obat Salycil Nelco Non Menthol"
+      ],
+      "responses":
+      [
+        "Salycil Nelco Non Menthol\n\nHarga :\nRp4.700 - Rp16.400\n\nKategori :\nKulit\n\nIndikasi Umum :\nMeringankan gatal-gatal pada kulit karena biang keringat dan sengatan sinar matahari\n\nDosis :\nTaburkan secara merata pada kulit bayi dan gosok dengan lembut.\n\nAturan Pakai :\nDiberikan sesuai dengan petunjuk dosis penggunaan, leaflet/brosur, dokter atau apoteker"
+      ]
+    },
+
+    {
+      "tag":"obat164",
+      "input": [
+        "Deskripsi Sanaflu",
+        "Sanaflu",
+        "Obat Sanaflu"
+      ],
+      "responses":
+      [
+        "Sanaflu\n\nHarga :\nRp1.700 - Rp3.600\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan gejala Flu, Demam, sakit Kepala & Hidung tersumbat\n\nDosis :\nDewasa : 3 kali sehari 1 kaplet\nAnak 6-12 tahun : 3 kali sehari 1/2 kaplet\n\nAturan Pakai :\nBerikan bersama makanan"
+      ]
+    },
+
+    {
+      "tag":"obat165",
+      "input": [
+        "Deskripsi Sanaflu Plus Batuk Sirup",
+        "Sanaflu Plus Batuk Sirup",
+        "Obat Sanaflu Plus Batuk Sirup"
+      ],
+      "responses":
+      [
+        "Sanaflu Plus Batuk Sirup\n\nHarga :\nRp11.900 - Rp15.200\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan Flu, sakit Kepala, Hidung tersumbat, Batuk, Pilek, Demam\n\nDosis :\nDewasa : 3-4 kali sehari 4 sendok takar (20 mL)\nAnak 6-12 tahun : 3 kali sehari 2 sendok takar (10 mL)\n\nAturan Pakai :\n"
+      ]
+    },
+
+    {
+      "tag":"obat166",
+      "input": [
+        "Deskripsi Siladex 30 ml",
+        "Siladex 30 ml",
+        "Obat Siladex 30 ml"
+      ],
+      "responses":
+      [
+        "Siladex 30 ml\n\nHarga :\nRp8.900 - Rp14.500\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMeredakan batuk tidak berdahak atau batuk kering yang disertai alergi dengan meningkatkan ambang ransang refleks batuk dan sebagai antihistamin\n\nDosis :\nDewasa : 3 kali sehari 1 sendok takar (5 mL)\nAnak 6-12 tahun : 3 kali sehari 1/2 sendok takar (2,5 mL)\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat167",
+      "input": [
+        "Deskripsi Simplex Black Panther 3's",
+        "Simplex Black Panther 3's",
+        "Obat Simplex Black Panther 3's"
+      ],
+      "responses":
+      [
+        "Simplex Black Panther 3's\n\nHarga :\nRp9.000 - Rp17.500\n\nKategori :\nKontrasepsi & Hormon\n\nIndikasi Umum :\nAlat kontrasepsi\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nDigunakan pada kelamin pria saat berhubungan intim"
+      ]
+    },
+
+    {
+      "tag":"obat168",
+      "input": [
+        "Deskripsi Simplex Stallion 3's",
+        "Simplex Stallion 3's",
+        "Obat Simplex Stallion 3's"
+      ],
+      "responses":
+      [
+        "Simplex Stallion 3's\n\nHarga :\nRp7.700 - Rp17.500\n\nKategori :\nKontrasepsi & Hormon\n\nIndikasi Umum :\nAlat kontrasepsi\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nDigunakan pada kelamin pria saat berhubungan intim"
+      ]
+    },
+
+    {
+      "tag":"obat169",
+      "input": [
+        "Deskripsi Sofra Tulle",
+        "Sofra Tulle",
+        "Obat Sofra Tulle"
+      ],
+      "responses":
+      [
+        "Sofra Tulle\n\nHarga :\nRp24.000 - Rp36.200\n\nKategori :\nP3K\n\nIndikasi Umum :\nINFORMASI OBAT INI HANYA UNTUK KALANGAN MEDIS. Merupakan obat/ kasa steril untuk luka bakar ringan, luka lain\n\nDosis :\nPENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 1 sachet 1 x sehari\n\nAturan Pakai :\nGunakan pada bagian yang dibutuhkan"
+      ]
+    },
+
+    {
+      "tag":"obat170",
+      "input": [
+        "Deskripsi SP-Troches",
+        "SP-Troches",
+        "Obat SP-Troches"
+      ],
+      "responses":
+      [
+        "SP-Troches\n\nHarga :\nRp13.000 - Rp15.700\n\nKategori :\nMulut & Tenggorokan\n\nIndikasi Umum :\nUntuk infeksi bakteri dan jamur (fungi) pada rongga mulut dan tenggorokan\n\nDosis :\nDewasa: 1 tablet, diberikan 6-8 kali per hari (bila perlu)\n\nAturan Pakai :\nHisap satu tablet perlahan-lahan hingga larut dalam mulut setiap 2-3 jam sekali. Maksimum 8 tablet per hari"
+      ]
+    },
+
+    {
+      "tag":"obat171",
+      "input": [
+        "Deskripsi Stamvit Herbal",
+        "Stamvit Herbal",
+        "Obat Stamvit Herbal"
+      ],
+      "responses":
+      [
+        "Stamvit Herbal\n\nHarga :\nRp2.100 - Rp6.000\n\nKategori :\nHerbal\n\nIndikasi Umum :\nMembantu meredakan masuk angin seperti rasa meriang, pegal-pegal, lesu, perut kembung dan mual\n\nDosis :\n1-2 Sachet per hari\n\nAturan Pakai :\nBerikan sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat172",
+      "input": [
+        "Deskripsi Stimuno Forte",
+        "Stimuno Forte",
+        "Obat Stimuno Forte"
+      ],
+      "responses":
+      [
+        "Stimuno Forte\n\nHarga :\nRp26.900 - Rp40.800\n\nKategori :\nCOVID-19\n\nIndikasi Umum :\nMembantu merangsang tubuh memproduksi lebih banyak antibodi dan mengaktifkan sistem kekebalan tubuh agar daya tahan tubuh bekerja optimal\n\nDosis :\nDewasa (usia lebih dari 12 tahun) : 3 kali sehari 1 kapsul\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat173",
+      "input": [
+        "Deskripsi Stop Cold",
+        "Stop Cold",
+        "Obat Stop Cold"
+      ],
+      "responses":
+      [
+        "Stop Cold\n\nHarga :\nRp2.200 - Rp4.100\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nFlu, Pilek, Demam & meredakan rasa sakit\n\nDosis :\nDewasa : 1-3 kali per hari 1 tablet\n\nAturan Pakai :\nSebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat174",
+      "input": [
+        "Deskripsi Supradyn",
+        "Supradyn",
+        "Obat Supradyn"
+      ],
+      "responses":
+      [
+        "Supradyn\n\nHarga :\nRp14.200 - Rp22.500\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMultivitamin dan mineral\n\nDosis :\n1 kali sehari 1 kaplet\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat175",
+      "input": [
+        "Deskripsi Tensocrepe 7.5 cm X 4.5 m",
+        "Tensocrepe 7.5 cm X 4.5 m",
+        "Obat Tensocrepe 7.5 cm X 4.5 m"
+      ],
+      "responses":
+      [
+        "Tensocrepe 7.5 cm X 4.5 m\n\nHarga :\nRp69.500 - Rp115.300\n\nKategori :\nP3K\n\nIndikasi Umum :\nPembalut elastis berkualitas tinggi (BP). Untuk fiksasi/perawatan pada kasus keseleo (sprains), letih otot (strains), dan pelebaran pembuluh darah balik (varicose veins). Selain itu perban elastis ini dapat digunakan pada kasus cidera kecelakaan atau olahraga. Cidera olahraga seperti patah tulang, salah urat atau terkilir. Dengan tensocrepe otot-otot cidera yang sedang kita alami dapat berkurang rasa sakitnya karena kita tidak diperkenankan untuk bergerak dengan bebas pada saat cidera\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nDigunakan pada bagian otot yang cedera"
+      ]
+    },
+
+    {
+      "tag":"obat176",
+      "input": [
+        "Deskripsi Termorex 60 ml",
+        "Termorex 60 ml",
+        "Obat Termorex 60 ml"
+      ],
+      "responses":
+      [
+        "Termorex 60 ml\n\nHarga :\nRp12.500 - Rp20.800\n\nKategori :\nDemam\n\nIndikasi Umum :\nMeringankan rasa sakit pada sakit kepala, sakit gigi, dan menurunkan demam\n\nDosis :\n0-1 tahun : 1/2 sendok takar (2,5 mL),\n1-2 tahun: 1 sendok takar (5 mL),\n2-6 tahun: 1-2 sendok takar (5 - 10 mL),\n9-12 tahun: 3-4 sendok takar (15-20 mL),\n3-4 kali sehari atau sesuai dengan petunjuk dokter\n\nAturan Pakai :\nDapat diberikan sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat177",
+      "input": [
+        "Deskripsi Termorex Plus 60 ml",
+        "Termorex Plus 60 ml",
+        "Obat Termorex Plus 60 ml"
+      ],
+      "responses":
+      [
+        "Termorex Plus 60 ml\n\nHarga :\nRp10.500 - Rp22.800\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMenghilangkan gejala flu yang disertai dengan demam, sakit kepala, hidung tersumbat, dan bersin-bersin\n\nDosis :\nAnak berusia 6-12 tahun : 3 kali sehari 10 mL (2 sendok teh)\nAnak berusia 2-5 tahun : 3 kali sehari 5 mL (1 sendok teh)\n\nAturan Pakai :\nDapat diberikan sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat178",
+      "input": [
+        "Deskripsi Thermolyte",
+        "Thermolyte",
+        "Obat Thermolyte"
+      ],
+      "responses":
+      [
+        "Thermolyte\n\nHarga :\nRp169.100 - Rp278.000\n\nKategori :\nDiet\n\nIndikasi Umum :\nMembantu mengurangi lemak dalam tubuh\n\nDosis :\nBb< 60kg : 2x/hari pagi siang ; bb> 60kg : 3hr pertama 2x/hari (pagi,siang), hari berikutnya dosis ditingkatkan 2 tablet 2x/hari (pagi, siang)\n\nAturan Pakai :\nSebelum makan"
+      ]
+    },
+
+    {
+      "tag":"obat179",
+      "input": [
+        "Deskripsi Tonikum Bayer 100 ml",
+        "Tonikum Bayer 100 ml",
+        "Obat Tonikum Bayer 100 ml"
+      ],
+      "responses":
+      [
+        "Tonikum Bayer 100 ml\n\nHarga :\nRp13.100 - Rp27.500\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen untuk defisiensi zat besi\n\nDosis :\n1 kali sehari 1 sendok teh\n\nAturan Pakai :\nDapat diberikan bersama dengan makanan untuk mengurangi rasa tidak nyaman pada GI"
+      ]
+    },
+
+    {
+      "tag":"obat180",
+      "input": [
+        "Deskripsi Triaminic Batuk 60 ml",
+        "Triaminic Batuk 60 ml",
+        "Obat Triaminic Batuk 60 ml"
+      ],
+      "responses":
+      [
+        "Triaminic Batuk 60 ml\n\nHarga :\nRp25.300 - Rp102.700\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nObat batuk pilek dengan varian rasa Berry untuk meredakan batuk kering dan melegakan hidung tersumbat karena pilek\n\nDosis :\nDewasa & anak > 12 tahun : 3 x sehari 2 sendok takar (@10 ml)\nAnak 6-12 tahun : 3 x sehari 1 sendok takar ( @5 ml)\n\nAturan Pakai :\nDikonsumsi sebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat181",
+      "input": [
+        "Deskripsi Ultraflu",
+        "Ultraflu",
+        "Obat Ultraflu"
+      ],
+      "responses":
+      [
+        "Ultraflu\n\nHarga :\nRp3.300 - Rp4.800\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nFlu, demam, sakit kepala, hidung tersumbat & bersin-bersin\n\nDosis :\nDosis dewasa 3 - 4 kali per hari 1 kaplet\nAnak (usia anak 6-12 tahun): 2 x per hari 1/2 kaplet\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat182",
+      "input": [
+        "Deskripsi Upixon Syr",
+        "Upixon Syr",
+        "Obat Upixon Syr"
+      ],
+      "responses":
+      [
+        "Upixon Syr\n\nHarga :\nRp15.000 - Rp20.300\n\nKategori :\nSaluran Pencernaan\n\nIndikasi Umum :\nPengobatan infeksi oleh cacing jenis : Enterobius Vermiculais, Ascaris Lumbricoides, Ancylostoma Duodenale, Necator Americanus, Trichostrongylus Columbriformis, Trichostrongylus Orientalis infections\n\nDosis :\n1 kali sehari\n\nAturan Pakai :\nSebelum atau sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat183",
+      "input": [
+        "Deskripsi Velpo",
+        "Velpo",
+        "Obat Velpo"
+      ],
+      "responses":
+      [
+        "Velpo\n\nHarga :\nRp8.100 - Rp14.900\n\nKategori :\nHerbal, Menstruasi, Kontrasepsi dan Hormon\n\nIndikasi Umum :\nMembantu mengurangi nyeri pada saat haid, membantu melancarkan haid\n\nDosis :\n3 kali sehari 2 kapsul\n\nAturan Pakai :\nsebelum makan dan menjelang tidur malam"
+      ]
+    },
+
+    {
+      "tag":"obat184",
+      "input": [
+        "Deskripsi Vicee 500",
+        "Vicee 500",
+        "Obat Vicee 500"
+      ],
+      "responses":
+      [
+        "Vicee 500\n\nHarga :\nRp1.100 - Rp4.700\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMencegah dan mengobati defisiensi vitamin C, terutama dalam masa pemulihan, mencegah Scurvy, mengobati perdarahan gusi\n\nDosis :\nDewasa : 1- 2 tablet/hari\n\nAturan Pakai :\nBerikan setelah makan, untuk dihisap seperti permen"
+      ]
+    },
+
+    {
+      "tag":"obat185",
+      "input": [
+        "Deskripsi Vick Inhaler",
+        "Vick Inhaler",
+        "Obat Vick Inhaler"
+      ],
+      "responses":
+      [
+        "Vick Inhaler\n\nHarga :\nRp12.000 - Rp23.000\n\nKategori :\nBatuk dan Flu\n\nIndikasi Umum :\nMelegakan hidung tersumbat karena pilek\n\nDosis :\nSesuai kebutuhan\n\nAturan Pakai :\nGunakan setiap kali dibutuhkan dengan hirup dalam-dalam melalui tiap lubang hidung"
+      ]
+    },
+
+    {
+      "tag":"obat186",
+      "input": [
+        "Deskripsi Vidoran Smart Sirup",
+        "Vidoran Smart Sirup",
+        "Obat Vidoran Smart Sirup"
+      ],
+      "responses":
+      [
+        "Vidoran Smart Sirup\n\nHarga :\nRp13.800 - Rp25.400\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nSuplemen vitamin dan mineral untuk anak selama masa pertumbuhan; sebagai nutrisi otak\n\nDosis :\n1 kali sehari 5 mL\n\nAturan Pakai :\nsesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat187",
+      "input": [
+        "Deskripsi Vitacimin",
+        "Vitacimin",
+        "Obat Vitacimin"
+      ],
+      "responses":
+      [
+        "Vitacimin\n\nHarga :\nRp1.400 - Rp3.200\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMembantu menjaga daya tahan tubuh.\n\nDosis :\n1-2 tablet per hari\n\nAturan Pakai :\nDiberikan sebelum atau sesudah makanan, dihisap perlahan dalam mulut"
+      ]
+    },
+
+    {
+      "tag":"obat188",
+      "input": [
+        "Deskripsi Vitalong C",
+        "Vitalong C",
+        "Obat Vitalong C"
+      ],
+      "responses":
+      [
+        "Vitalong C\n\nHarga :\nRp5.700 - Rp12.100\n\nKategori :\nVitamin & Suplemen\n\nIndikasi Umum :\nMembantu memelihara daya tahan tubuh\n\nDosis :\n1 kapsul per hari\n\nAturan Pakai :\nDikonsumsi sesudah makan"
+      ]
+    },
+
+    {
+      "tag":"obat189",
+      "input": [
+        "Deskripsi Wood Att / Exp 100 ml",
+        "Wood Att / Exp 100 ml",
+        "Obat Wood Att / Exp 100 ml"
+      ],
+      "responses":
+      [
+        "Wood Att / Exp 100 ml\n\nHarga :\n\n\nKategori :\nRp29.400 - Rp43.000\n\nIndikasi Umum :\nGejala Batuk non-produktif/tidak berdahak yang disertai dengan Alergi\n\nDosis :\n1 sendok takar 3 x sehari\n\nAturan Pakai :\nSesudah makan"
+      ]
+    },  
+    
+    
+
+    {
+      "tag":"ask1",
+      "input": [
+        "obat ambeien",
+        "obat wasir"
+      ],
+      "responses": [
+        "ambeven"
+      ]
+    },
+
+    {
+      "tag":"ask2",
+      "input": [
+        "obat batuk untuk anak",
+        "apa obat batuk untuk anak",
+        "obat flu dan batuk untuk anak"
+      ],
+      "responses": [
+        "Anacetine Sirup 60 ml\nUni Bebi Cough Sirup 60 ml\nCitocetin\nColdrexin\nCombi Kid 12'S Honey Lemon\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml",
+        "Inza\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml\nCombi Kid 12'S Fruit\nHufagrip Flu\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml"
+      ]
+    },
+
+    {
+      "tag":"ask3",
+      "input": [
+        "obat flu untuk anak",
+        "obat pilek untuk anak",
+        "apa obat flu untuk anak",
+        "obat pilek untuk anak",
+        "obat demam untuk anak",
+        "obat hidung tersumbat untuk anak"
+      ],
+      "responses": [
+        "Anakonidin Sirup 30 ml\nAnakonidin Sirup 60 ml\nColdrexin\nCombi Kid 12'S Fruit\nHufagrip Pilek\nInzana"
+        
+      ]
+    },
+
+    {
+      "tag":"ask4",
+      "input": [
+        "obat masuk angin",
+        "obat meriang",
+        "obat perut kembung",
+        "obat penghangat badan",
+        "obat mabuk kendaraan"
+      ],
+      "responses": [
+        "Antangin JRG 4 Tablet\nAntangin Good Night 4 Tablet\nAntimo 50 mg 10 Tablet"
+        
+      ]
+    },
+
+    {
+      "tag":"ask5",
+      "input": [
+        "obat masuk angin untuk anak",
+        "obat perut kembung untuk anak",
+        "obat mabuk kendaraan untuk anak"
+      ],
+      "responses": [
+        "Antangin Junior Honey Mint 5 Sachet\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
+        
+      ]
+    },
+
+    {
+      "tag":"ask6",
+      "input": [
+        "obat asi",
+        "obat melancarkan asi"
+      ],
+      "responses": [
+        "Asifit 30 Kaplet"
+        
+      ]
+    },
+
+    {
+      "tag":"ask7",
+      "input": [
+        "obat batuk berdahak untuk anak",
+        "obat batuk panas untuk anak",
+        "obat influenza untuk anak"
+      ],
+      "responses": [
+        "Uni Bebi Cough Sirup 60 ml\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml\nKomix Kid"
+        
+      ]
+    },
+
+    {
+      "tag":"ask8",
+      "input": [
+        "vitamin dan suplemen",
+        "vitamin"
+      ],
+      "responses": [
+        "Berocca Performance 10 Tablet Effervescent\nBiovision 10 Kapsul\nXonce 500 mg 2 Tablet\nZevit C 4 Kapsul\nZeviton Kaplet\nCaviplex Syr\nCerebrofit Excel\nCerebrofit Ginko Biloba\nCerebrofit Gold",
+        "Enervon C 30\nEnervon-C Effervescent\nIpi Vitamin"
+        
+      ]
+    },
+
+    {
+      "tag":"ask9",
+      "input": [
+        "obat sakit tenggorokan",
+        "obat mulut",
+        "obat gusi bengkak",
+        "obat sariawan",
+        "obat bau mulut"
+      ],
+      "responses": [
+        "Betadine Mouthwash and Gargle 100 ml\nEnkasari "
+        
+      ]
+    },
+
+    {
+      "tag":"ask10",
+      "input": [
+        "penutup luka",
+        "plester antiseptik"
+      ],
+      "responses": [
+        "Betadine Plester 10 Lembar\nDaryan Tule\nHypafix 5cm X 5M"
+        
+      ]
+    },
+
+    {
+      "tag":"ask11",
+      "input": [
+        "sabun cair antiseptik"
+      ],
+      "responses": [
+        "Betadine Skin Cleanser Antiseptic 100 ml"
+        
+      ]
+    },
+
+    {
+      "tag":"ask12",
+      "input": [
+        "p3k"
+      ],
+      "responses": [
+        "Betadine Plester 10 Lembar\nBetadine Solution 15 ml\nBetadine Solution 60 ml\nDaryan Tule\nHypafix 5cm X 5M\nSofra Tulle\nTensocrepe 7.5 cm X 4.5 m"
+        
+      ]
+    },
+
+    {
+      "tag":"ask13",
+      "input": [
+        "cairan antiseptik untuk luka",
+        "obat oles untuk luka"
+      ],
+      "responses": [
+        "Betadine Solution 15 atau 60 ml"
+        
+      ]
+    },
+
+    {
+      "tag":"ask14",
+      "input": [
+        "obat pembersih vaginal",
+        "obat pembersih vagina",
+        "obat pembersih kemaluan wanita",
+        "pembersih miss v"
+      ],
+      "responses": [
+        "Betadine Vaginal Douche 10% 100 ml Plus Dengan Alat"
+        
+      ]
+    },
+
+    {
+      "tag":"ask15",
+      "input": [
+        "obat batuk",
+        "apa obat untuk batuk"
+      ],
+      "responses": [
+        "Biogesic 500 mg 4 Tablet\nOBH Indoplus 100 ml\nOBH Nellco Special PE Anak Strawberry"
+      ]
+    },
+
+    {
+      "tag":"ask16",
+      "input": [
+        "vitamin untuk anak",
+        "suplemen dan vitamin untuk anak",
+        "vitamin dan suplemen untuk anak"
+      ],
+      "responses": [
+        "Biolysin Sirup 100 ml\nBiolysin Kids Rasa Orange 30 Tablet\nBiolysin Smart Sirup Rasa Jeruk 100 ml\nBiolysin Smart Sirup Rasa Jeruk 60 ml\nCerebrofit Syr",
+        "Enervon C Syr\nIgastrum"
+      ]
+    },
+
+    {
+      "tag":"ask17",
+      "input": [
+        "obat mengencerkan dahak",
+        "obat meluruhkan dahak"
+      ],
+      "responses": [
+        "Bisolvon 8 mg 10 Tablet\nOBH Combi Plus Batuk Flu Menthol 100 ml"      
+      ]
+    },
+
+    {
+      "tag":"ask18",
+      "input": [
+        "obat sakit kepala",
+        "obat migrain",
+        "obat pusing"
+      ],
+      "responses": [
+        "Bodrex 20 Tablet\nBodrex Extra 4 Kaplet\nBodrex Migra 4 Kaplet\nOskadon 4 Tablet"      
+      ]
+    },
+
+    {
+      "tag":"ask19",
+      "input": [
+        "obat flu dan batuk tidak berdahak",
+        "obat flu dan batuk",
+        "demam",
+        "obat hidung tersumbat"
+      ],
+      "responses": [
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml\nColfin syr\nMixadin 4 Tablet\nOB Combi Batuk Pilek 60 ml\nOBH Nellco Special PE Sirup 55 ml\nCoparcetine\nDecolgen",
+        "Mextril\nDecolgen Fx\nKonidin Sirup\nLaserin Sirup\nOBH Nellco Special PE Sirup 100 ml\nOBH Tropica Plus Sirup 100 ml"      
+      ]
+    },
+
+    {
+      "tag":"ask20",
+      "input": [
+        "obat flu dan batuk berdahak"
+      ],
+      "responses": [
+        "Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet\nKomix\nMixagrip\nOBH Nellco Batuk Berdahak 100 ml\nOBH Nellco Plus Sirup 100 ml\nPacdin Cough Sirup 60 ml"      
+      ]
+    },
+
+    {
+      "tag":"ask21",
+      "input": [
+        "obat biang keringat",
+        "obat gatal kulit",
+        "penyejuk kulit"
+      ],
+      "responses": [
+        "Bedak Salicyl 60 g\nCALADINE LOT 60 ML\nCaladine Lotion 95 ml\nCaladine Powder 60 g\nCaladine Powder Original 100 g\nKonicare Bedak\nSalycil Nelco Non Menthol"      
+      ]
+    },
+
+    {
+      "tag":"ask22",
+      "input": [
+        "obat meluruhkan batu ginjal",
+        "obat batu ginjal"
+      ],
+      "responses": [
+        "Calsusol 30 Kapsul\nCalsusol 50 Kapsul"
+      ]
+    },
+
+    {
+      "tag":"ask23",
+      "input": [
+        "minyak angin",
+        "balsam",
+        "pereda sakit kepala",
+        "obat muntah",
+        "obat keseleo"
+      ],
+      "responses": [
+        "Cap Lang Balsam\nCap lang Minyak Angin 24 ML\nCap Lang Minyak Sereh\nCaplang Mkp 120 ML\nCaplang Mkp 30 ML\nCaplang Mkp 60 ML\nCopal Balsem\nCopal Cest Rub\nCopal Tube",
+        "Minyak angin cap kapak\nCap Rumah Minyak Kayu Putih 125 ml\nCap Lang Minyak Kayu Putih 30 ml"
+      ]
+    },
+
+    {
+      "tag":"ask24",
+      "input": [
+        "tisu"
+      ],
+      "responses": [
+        "Carrefour Putih Tissue"
+      ]
+    },
+
+    {
+      "tag":"ask25",
+      "input": [
+        "obat anti alergi",
+        "obat alergi",
+        "rhinitis alergi",
+        "urtikaria",
+        "obat gatal pada mata",
+        "obat gatal tenggorokan",
+        "obat mata berair"
+
+      ],
+      "responses": [
+        "Ctm"
+      ]
+    },
+
+    {
+      "tag":"ask25",
+      "input": [
+        "obat menambah nafsu makan"
+
+      ],
+      "responses": [
+        "Curcuma Emuls 200 ML\nCurcuma Emuls 400 ML"
+      ]
+    },
+
+    {
+      "tag":"ask26",
+      "input": [
+        "obat bisul"
+
+      ],
+      "responses": [
+        "Darsi\nIchtiyol"
+      ]
+    },
+
+    {
+      "tag":"ask27",
+      "input": [
+        "obat sakit tenggorokan",
+        "obat radang rongga mulut",
+        "obat infeksi selaput lendir mulut"
+
+      ],
+      "responses": [
+        "Degirol"
+      ]
+    },
+
+    {
+      "tag":"ask28",
+      "input": [
+        "penambah nutrisi pada makanan",
+        "pengganti nutrisi pada makanan",
+        "penambah nutrisi",
+        "pengganti makanan untuk diabetes"
+
+      ],
+      "responses": [
+        "Diabetasol\nDianeral"
+      ]
+    },
+
+    {
+      "tag":"ask29",
+      "input": [
+        "obat melancarkan pencernaan",
+        "obat susah bab",
+        "obat sembelit"
+
+      ],
+      "responses": [
+        "Diapet \nDulcolax"
+      ]
+    },
+
+    {
+      "tag":"ask30",
+      "input": [
+        "susu tinggi kalsium",
+        "susu untuk lansia"
+
+      ],
+      "responses": [
+        "Entrasol"
+      ]
+    },
+
+    {
+      "tag":"ask31",
+      "input": [
+        "obat antidiare",
+        "obat bab terus",
+        "obat mencret"
+
+      ],
+      "responses": [
+        "Entrostop\nNorit 40 Tablet"
+      ]
+    },
+
+    {
+      "tag":"ask32",
+      "input": [
+        "obat antidiare untuk anak",
+        "obat bab terus untuk anak",
+        "obat mencret untuk anak"
+
+      ],
+      "responses": [
+        "Entrostop Anak\nLacto-B"
+      ]
+    },
+
+    {
+      "tag":"ask33",
+      "input": [
+        "suplemen stamina pria",
+        "suplemen stamina",
+        "penambah stamina"
+
+      ],
+      "responses": [
+        "Hormoviton Greng"
+      ]
+    },
+
+    {
+      "tag":"ask34",
+      "input": [
+        "obat sakit kepala untuk anak"
+
+      ],
+      "responses": [
+        "Hufagrip Tmp"
+      ]
+    },
+
+    {
+      "tag":"ask35",
+      "input": [
+        "obat jamur",
+        "obat kutu air",
+        "obat panu"
+
+      ],
+      "responses": [
+        "Kalpanax Krim"
+      ]
+    },
+
+    {
+      "tag":"ask36",
+      "input": [
+        "obat digigit nyamuk",
+        "obat anti nyamuk",
+        "obat gigitan serangga"
+
+      ],
+      "responses": [
+        "Konicare\nKonicare Gel"
+      ]
+    },
+
+    {
+      "tag":"ask37",
+      "input": [
+        "obat batuk karena alergi",
+        "obat sisa bronchitis"
+
+      ],
+      "responses": [
+        "Konidin Lozenges Mint"
+      ]
+    },
+
+    {
+      "tag":"ask38",
+      "input": [
+        "obat meringankan batuk"
+
+      ],
+      "responses": [
+        "Konidin Lozenges Strong Mint\nkomix\nOB Herbal 100 ml\nOB Herbal 60 ml\nOBH Tropica Extra Rasa Menthol Sirup 60 ml",
+        "OBH Tropica Expectorant Menthol Sirup 100 ml"
+      ]
+    },
+
+    {
+      "tag":"ask39",
+      "input": [
+        "obat memelihara pencernaan",
+        "memelihara kesehatan pencernaan"
+
+      ],
+      "responses": [
+        "L-Bio"
+      ]
+    },
+
+    {
+      "tag":"ask40",
+      "input": [
+        "obat kurang nafsu makan",
+        "obat sesak nafas",
+        "obat asma",
+        "obat gangguan pernafasan",
+        "obat selesma"
+
+      ],
+      "responses": [
+        "Laserin Madu\nLaserin Sirup"
+      ]
+    },
+
+    {
+      "tag":"ask40",
+      "input": [
+        "obat kumur",
+        "obat karang gigi",
+        "obat mencegah gigi berlubang",
+        "obat menyegarkan nafas",
+        "obat mengharumkan mulut"
+
+      ],
+      "responses": [
+        "Listerin 250"
+      ]
+    },
+
+    {
+      "tag":"ask41",
+      "input": [
+        "obat meningkatkan pembakaran lemak",
+        "obat pembakar lemak",
+        "obat mengurangi nafsu makan",
+        "obat mengurangi penyerapan lemak"
+
+      ],
+      "responses": [
+        "Merit Plus"
+      ]
+    },
+
+    {
+      "tag":"ask42",
+      "input": [
+        "minyak urut",
+        "obat nyeri sendi",
+        "obat kudis",
+        "obat nyeri otot",
+        "obat nyeri tulang"
+      ],
+      "responses": [
+        "Minyak tawon cc\nMinyak Tawon DD 30ml\nMinyak Tawon EE 60ml\nMinyak Tawon FF 90ml\nMinyak urut geliga "
+      ]
+    },
+
+    {
+      "tag":"ask43",
+      "input": [
+        "obat asam urat",
+        "obat penghilang efek roko",
+        "obat menetralkan racun",
+        "obat pelangsing tubuh",
+        "obat pencegah stroke",
+        "obat pencegah penyakit jantung",
+        "obat penguat pembuluh darah"
+
+      ],
+      "responses": [
+        "Teh Rosella Dieng Super Kuntum "
+      ]
+    },
+
+    {
+      "tag":"ask44",
+      "input": [
+        "penghangat bayi",
+        "minyak pijat bayi",
+        "meredakan perut kembung"
+
+      ],
+      "responses": [
+        "Cap Lang Minyak Telon 30 ml"
+      ]
+    },
+
+    {
+      "tag":"ask45",
+      "input": [
+        "sabun pencerah kulit",
+        "sabun perawatan kulit"
+      ],
+      "responses": [
+        "Sabun Mutiara Keraton"
+      ]
+    },
+
+    {
+      "tag":"ask45",
+      "input": [
+        "bedak bayi",
+        "pelembab kulit bayi"
+      ],
+      "responses": [
+        "My Baby Powder Soft and Gentle"
+      ]
+    },
+
+    {
+      "tag":"ask46",
+      "input": [
+        "obat mengurangi kelebihan asam lambung",
+        "obat asam lambung",
+        "obat gastritis",
+        "obat nyeri lambung",
+        "obat nyeri ulu hati"
+      ],
+      "responses": [
+        "Mylanta Sirup 150 ml\nMylanta 10 Tablet"
+      ]
+    },
+
+    {
+      "tag":"ask47",
+      "input": [
+        "obat sunisitis",
+        "obat sakit di daerah sinus",
+        "obat mengatasi alergi"
+      ],
+      "responses": [
+        "Natra Bio Allergy Sinus 60 Tablet"
+      ]
+    },
+
+    {
+      "tag":"ask48",
+      "input": [
+        "obat pegel linu",
+        "obat pegel"
+      ],
+      "responses": [
+        "Neo Rheumacyl 20 Tablet"
+      ]
+    },
+
+    {
+      "tag":"ask49",
+      "input": [
+        "obat kesemutan",
+        "obat kram",
+        "obat kebas",
+        "obat kaki lemas",
+        "obat kekurangan vitamin B"
+      ],
+      "responses": [
+        "Neo Rheumacyl Neuro 10 Kaplet\nNeo Ultracap 4 Kapsul"
+      ]
+    },
+
+    {
+      "tag":"ask50",
+      "input": [
+        "obat simtomatik diare"
+      ],
+      "responses": [
+        "Neoasta Suspensi 60 ml"
+      ]
+    },
+
+    {
+      "tag":"ask51",
+      "input": [
+        "obat masalah lambung",
+        "obat konstipasi",
+        "obat panas ulu hati",
+        "obat rasa penuh pada lambung"
+      ],
+      "responses": [
+        "Neosanmag 4 Tablet\nNeosanmag Fast "
+      ]
+    },
+
+    {
+      "tag":"ask52",
+      "input": [
+        "obat pereda demam dan sakit kepala",
+        "obat bersin-bersin"
+      ],
+      "responses": [
+        "Neozep Forte"
+      ]
+    },
+
+    {
+      "tag":"ask53",
+      "input": [
+        "obat meringankan batuk berdahak",
+        "obat meredakan batuk berdahak"
+      ],
+      "responses": [
+        "OBH Combi Plus Batuk Flu Menthol 60 ml\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml"
+      ]
+    },
+
+    {
+      "tag":"ask54",
+      "input": [
+        "obat batuk berdahak penderita asma",
+        "obat batuk dan asma",
+        "obat batuk bronkitis"
+      ],
+      "responses": [
+        "OBP Itrasal Sirup 100 ml"
+      ]
+    },
+
+    {
+      "tag":"ask55",
+      "input": [
+        "obat dehidrasi karena diare",
+        "obat dehidrasi karena muntah"
+      ],
+      "responses": [
+        "Oralit 200 4.1 g 1 Sachet"
+      ]
+    },
+
+    {
+      "tag":"ask56",
+      "input": [
+        "obat batuk berdahak disertai alergi"
+      ],
+      "responses": [
+        "Oroxin Sirup"
+      ]
+    },
+
+    {
+      "tag":"ask57",
+      "input": [
+        "obat luka infeksi",
+        "ulkus dekubitus",
+        "ulkus kaki kronis pada insufisiensi vena",
+        "ulkus dan luka akibat aliran darah arteri",
+        "mikroangiopati akibat diabetes",
+        "ganggren serta luka bakar"
+      ],
+      "responses": [
+        "Oxoferin Solution "
+      ]
+    },
+
+    {
+      "tag":"ask58",
+      "input": [
+        "obat penurun demam",
+        "obat sakit gigi"
+      ],
+      "responses": [
+        "Pamol 500 mg 10 Tablet\nPanadol Extra 10 Kaplet"
+      ]
+    },
+
+    {
+      "tag":"ask59",
+      "input": [
+        "obat penurun demam pada anak",
+        "obat sakit gigi pada anak",
+        "obat penurun demam untuk anak",
+        "obat sakit gigi untuk anak"
+      ],
+      "responses": [
+        "Panadol Anak-Anak Sirup 60 ml\nPanadol Anak-Anak Drops"
+      ]
+    },
+
+    {
+      "tag":"ask60",
+      "input": [
+        "obat batuk dan flu kaplet",
+        "obat batuk kaplet",
+        "obat flu kaplet"
+      ],
+      "responses": [
+        "Panadol hijau Flu & Batuk 10 Kaplet\nSanaflu\nSanaflu Forte\nStop Cold\nUltraflu"
+      ]
+    },
+
+    {
+      "tag":"ask61",
+      "input": [
+        "obat demam sirup",
+        "obat batuk dan flu sirup",
+        "obat batuk sirup",
+        "obat flu sirup",
+        "obat pilek sirup"
+      ],
+      "responses": [
+        "Paracetin Sirup 60 ml\nSanaflu Plus Batuk Sirup\nSiladex 30 or 60 ml\nTriaminic Batuk 60 ml\nTriaminic Exp 60 ml\nTriaminic Pilek 60 ml"
+      ]
+    },
+
+    {
+      "tag":"ask62",
+      "input": [
+        "alat kontrasepsi pria"
+      ],
+      "responses": [
+        "Simplex Black Panther 3's\nSimplex Long Love 3's\nSimplex Red 3's\nSimplex Stallion 3's\nSimplex Standart Green 3's"
+      ]
+    },
+
+    {
+      "tag":"ask63",
+      "input": [
+        "pembalut luka infeksi",
+        "penutup luka infeksi"
+      ],
+      "responses": [
+        "Sofra Tulle"
+      ]
+    },
+
+    {
+      "tag":"ask64",
+      "input": [
+        "obat infeksi jamur pada rongga mulut",
+        "obat jamur pada rongga mulut",
+        "obat bakteri pada mulut",
+        "obat infeksi jamur pada tenggorokan",
+        "obat jamur pada tenggorokan",
+        "obat bakteri pada tenggorokan"
+      ],
+      "responses": [
+        "SP-Troches"
+      ]
+    },
+
+    {
+      "tag":"ask65",
+      "input": [
+        "jamu penyegar badan",
+        "jamu penghilang pegal",
+        "jamu masuk angin",
+        "obat memelihara fungsi hati",
+        "jamu pegal"
+      ],
+      "responses": [
+        "Stamvit Herbal"
+      ]
+    },
+
+    {
+      "tag":"ask66",
+      "input": [
+        "obat penambah antibodi",
+        "obat penambah kekebalan tubuh",
+        "obat antibodi",
+        "obat anti body",
+        "obat imun tubuh"
+      ],
+      "responses": [
+        "Stimuno Forte"
+      ]
+    },
+
+    {
+      "tag":"ask67",
+      "input": [
+        "obat peningkat stamina",
+        "obat diet",
+        "obat pemulihan dari rasa sakit",
+        "obat penammbah stamina",
+        "obat stamina"
+      ],
+      "responses": [
+        "Supradyn"
+      ]
+    },
+
+    {
+      "tag":"ask68",
+      "input": [
+        "perban keseleo",
+        "perban elastis",
+        "perban patah tulang",
+        "perban karet",
+        "perban misalah"
+      ],
+      "responses": [
+        "Tensocrepe 7.5 cm X 4.5 m\nTensocrepe 10 cm X 4.5 m\nTensocrepe 15 Cm X 4.5 m"
+      ]
+    },
+
+    {
+      "tag":"ask69",
+      "input": [
+        "obat penurun panas anak",
+        "obat penurun panas anak tanpa alkohol",
+        "obat panas anak",
+        "obat anak panas"
+      ],
+      "responses": [
+        "Termorex 60 ml\nTermorex Plus 30 or 60ml"
+      ]
+    },
+
+    {
+      "tag":"ask70",
+      "input": [
+        "obat penurun berat badan",
+        "obat pelangsing badan",
+        "suplemen penurun berat badan",
+        "obat pelangsing"
+      ],
+      "responses": [
+        "Thermolyte"
+      ]
+    },
+
+    {
+      "tag":"ask71",
+      "input": [
+        "suplemen ibu hamil",
+        "suplemen menstruasi",
+        "suplemen masa pertumbuhan"
+      ],
+      "responses": [
+        "Tonikum Bayer 100 or 330 ml"
+      ]
+    },
+
+    {
+      "tag":"ask72",
+      "input": [
+        "obat cacingan",
+        "obat cacing",
+        "obat infeksi cacing"
+
+      ],
+      "responses": [
+        "Upixon Syr"
+      ]
+    },
+
+    {
+      "tag":"ask73",
+      "input": [
+        "obat nyeri haid",
+        "obat menstruasi",
+        "obat melancarkan haid",
+        "obat haid"
+      ],
+      "responses": [
+        "Velpo"
+      ]
+    },
+
+    {
+      "tag":"ask74",
+      "input": [
+        "vitamin c"
+      ],
+      "responses": [
+        "Vicee 500\nVitacimin\nVitalong C"
+      ]
+    },
+
+    {
+      "tag":"ask75",
+      "input": [
+        "obat batuk dan flu menthol",
+        "obat batuk menthol",
+        "obat flu menthol"
+      ],
+      "responses": [
+        "Vick Inhaler"
+      ]
+    },
+
+    {
+      "tag":"ask76",
+      "input": [
+        "vitamin nutrisi otak untuk anak",
+        "vitamin otak anak",
+        "menambah daya ingat anak"
+        
+      ],
+      "responses": [
+        "Vidoran Smart Sirup\nVidoran Smart Tab"
+      ]
+    },
+
+    {
+      "tag":"ask77",
+      "input": [
+        "vitamin menjaga daya tahan tubuh anak",
+        "menambah imun anak",
+        "vitamin anak"
+        
+      ],
+      "responses": [
+        "Vidoran Smart imunUp"
+      ]
+    },
+
+    {
+      "tag":"ask78",
+      "input": [
+        "obat penghancur radikal bebas asap rokok",
+        "obat penghancur radikal bebas asap kendaraan",
+        "obat penghancur radikal bebas polusi",
+        "obat terkena asap rokok",
+        "obat terkena asap kendaraan",
+        "obat terkena polusi",
+        "obat rokok",
+        "obat asap kendaraan",
+        "obat polusi udara"
+        
+      ],
+      "responses": [
+        "Vipro G"
+      ]
+    },
+
+    {
+      "tag":"ask79",
+      "input": [
+        "obat batuk disebabkan alergi",
+        "obat flu disebabkan alergi",
+        "obat flu dan batuk disebabkan alergi"
+      ],
+      "responses": [
+        "Wood Att / Exp 60 0r 100 ml"
+      ]
+    },
+
+    {
+      "tag":"ask80",
+      "input": [
+        "permen penyegar tenggorokan",
+        "permen penyegar pernafasan",
+        "permen untuk nafas",
+        "permen untuk tenggorokan"
+      ],
+      "responses": [
+        "Wood Orange\nWood Original"
+      ]
+    },
+
+    {
+      "tag":"lis",
+      "input": [
+        "daftar obat",
+        "list obat",
+        "obat apa saja yang ada",
+        "sebutkan semua obat"
+      ],
+      "responses": [
+        "tuliskan 'list 1 sampai 22 untuk melihat daftar obat"      
+      ]
+    },
+
+    {
+      "tag":"lis1",
+      "input": [
+        "list 1",
+        "list1",
+        "1"
+      ],
+      "responses": [
+        "Ambeven\nAnacetine Sirup 60 ml\nAnakonidin Sirup 30 ml\nAnakonidin Sirup 60 ml\nAntangin Gingermocha 15 ml\nAntangin Good Night 4 Tablet\nAntangin JRG 4 Tablet\nAntangin Junior Honey Mint 5 Sachet\nAntimo 50 mg 10 Tablet\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
+      ]
+    },
+
+    {
+      "tag":"lis2",
+      "input": [
+        "obat 2",
+        "obat2",
+        "2"
+      ],
+      "responses": [
+        "Asifit 30 Kaplet\nBedak Salicyl 60 g\nBerocca Performance 10 Tablet Effervescent\nBetadine Mouthwash and Gargle 100 ml\nBetadine Plester 10 Lembar\nBetadine Skin Cleanser Antiseptic 100 ml\nBetadine Solution 15 ml\nBetadine Solution 30 ml\nBetadine Solution 60 ml\nBetadine Vaginal Douche 10% 100 ml Plus Dengan Alat"
+      ]
+    },
+
+    {
+      "tag":"lis3",
+      "input": [
+        "list 3",
+        "list3",
+        "3"
+      ],
+      "responses": [
+        "Biogesic 500 mg 4 Tablet\nBiolysin Kids Rasa Orange 30 Tablet\nBiolysin Sirup 100 ml\nBiolysin Smart Sirup Rasa Jeruk 100 ml\nBiolysin Smart Sirup Rasa Jeruk 60 ml\nBiovision 10 Kapsul\nBisolvon 8 mg 10 Tablet\nBodrex 20 Tablet\nBodrex Extra 4 Kaplet\nBodrex Flu Dan Batuk Berdahak Pe 4 Kaplet"
+      ]
+    },
+
+    {
+      "tag":"lis4",
+      "input": [
+        "list 4",
+        "list4",
+        "4"
+      ],
+      "responses": [
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml\nBodrex Migra 4 Kaplet\nBodrexin 80 mg 16 Tablet\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml\nCaladine Lotion 60 ml\nCaladine Lotion 95 ml\nCaladine Powder 60 g\nCaladine Powder Original 100 g\nCalsusol 30\nCalsusol 50"
+      ]
+    },
+
+    {
+      "tag":"lis5",
+      "input": [
+        "list 5",
+        "list5",
+        "5"
+      ],
+      "responses": [
+        "Cap Lang Minyak Kayu Putih 30 ml\nCap Lang Minyak Telon 30 ml\nCap Rumah Minyak Kayu Putih 125 ml\nCaplang Balsem\nCaplang Minyak Angin\nCaplang Minyak Sereh\nCaplang Mkp 120 ML\nCaplang Mkp 30 ML\nCaplang Mkp 60 ML\nCarrefour Kuning Tissue"
+      ]
+    },
+
+    {
+      "tag":"lis6",
+      "input": [
+        "list 6",
+        "list6",
+        "6"
+      ],
+      "responses": [
+        "Carrefour Putih Tissue\nCaviplex Syr\nCerebrofit Excel\nCerebrofit Ginko Biloba\nCerebrofit Gold\nCerebrofit Gold K\nCerebrofit Syr\nCitocetin\nCobra\nColdrexin"
+      ]
+    },
+
+    {
+      "tag":"lis7",
+      "input": [
+        "list 7",
+        "list7",
+        "7"
+      ],
+      "responses": [
+        "Colfin syr\nCombi Kid @1400 Box\nCombi Kid 12'S Fruit\nCombi Kid 12'S Honey Lemon \nCombi Kid Ecer Fruit Veggie\nCombi Kid Ecer Honey Lemon \nCopal Balsem\nCopal Cest Rub\nCopal Tube\nCoparcetine "
+      ]
+    },
+
+    {
+      "tag":"lis8",
+      "input": [
+        "list 8",
+        "list8",
+        "8"
+      ],
+      "responses": [
+        "Ctm\nCurcuma Emuls 200 ML\nCurcuma Emuls 400 ML\nDarsi\nDaryan Tule\nDecolgen \nDecolgen FX\nDegirol\nDiabetasol\nDianeral"
+      ]
+    },
+
+    {
+      "tag":"lis9",
+      "input": [
+        "list 9",
+        "list9",
+        "9"
+      ],
+      "responses": [
+        "Diapet\nDiapet NR\nDiatabs\nDulcolax\nEnervon C 30's\nEnervon C Evervecent\nEnervon C Syr\nEnkasari\nEntrasol\nEntrostop"
+      ]
+    },
+
+    {
+      "tag":"lis10",
+      "input": [
+        "list 10",
+        "list10",
+        "10"
+      ],
+      "responses": [
+        "Entrostop Anak\nHormoviton Greng\nHufagrip BP Sirup 60 ml\nHufagrip Flu\nHufagrip Pilek\nHufagrip Tmp\nHypafix 5cm X 5M\nIchtiyol\nIgastrum\nInza"
+      ]
+    },
+
+    {
+      "tag":"lis11",
+      "input": [
+        "list 11",
+        "list11",
+        "11"
+      ],
+      "responses": [
+        "Inzana\nIpi Vitamin\nKalpanax Krim\nKomix\nKomix Kid\nKonicare\nKonicare Bedak\nKonicare Gel\nKonidin Lozenges Mint\nKonidin Lozenges Strong Mint"
+      ]
+    },
+
+    {
+      "tag":"lis12",
+      "input": [
+        "list 12",
+        "list12",
+        "12"
+      ],
+      "responses": [
+        "Konidin Sirup\nLactacyd Teen Bloom\nLacto-B\nLaserin Madu\nLaserin Sirup\nL-Bio\nListerin 250\nMerit Plus\nMextril\nMinyak angin cap kapak"
+      ]
+    },
+
+    {
+      "tag":"lis13",
+      "input": [
+        "list 13",
+        "list13",
+        "13"
+      ],
+      "responses": [
+        "Minyak tawon cc\nMinyak Tawon DD 30ml\nMinyak Tawon EE 60ml\nMinyak Tawon FF 90ml\nMinyak urut geliga \nMixadin 4 Tablet\nMixagrip\nMy Baby Powder Soft & Gentle 150 g\nMylanta 10 Tablet\nMylanta Sirup 150 ml"
+      ]
+    },
+
+    {
+      "tag":"lis14",
+      "input": [
+        "list 14",
+        "list14",
+        "14"
+      ],
+      "responses": [
+        "Natra Bio Allergy Sinus 60 Tablet\nNeo Rheumacyl 20 Tablet\nNeo Rheumacyl Neuro 10 Kaplet\nNeo Ultracap 4 Kapsul\nNeoasta Suspensi 60 ml\nNeosanmag 4 Tablet\nNeosanmag Fast \nNeozep Forte\nNorit 40 Tablet\nOB Combi Batuk Pilek 60 ml"
+      ]
+    },
+
+    {
+      "tag":"lis15",
+      "input": [
+        "list 15",
+        "list15",
+        "15"
+      ],
+      "responses": [
+        "OB Herbal 100 ml\nOB Herbal 60 ml\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml\nOBH Combi Plus Batuk Flu Menthol 100 ml\nOBH Combi Plus Batuk Flu Menthol 60 ml\nOBH Indoplus 100 ml\nOBH Nellco Batuk Berdahak 100 ml\nOBH Nellco Plus Sirup 100 ml\nOBH Nellco Special PE Anak Strawberry"
+      ]
+    },
+
+    {
+      "tag":"lis16",
+      "input": [
+        "list 16",
+        "list16",
+        "16"
+      ],
+      "responses": [
+        "OBH Nellco Special PE Sirup 100 ml\nOBH Nellco Special PE Sirup 55 ml\nOBH Tropica Expectorant Menthol Sirup 100 ml\nOBH Tropica Extra Rasa Menthol Sirup 60 ml\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml\nOBH Tropica Plus Sirup 100 ml\nOBP Itrasal Sirup 100 ml\nOralit 200 4.1 g 1 Sachet\nOroxin Sirup"
+      ]
+    },
+
+    {
+      "tag":"lis17",
+      "input": [
+        "list 17",
+        "list17",
+        "17"
+      ],
+      "responses": [
+        "Oskadon 4 Tablet\nOxoferin Solution \nPacdin Cough Sirup 60 ml\nPamol 500 mg 10 Tablet\nPanadol Anak-Anak Drops\nPanadol Anak-Anak Sirup 60 ml\nPanadol Extra 10 Kaplet\nPanadol hijau Flu & Batuk 10 Kaplet\nParacetin Sirup 60 ml\nSabun Mutiara Keraton"
+      ]
+    },
+
+    {
+      "tag":"lis18",
+      "input": [
+        "list 18",
+        "list18",
+        "18"
+      ],
+      "responses": [
+        "Salicyl Nellco Non Menthol\nSanaflu\nSanaflu Forte\nSanaflu Plus Batuk Sirup\nSiladex 30 ml\nSiladex 60 ml\nSimplex Black Panther 3's \nSimplex Long Love 3's \nSimplex Red 3's \nSimplex Stallion 3's"
+      ]
+    },
+
+    {
+      "tag":"lis19",
+      "input": [
+        "list 19",
+        "list19",
+        "19"
+      ],
+      "responses": [
+        "Simplex Standart Green 3's \nSofra Tulle \nSP-troches \nStamvit Herbal\nStimuno Forte \nStop Cold \nSuperf1sh 50's \nSupradyn \nTeh Rosella Dieng Super Kuntum \nTensocrepe 10 cm X 4.5 m"
+      ]
+    },
+
+    {
+      "tag":"lis20",
+      "input": [
+        "list 20",
+        "list20",
+        "20"
+      ],
+      "responses": [
+        "Tensocrepe 15 Cm X 4.5 m\nTensocrepe 7.5 cm X 4.5 m\nTermorex 60 ml \nTermorex Plus 30 ml \nTermorex Plus 60 ml \nThermolyte \nTonikum Bayer 100 ml \nTonikum Bayer 330 ml \nTriaminic Batuk 60 ml \nTriaminic Exp 60 ml "
+      ]
+    },
+
+    {
+      "tag":"lis21",
+      "input": [
+        "list 21",
+        "list21",
+        "21"
+      ],
+      "responses": [
+        "Triaminic Pilek 60 ml\nUltraflu\nUni Bebi Cough Sirup 60 ml\nUpixon Syr\nVelpo\nVice\nVick Inhaler\nVidoran Smart Care\nVidoran Smart Syr\nVidoran Smart Tab"
+      ]
+    },
+
+    {
+      "tag":"lis22",
+      "input": [
+        "list 22",
+        "list22",
+        "22"
+      ],
+      "responses": [
+        "Vipro G\nVitacimin\nVitalong C\nWood Att / Exp 100 ml\nWood Att / Exp 60 ml\nWood Orange\nWood Original\nXonce 500 mg 2 Tablet\nZevit C 4 Kapsul\nZeviton Kaplet"
+      ]
+    },
+
+
+
+    {
+      "tag":"hal1",
+      "input": [
+        "apa tugas kamu",
+        "kenapa kamu ada",
+        "untuk apa kamu dibuat"
+      ],
+      "responses": [
+        "aku dibuat untuk memberikanmu solusi obat agar kamu sehat kembali"
+      ]
+    },
+
+    {
+      "tag":"hal2",
+      "input": [
+        "apa obat yang kamu berikan sudah benar",
+        "apa tidak ada kesalahan dengan obat yang diberikan"
+      ],
+      "responses": [
+        "obat yang diberikan berlabel hijau dan biru yang bisa digunakan oleh siapa saja"
+      ]
+    },
+
+    {
+      "tag":"hal3",
+      "input": [
+        "help",
+        "bagaimana cara aplikasi bekerja",
+        "bagaimana kerja aplikasi",
+        "tolong",
+        "bantuan",
+        "cara kerja",
+        "cara kerja aplikasi"
+      ],
+      "responses": [
+        "kamu tinggal memberitahukan gejala apa yang dialami atau sebutkan obat yang ingin kamu ketahui"
+      ]
+    }
+  ]
+}
