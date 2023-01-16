@@ -2528,7 +2528,8 @@
       "tag":"ask1",
       "input": [
         "obat ambeien",
-        "obat wasir"
+        "obat wasir",
+        "obat sakit perut"
       ],
       "responses": [
         "ambeven"
@@ -2543,8 +2544,8 @@
         "obat flu dan batuk untuk anak"
       ],
       "responses": [
-        "Anacetine Sirup 60 ml\nUni Bebi Cough Sirup 60 ml\nCitocetin\nColdrexin\nCombi Kid 12'S Honey Lemon\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml",
-        "Inza\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml\nCombi Kid 12'S Fruit\nHufagrip Flu\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml"
+        "Anacetine Sirup 60 ml,\nUni Bebi Cough Sirup 60 ml,\nCitocetin,\nColdrexin,\nCombi Kid 12'S Honey Lemon,\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml",
+        "Inza,\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml,\nCombi Kid 12'S Fruit,\nHufagrip Flu,\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml"
       ]
     },
 
@@ -2559,7 +2560,7 @@
         "obat hidung tersumbat untuk anak"
       ],
       "responses": [
-        "Anakonidin Sirup 30 ml\nAnakonidin Sirup 60 ml\nColdrexin\nCombi Kid 12'S Fruit\nHufagrip Pilek\nInzana"
+        "Anakonidin Sirup 30 ml,\nAnakonidin Sirup 60 ml,\nColdrexin,\nCombi Kid 12'S Fruit,\nHufagrip Pilek,\nInzana"
         
       ]
     },
@@ -2574,7 +2575,7 @@
         "obat mabuk kendaraan"
       ],
       "responses": [
-        "Antangin JRG 4 Tablet\nAntangin Good Night 4 Tablet\nAntimo 50 mg 10 Tablet"
+        "Antangin JRG 4 Tablet,\nAntangin Good Night 4 Tablet,\nAntimo 50 mg 10 Tablet"
         
       ]
     },
@@ -2587,7 +2588,7 @@
         "obat mabuk kendaraan untuk anak"
       ],
       "responses": [
-        "Antangin Junior Honey Mint 5 Sachet\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
+        "Antangin Junior Honey Mint 5 Sachet,\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
         
       ]
     },
@@ -2596,7 +2597,8 @@
       "tag":"ask6",
       "input": [
         "obat asi",
-        "obat melancarkan asi"
+        "obat melancarkan asi",
+        "asi"
       ],
       "responses": [
         "Asifit 30 Kaplet"
@@ -2612,7 +2614,7 @@
         "obat influenza untuk anak"
       ],
       "responses": [
-        "Uni Bebi Cough Sirup 60 ml\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml\nKomix Kid"
+        "Uni Bebi Cough Sirup 60 ml,\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml,\nKomix Kid"
         
       ]
     },
@@ -2624,8 +2626,8 @@
         "vitamin"
       ],
       "responses": [
-        "Berocca Performance 10 Tablet Effervescent\nBiovision 10 Kapsul\nXonce 500 mg 2 Tablet\nZevit C 4 Kapsul\nZeviton Kaplet\nCaviplex Syr\nCerebrofit Excel\nCerebrofit Ginko Biloba\nCerebrofit Gold",
-        "Enervon C 30\nEnervon-C Effervescent\nIpi Vitamin"
+        "Berocca Performance 10 Tablet Effervescent,\nBiovision 10 Kapsul,\nXonce 500 mg 2 Table\nCerebrofit Ginko Biloba\nCerebrofit Goldt,\nZevit C 4 Kapsul",
+        "Enervon C 30\nEnervon-C Effervescent\nIpi Vitamin,\nZeviton Kaplet,\nCaviplex Syr,\nCerebrofit Excel"
         
       ]
     },
@@ -2640,7 +2642,7 @@
         "obat bau mulut"
       ],
       "responses": [
-        "Betadine Mouthwash and Gargle 100 ml\nEnkasari "
+        "Betadine Mouthwash and Gargle 100 ml,\nEnkasari "
         
       ]
     },
@@ -2652,7 +2654,7 @@
         "plester antiseptik"
       ],
       "responses": [
-        "Betadine Plester 10 Lembar\nDaryan Tule\nHypafix 5cm X 5M"
+        "Betadine Plester 10 Lembar,\nDaryan Tule,\nHypafix 5cm X 5M"
         
       ]
     },
@@ -2674,7 +2676,7 @@
         "p3k"
       ],
       "responses": [
-        "Betadine Plester 10 Lembar\nBetadine Solution 15 ml\nBetadine Solution 60 ml\nDaryan Tule\nHypafix 5cm X 5M\nSofra Tulle\nTensocrepe 7.5 cm X 4.5 m"
+        "Betadine Plester 10 Lembar,\nBetadine Solution 15 ml,\nBetadine Solution 60 ml,\nDaryan Tule,\nHypafix 5cm X 5M,\nSofra Tulle,\nTensocrepe 7.5 cm X 4.5 m"
         
       ]
     },
@@ -2712,7 +2714,7 @@
         "apa obat untuk batuk"
       ],
       "responses": [
-        "Biogesic 500 mg 4 Tablet\nOBH Indoplus 100 ml\nOBH Nellco Special PE Anak Strawberry"
+        "Biogesic 500 mg 4 Tablet,\nOBH Indoplus 100 ml,\nOBH Nellco Special PE Anak Strawberry"
       ]
     },
 
@@ -2724,8 +2726,8 @@
         "vitamin dan suplemen untuk anak"
       ],
       "responses": [
-        "Biolysin Sirup 100 ml\nBiolysin Kids Rasa Orange 30 Tablet\nBiolysin Smart Sirup Rasa Jeruk 100 ml\nBiolysin Smart Sirup Rasa Jeruk 60 ml\nCerebrofit Syr",
-        "Enervon C Syr\nIgastrum"
+        "Biolysin Sirup 100 ml,\nBiolysin Kids Rasa Orange 30 Tablet,\nBiolysin Smart Sirup Rasa Jeruk 100 ml",
+        "Enervon C Syr,\nIgastrum,\nBiolysin Smart Sirup Rasa Jeruk 60 ml,\nCerebrofit Syr"
       ]
     },
 
@@ -2736,7 +2738,7 @@
         "obat meluruhkan dahak"
       ],
       "responses": [
-        "Bisolvon 8 mg 10 Tablet\nOBH Combi Plus Batuk Flu Menthol 100 ml"      
+        "Bisolvon 8 mg 10 Tablet,\nOBH Combi Plus Batuk Flu Menthol 100 ml"      
       ]
     },
 
@@ -2748,7 +2750,7 @@
         "obat pusing"
       ],
       "responses": [
-        "Bodrex 20 Tablet\nBodrex Extra 4 Kaplet\nBodrex Migra 4 Kaplet\nOskadon 4 Tablet"      
+        "Bodrex 20 Tablet,\nBodrex Extra 4 Kaplet,\nBodrex Migra 4 Kaplet,\nOskadon 4 Tablet"      
       ]
     },
 
@@ -2761,8 +2763,8 @@
         "obat hidung tersumbat"
       ],
       "responses": [
-        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml\nColfin syr\nMixadin 4 Tablet\nOB Combi Batuk Pilek 60 ml\nOBH Nellco Special PE Sirup 55 ml\nCoparcetine\nDecolgen",
-        "Mextril\nDecolgen Fx\nKonidin Sirup\nLaserin Sirup\nOBH Nellco Special PE Sirup 100 ml\nOBH Tropica Plus Sirup 100 ml"      
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml,\nColfin syr,\nMixadin 4 Tablet,\nOB Combi Batuk Pilek 60 ml,\nOBH Nellco Special PE Sirup 55 ml,\nCoparcetine,\nDecolgen",
+        "Mextril,\nDecolgen Fx,\nKonidin Sirup,\nLaserin Sirup,\nOBH Nellco Special PE Sirup 100 ml,\nOBH Tropica Plus Sirup 100 ml"      
       ]
     },
 
@@ -2772,7 +2774,7 @@
         "obat flu dan batuk berdahak"
       ],
       "responses": [
-        "Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet\nKomix\nMixagrip\nOBH Nellco Batuk Berdahak 100 ml\nOBH Nellco Plus Sirup 100 ml\nPacdin Cough Sirup 60 ml"      
+        "Bodrex Flu Dan Batuk Berdahak Pe 4 Kaplet,\nKomix,\nMixagrip,\nOBH Nellco Batuk Berdahak 100 ml,\nOBH Nellco Plus Sirup 100 ml,\nPacdin Cough Sirup 60 ml"      
       ]
     },
 
@@ -2784,7 +2786,7 @@
         "penyejuk kulit"
       ],
       "responses": [
-        "Bedak Salicyl 60 g\nCALADINE LOT 60 ML\nCaladine Lotion 95 ml\nCaladine Powder 60 g\nCaladine Powder Original 100 g\nKonicare Bedak\nSalycil Nelco Non Menthol"      
+        "Bedak Salicyl 60 g,\nCALADINE LOT 60 ML,\nCaladine Lotion 95 ml,\nCaladine Powder 60 g,\nCaladine Powder Original 100 g,\nKonicare Bedak,\nSalycil Nelco Non Menthol"      
       ]
     },
 
@@ -2795,7 +2797,7 @@
         "obat batu ginjal"
       ],
       "responses": [
-        "Calsusol 30 Kapsul\nCalsusol 50 Kapsul"
+        "Calsusol 30 Kapsul,\nCalsusol 50 Kapsul"
       ]
     },
 
@@ -2809,8 +2811,8 @@
         "obat keseleo"
       ],
       "responses": [
-        "Cap Lang Balsam\nCap lang Minyak Angin 24 ML\nCap Lang Minyak Sereh\nCaplang Mkp 120 ML\nCaplang Mkp 30 ML\nCaplang Mkp 60 ML\nCopal Balsem\nCopal Cest Rub\nCopal Tube",
-        "Minyak angin cap kapak\nCap Rumah Minyak Kayu Putih 125 ml\nCap Lang Minyak Kayu Putih 30 ml"
+        "Cap Lang Balsam,\nCap lang Minyak Angin 24 ML,\nCap Lang Minyak Sereh,\nCaplang Mkp 120 ML,\nCaplang Mkp 30 ML,\nCaplang Mkp 60 ML,\nCopal Balsem,\nCopal Cest Rub,\nCopal Tube",
+        "Minyak angin cap kapak,\nCap Rumah Minyak Kayu Putih 125 ml,\nCap Lang Minyak Kayu Putih 30 ml"
       ]
     },
 
@@ -2848,18 +2850,19 @@
 
       ],
       "responses": [
-        "Curcuma Emuls 200 ML\nCurcuma Emuls 400 ML"
+        "Curcuma Emuls 200 ML,\nCurcuma Emuls 400 ML"
       ]
     },
 
     {
       "tag":"ask26",
       "input": [
-        "obat bisul"
+        "obat bisul",
+        "bisul"
 
       ],
       "responses": [
-        "Darsi\nIchtiyol"
+        "Darsi,\nIchtiyol"
       ]
     },
 
@@ -2886,7 +2889,7 @@
 
       ],
       "responses": [
-        "Diabetasol\nDianeral"
+        "Diabetasol,\nDianeral"
       ]
     },
 
@@ -2899,7 +2902,7 @@
 
       ],
       "responses": [
-        "Diapet \nDulcolax"
+        "Diapet,\nDulcolax"
       ]
     },
 
@@ -2924,7 +2927,7 @@
 
       ],
       "responses": [
-        "Entrostop\nNorit 40 Tablet"
+        "Entrostop,\nNorit 40 Tablet"
       ]
     },
 
@@ -2937,7 +2940,7 @@
 
       ],
       "responses": [
-        "Entrostop Anak\nLacto-B"
+        "Entrostop Anak,\nLacto-B"
       ]
     },
 
@@ -2987,7 +2990,7 @@
 
       ],
       "responses": [
-        "Konicare\nKonicare Gel"
+        "Konicare,\nKonicare Gel"
       ]
     },
 
@@ -3010,8 +3013,8 @@
 
       ],
       "responses": [
-        "Konidin Lozenges Strong Mint\nkomix\nOB Herbal 100 ml\nOB Herbal 60 ml\nOBH Tropica Extra Rasa Menthol Sirup 60 ml",
-        "OBH Tropica Expectorant Menthol Sirup 100 ml"
+        "Konidin Lozenges Strong Mint,\nkomix,\nOB Herbal 100 ml,\nOB Herbal 60 ml",
+        "OBH Tropica Expectorant Menthol Sirup 100 ml,\nOBH Tropica Extra Rasa Menthol Sirup 60 ml"
       ]
     },
 
@@ -3038,7 +3041,7 @@
 
       ],
       "responses": [
-        "Laserin Madu\nLaserin Sirup"
+        "Laserin Madu,\nLaserin Sirup"
       ]
     },
 
@@ -3081,7 +3084,7 @@
         "obat nyeri tulang"
       ],
       "responses": [
-        "Minyak tawon cc\nMinyak Tawon DD 30ml\nMinyak Tawon EE 60ml\nMinyak Tawon FF 90ml\nMinyak urut geliga "
+        "Minyak tawon cc,\nMinyak Tawon DD 30ml,\nMinyak Tawon EE 60ml,\nMinyak Tawon FF 90ml,\nMinyak urut geliga "
       ]
     },
 
@@ -3147,7 +3150,7 @@
         "obat nyeri ulu hati"
       ],
       "responses": [
-        "Mylanta Sirup 150 ml\nMylanta 10 Tablet"
+        "Mylanta Sirup 150 ml,\nMylanta 10 Tablet"
       ]
     },
 
@@ -3178,13 +3181,13 @@
       "tag":"ask49",
       "input": [
         "obat kesemutan",
-        "obat kram",
+        "obat keram",
         "obat kebas",
         "obat kaki lemas",
         "obat kekurangan vitamin B"
       ],
       "responses": [
-        "Neo Rheumacyl Neuro 10 Kaplet\nNeo Ultracap 4 Kapsul"
+        "Neo Rheumacyl Neuro 10 Kaplet,\nNeo Ultracap 4 Kapsul"
       ]
     },
 
@@ -3207,7 +3210,7 @@
         "obat rasa penuh pada lambung"
       ],
       "responses": [
-        "Neosanmag 4 Tablet\nNeosanmag Fast "
+        "Neosanmag 4 Tablet,\nNeosanmag Fast "
       ]
     },
 
@@ -3229,7 +3232,7 @@
         "obat meredakan batuk berdahak"
       ],
       "responses": [
-        "OBH Combi Plus Batuk Flu Menthol 60 ml\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml"
+        "OBH Combi Plus Batuk Flu Menthol 60 ml,\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml"
       ]
     },
 
@@ -3288,7 +3291,7 @@
         "obat sakit gigi"
       ],
       "responses": [
-        "Pamol 500 mg 10 Tablet\nPanadol Extra 10 Kaplet"
+        "Pamol 500 mg 10 Tablet,\nPanadol Extra 10 Kaplet"
       ]
     },
 
@@ -3301,7 +3304,7 @@
         "obat sakit gigi untuk anak"
       ],
       "responses": [
-        "Panadol Anak-Anak Sirup 60 ml\nPanadol Anak-Anak Drops"
+        "Panadol Anak-Anak Sirup 60 ml,\nPanadol Anak-Anak Drops"
       ]
     },
 
@@ -3313,7 +3316,7 @@
         "obat flu kaplet"
       ],
       "responses": [
-        "Panadol hijau Flu & Batuk 10 Kaplet\nSanaflu\nSanaflu Forte\nStop Cold\nUltraflu"
+        "Panadol hijau Flu & Batuk 10 Kaplet,\nSanaflu,\nSanaflu Forte,\nStop Cold,\nUltraflu"
       ]
     },
 
@@ -3327,7 +3330,7 @@
         "obat pilek sirup"
       ],
       "responses": [
-        "Paracetin Sirup 60 ml\nSanaflu Plus Batuk Sirup\nSiladex 30 or 60 ml\nTriaminic Batuk 60 ml\nTriaminic Exp 60 ml\nTriaminic Pilek 60 ml"
+        "Paracetin Sirup 60 ml,\nSanaflu Plus Batuk Sirup,\nSiladex 30 or 60 ml,\nTriaminic Batuk 60 ml,\nTriaminic Exp 60 ml,\nTriaminic Pilek 60 ml"
       ]
     },
 
@@ -3337,7 +3340,7 @@
         "alat kontrasepsi pria"
       ],
       "responses": [
-        "Simplex Black Panther 3's\nSimplex Long Love 3's\nSimplex Red 3's\nSimplex Stallion 3's\nSimplex Standart Green 3's"
+        "Simplex Black Panther 3's,\nSimplex Long Love 3's,\nSimplex Red 3's,\nSimplex Stallion 3's,\nSimplex Standart Green 3's"
       ]
     },
 
@@ -3419,7 +3422,7 @@
         "perban misalah"
       ],
       "responses": [
-        "Tensocrepe 7.5 cm X 4.5 m\nTensocrepe 10 cm X 4.5 m\nTensocrepe 15 Cm X 4.5 m"
+        "Tensocrepe 7.5 cm X 4.5 m,\nTensocrepe 10 cm X 4.5 m,\nTensocrepe 15 Cm X 4.5 m"
       ]
     },
 
@@ -3432,7 +3435,7 @@
         "obat anak panas"
       ],
       "responses": [
-        "Termorex 60 ml\nTermorex Plus 30 or 60ml"
+        "Termorex 60 ml,\nTermorex Plus 30 or 60ml"
       ]
     },
 
@@ -3493,7 +3496,7 @@
         "vitamin c"
       ],
       "responses": [
-        "Vicee 500\nVitacimin\nVitalong C"
+        "Vicee 500,\nVitacimin,\nVitalong C"
       ]
     },
 
@@ -3575,7 +3578,7 @@
         "permen untuk tenggorokan"
       ],
       "responses": [
-        "Wood Orange\nWood Original"
+        "Wood Orange,\nWood Original"
       ]
     },
 
@@ -3588,7 +3591,7 @@
         "sebutkan semua obat"
       ],
       "responses": [
-        "tuliskan 'list 1 sampai 22 untuk melihat daftar obat"      
+        "tuliskan ( list 1 - 22 ) untuk melihat daftar obat"      
       ]
     },
 
@@ -3600,7 +3603,7 @@
         "1"
       ],
       "responses": [
-        "Ambeven\nAnacetine Sirup 60 ml\nAnakonidin Sirup 30 ml\nAnakonidin Sirup 60 ml\nAntangin Gingermocha 15 ml\nAntangin Good Night 4 Tablet\nAntangin JRG 4 Tablet\nAntangin Junior Honey Mint 5 Sachet\nAntimo 50 mg 10 Tablet\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
+        "Ambeven,\nAnacetine Sirup 60 ml,\nAnakonidin Sirup 30 ml,\nAnakonidin Sirup 60 ml,\nAntangin Gingermocha 15 ml,\nAntangin Good Night 4 Tablet,\nAntangin JRG 4 Tablet,\nAntangin Junior Honey Mint 5 Sachet,\nAntimo 50 mg 10 Tablet,\nAntimo Anak Rasa Jeruk 5 ml 10 Sachet"
       ]
     },
 
@@ -3612,7 +3615,7 @@
         "2"
       ],
       "responses": [
-        "Asifit 30 Kaplet\nBedak Salicyl 60 g\nBerocca Performance 10 Tablet Effervescent\nBetadine Mouthwash and Gargle 100 ml\nBetadine Plester 10 Lembar\nBetadine Skin Cleanser Antiseptic 100 ml\nBetadine Solution 15 ml\nBetadine Solution 30 ml\nBetadine Solution 60 ml\nBetadine Vaginal Douche 10% 100 ml Plus Dengan Alat"
+        "Asifit 30 Kaplet\nBedak Salicyl 60 g,\nBerocca Performance 10 Tablet Effervescent,\nBetadine Mouthwash and Gargle 100 ml,\nBetadine Plester 10 Lembar,\nBetadine Skin Cleanser Antiseptic 100 ml,\nBetadine Solution 15 ml,\nBetadine Solution 30 ml,\nBetadine Solution 60 ml,\nBetadine Vaginal Douche 10% 100 ml Plus Dengan Alat"
       ]
     },
 
@@ -3624,7 +3627,7 @@
         "3"
       ],
       "responses": [
-        "Biogesic 500 mg 4 Tablet\nBiolysin Kids Rasa Orange 30 Tablet\nBiolysin Sirup 100 ml\nBiolysin Smart Sirup Rasa Jeruk 100 ml\nBiolysin Smart Sirup Rasa Jeruk 60 ml\nBiovision 10 Kapsul\nBisolvon 8 mg 10 Tablet\nBodrex 20 Tablet\nBodrex Extra 4 Kaplet\nBodrex Flu Dan Batuk Berdahak Pe 4 Kaplet"
+        "Biogesic 500 mg 4 Tablet,\nBiolysin Kids Rasa Orange 30 Tablet,\nBiolysin Sirup 100 ml,\nBiolysin Smart Sirup Rasa Jeruk 100 ml,\nBiolysin Smart Sirup Rasa Jeruk 60 ml,\nBiovision 10 Kapsul,\nBisolvon 8 mg 10 Tablet,\nBodrex 20 Tablet,\nBodrex Extra 4 Kaplet,\nBodrex Flu Dan Batuk Berdahak Pe 4 Kaplet"
       ]
     },
 
@@ -3636,7 +3639,7 @@
         "4"
       ],
       "responses": [
-        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml\nBodrex Migra 4 Kaplet\nBodrexin 80 mg 16 Tablet\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml\nCaladine Lotion 60 ml\nCaladine Lotion 95 ml\nCaladine Powder 60 g\nCaladine Powder Original 100 g\nCalsusol 30\nCalsusol 50"
+        "Bodrex Flu Dan Batuk Tidak Berdahak Pe Sirup 60 ml,\nBodrex Migra 4 Kaplet,\nBodrexin 80 mg 16 Tablet,\nBodrexin Flu Dan Batuk Berdahak Pe Sirup 56 ml,\nCaladine Lotion 60 ml,\nCaladine Lotion 95 ml,\nCaladine Powder 60 g,\nCaladine Powder Original 100 g,\nCalsusol 30,\nCalsusol 50"
       ]
     },
 
@@ -3648,7 +3651,7 @@
         "5"
       ],
       "responses": [
-        "Cap Lang Minyak Kayu Putih 30 ml\nCap Lang Minyak Telon 30 ml\nCap Rumah Minyak Kayu Putih 125 ml\nCaplang Balsem\nCaplang Minyak Angin\nCaplang Minyak Sereh\nCaplang Mkp 120 ML\nCaplang Mkp 30 ML\nCaplang Mkp 60 ML\nCarrefour Kuning Tissue"
+        "Cap Lang Minyak Kayu Putih 30 ml,\nCap Lang Minyak Telon 30 ml,\nCap Rumah Minyak Kayu Putih 125 ml,\nCaplang Balsem,\nCaplang Minyak Angin,\nCaplang Minyak Sereh,\nCaplang Mkp 120 ML,\nCaplang Mkp 30 ML,\nCaplang Mkp 60 ML,\nCarrefour Kuning Tissue"
       ]
     },
 
@@ -3660,7 +3663,7 @@
         "6"
       ],
       "responses": [
-        "Carrefour Putih Tissue\nCaviplex Syr\nCerebrofit Excel\nCerebrofit Ginko Biloba\nCerebrofit Gold\nCerebrofit Gold K\nCerebrofit Syr\nCitocetin\nCobra\nColdrexin"
+        "Carrefour Putih Tissue,\nCaviplex Syr,\nCerebrofit Excel,\nCerebrofit Ginko Biloba,\nCerebrofit Gold,\nCerebrofit Gold K,\nCerebrofit Syr,\nCitocetin,\nCobra,\nColdrexin"
       ]
     },
 
@@ -3672,7 +3675,7 @@
         "7"
       ],
       "responses": [
-        "Colfin syr\nCombi Kid @1400 Box\nCombi Kid 12'S Fruit\nCombi Kid 12'S Honey Lemon \nCombi Kid Ecer Fruit Veggie\nCombi Kid Ecer Honey Lemon \nCopal Balsem\nCopal Cest Rub\nCopal Tube\nCoparcetine "
+        "Colfin syr,\nCombi Kid @1400 Box,\nCombi Kid 12'S Fruit,\nCombi Kid 12'S Honey Lemon,\nCombi Kid Ecer Fruit Veggie,\nCombi Kid Ecer Honey Lemon,\nCopal Balsem,\nCopal Cest Rub,\nCopal Tube,\nCoparcetine "
       ]
     },
 
@@ -3684,7 +3687,7 @@
         "8"
       ],
       "responses": [
-        "Ctm\nCurcuma Emuls 200 ML\nCurcuma Emuls 400 ML\nDarsi\nDaryan Tule\nDecolgen \nDecolgen FX\nDegirol\nDiabetasol\nDianeral"
+        "Ctm,\nCurcuma Emuls 200 ML,\nCurcuma Emuls 400 ML,\nDarsi,\nDaryan Tule,\nDecolgen,\nDecolgen FX,\nDegirol,\nDiabetasol,\nDianeral"
       ]
     },
 
@@ -3696,7 +3699,7 @@
         "9"
       ],
       "responses": [
-        "Diapet\nDiapet NR\nDiatabs\nDulcolax\nEnervon C 30's\nEnervon C Evervecent\nEnervon C Syr\nEnkasari\nEntrasol\nEntrostop"
+        "Diapet,\nDiapet NR,\nDiatabs,\nDulcolax,\nEnervon C 30's,\nEnervon C Evervecent,\nEnervon C Syr,\nEnkasari,\nEntrasol,\nEntrostop"
       ]
     },
 
@@ -3708,7 +3711,7 @@
         "10"
       ],
       "responses": [
-        "Entrostop Anak\nHormoviton Greng\nHufagrip BP Sirup 60 ml\nHufagrip Flu\nHufagrip Pilek\nHufagrip Tmp\nHypafix 5cm X 5M\nIchtiyol\nIgastrum\nInza"
+        "Entrostop Anak,\nHormoviton Greng,\nHufagrip BP Sirup 60 ml,\nHufagrip Flu,\nHufagrip Pilek,\nHufagrip Tmp,\nHypafix 5cm X 5M,\nIchtiyol,\nIgastrum,\nInza"
       ]
     },
 
@@ -3720,7 +3723,7 @@
         "11"
       ],
       "responses": [
-        "Inzana\nIpi Vitamin\nKalpanax Krim\nKomix\nKomix Kid\nKonicare\nKonicare Bedak\nKonicare Gel\nKonidin Lozenges Mint\nKonidin Lozenges Strong Mint"
+        "Inzana,\nIpi Vitamin,\nKalpanax Krim,\nKomix,\nKomix Kid,\nKonicare,\nKonicare Bedak,\nKonicare Gel,\nKonidin Lozenges Mint,\nKonidin Lozenges Strong Mint"
       ]
     },
 
@@ -3732,7 +3735,7 @@
         "12"
       ],
       "responses": [
-        "Konidin Sirup\nLactacyd Teen Bloom\nLacto-B\nLaserin Madu\nLaserin Sirup\nL-Bio\nListerin 250\nMerit Plus\nMextril\nMinyak angin cap kapak"
+        "Konidin Sirup,\nLactacyd Teen Bloom,\nLacto-B,\nLaserin Madu,\nLaserin Sirup,\nL-Bio,\nListerin 250,\nMerit Plus,\nMextril,\nMinyak angin cap kapak"
       ]
     },
 
@@ -3744,7 +3747,7 @@
         "13"
       ],
       "responses": [
-        "Minyak tawon cc\nMinyak Tawon DD 30ml\nMinyak Tawon EE 60ml\nMinyak Tawon FF 90ml\nMinyak urut geliga \nMixadin 4 Tablet\nMixagrip\nMy Baby Powder Soft & Gentle 150 g\nMylanta 10 Tablet\nMylanta Sirup 150 ml"
+        "Minyak tawon cc,\nMinyak Tawon DD 30ml,\nMinyak Tawon EE 60ml,\nMinyak Tawon FF 90ml,\nMinyak urut geliga,\nMixadin 4 Tablet,\nMixagrip,\nMy Baby Powder Soft & Gentle 150 g,\nMylanta 10 Tablet,\nMylanta Sirup 150 ml"
       ]
     },
 
@@ -3756,7 +3759,7 @@
         "14"
       ],
       "responses": [
-        "Natra Bio Allergy Sinus 60 Tablet\nNeo Rheumacyl 20 Tablet\nNeo Rheumacyl Neuro 10 Kaplet\nNeo Ultracap 4 Kapsul\nNeoasta Suspensi 60 ml\nNeosanmag 4 Tablet\nNeosanmag Fast \nNeozep Forte\nNorit 40 Tablet\nOB Combi Batuk Pilek 60 ml"
+        "Natra Bio Allergy Sinus 60 Tablet,\nNeo Rheumacyl 20 Tablet,\nNeo Rheumacyl Neuro 10 Kaplet,\nNeo Ultracap 4 Kapsul,\nNeoasta Suspensi 60 ml,\nNeosanmag 4 Tablet,\nNeosanmag Fast,\nNeozep Forte,\nNorit 40 Tablet,\nOB Combi Batuk Pilek 60 ml"
       ]
     },
 
@@ -3768,7 +3771,7 @@
         "15"
       ],
       "responses": [
-        "OB Herbal 100 ml\nOB Herbal 60 ml\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml\nOBH Combi Plus Batuk Flu Menthol 100 ml\nOBH Combi Plus Batuk Flu Menthol 60 ml\nOBH Indoplus 100 ml\nOBH Nellco Batuk Berdahak 100 ml\nOBH Nellco Plus Sirup 100 ml\nOBH Nellco Special PE Anak Strawberry"
+        "OB Herbal 100 ml,\nOB Herbal 60 ml,\nOBH Combi Batuk Berdahak Menthol Sirup 100 ml,\nOBH Combi Plus Anak Batuk Flu Strawberry 60 ml,\nOBH Combi Plus Batuk Flu Menthol 100 ml,\nOBH Combi Plus Batuk Flu Menthol 60 ml,\nOBH Indoplus 100 ml,\nOBH Nellco Batuk Berdahak 100 ml,\nOBH Nellco Plus Sirup 100 ml,\nOBH Nellco Special PE Anak Strawberry"
       ]
     },
 
@@ -3780,7 +3783,7 @@
         "16"
       ],
       "responses": [
-        "OBH Nellco Special PE Sirup 100 ml\nOBH Nellco Special PE Sirup 55 ml\nOBH Tropica Expectorant Menthol Sirup 100 ml\nOBH Tropica Extra Rasa Menthol Sirup 60 ml\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml\nOBH Tropica Plus Sirup 100 ml\nOBP Itrasal Sirup 100 ml\nOralit 200 4.1 g 1 Sachet\nOroxin Sirup"
+        "OBH Nellco Special PE Sirup 100 ml,\nOBH Nellco Special PE Sirup 55 ml,\nOBH Tropica Expectorant Menthol Sirup 100 ml,\nOBH Tropica Extra Rasa Menthol Sirup 60 ml,\nOBH Tropica Plus Anak Rasa Jeruk Sirup 100 ml,\nOBH Tropica Plus Anak Rasa Jeruk Sirup 60 ml,\nOBH Tropica Plus Sirup 100 ml,\nOBP Itrasal Sirup 100 ml,\nOralit 200 4.1 g 1 Sachet,\nOroxin Sirup"
       ]
     },
 
@@ -3792,7 +3795,7 @@
         "17"
       ],
       "responses": [
-        "Oskadon 4 Tablet\nOxoferin Solution \nPacdin Cough Sirup 60 ml\nPamol 500 mg 10 Tablet\nPanadol Anak-Anak Drops\nPanadol Anak-Anak Sirup 60 ml\nPanadol Extra 10 Kaplet\nPanadol hijau Flu & Batuk 10 Kaplet\nParacetin Sirup 60 ml\nSabun Mutiara Keraton"
+        "Oskadon 4 Tablet,\nOxoferin Solution,\nPacdin Cough Sirup 60 ml,\nPamol 500 mg 10 Tablet,\nPanadol Anak-Anak Drops,\nPanadol Anak-Anak Sirup 60 ml,\nPanadol Extra 10 Kaplet,\nPanadol hijau Flu & Batuk 10 Kaplet,\nParacetin Sirup 60 ml,\nSabun Mutiara Keraton"
       ]
     },
 
@@ -3804,7 +3807,7 @@
         "18"
       ],
       "responses": [
-        "Salicyl Nellco Non Menthol\nSanaflu\nSanaflu Forte\nSanaflu Plus Batuk Sirup\nSiladex 30 ml\nSiladex 60 ml\nSimplex Black Panther 3's \nSimplex Long Love 3's \nSimplex Red 3's \nSimplex Stallion 3's"
+        "Salicyl Nellco Non Menthol,\nSanaflu,\nSanaflu Forte,\nSanaflu Plus Batuk Sirup,\nSiladex 30 ml,\nSiladex 60 ml,\nSimplex Black Panther 3's,\nSimplex Long Love 3's,\nSimplex Red 3's,\nSimplex Stallion 3's"
       ]
     },
 
@@ -3816,7 +3819,7 @@
         "19"
       ],
       "responses": [
-        "Simplex Standart Green 3's \nSofra Tulle \nSP-troches \nStamvit Herbal\nStimuno Forte \nStop Cold \nSuperf1sh 50's \nSupradyn \nTeh Rosella Dieng Super Kuntum \nTensocrepe 10 cm X 4.5 m"
+        "Simplex Standart Green 3's,\nSofra Tulle,\nSP-troches,\nStamvit Herbal,\nStimuno Forte,\nStop Cold,\nSuperf1sh 50's,\nSupradyn,\nTeh Rosella Dieng Super Kuntum,\nTensocrepe 10 cm X 4.5 m"
       ]
     },
 
@@ -3828,7 +3831,7 @@
         "20"
       ],
       "responses": [
-        "Tensocrepe 15 Cm X 4.5 m\nTensocrepe 7.5 cm X 4.5 m\nTermorex 60 ml \nTermorex Plus 30 ml \nTermorex Plus 60 ml \nThermolyte \nTonikum Bayer 100 ml \nTonikum Bayer 330 ml \nTriaminic Batuk 60 ml \nTriaminic Exp 60 ml "
+        "Tensocrepe 15 Cm X 4.5 m,\nTensocrepe 7.5 cm X 4.5 m,\nTermorex 60 ml,\nTermorex Plus 30 ml,\nTermorex Plus 60 ml,\nThermolyte,\nTonikum Bayer 100 ml,\nTonikum Bayer 330 ml,\nTriaminic Batuk 60 ml,\nTriaminic Exp 60 ml "
       ]
     },
 
@@ -3840,7 +3843,7 @@
         "21"
       ],
       "responses": [
-        "Triaminic Pilek 60 ml\nUltraflu\nUni Bebi Cough Sirup 60 ml\nUpixon Syr\nVelpo\nVice\nVick Inhaler\nVidoran Smart Care\nVidoran Smart Syr\nVidoran Smart Tab"
+        "Triaminic Pilek 60 ml,\nUltraflu,\nUni Bebi Cough Sirup 60 ml,\nUpixon Syr,\nVelpo,\nVice,\nVick Inhaler,\nVidoran Smart Care,\nVidoran Smart Syr,\nVidoran Smart Tab"
       ]
     },
 
@@ -3852,7 +3855,7 @@
         "22"
       ],
       "responses": [
-        "Vipro G\nVitacimin\nVitalong C\nWood Att / Exp 100 ml\nWood Att / Exp 60 ml\nWood Orange\nWood Original\nXonce 500 mg 2 Tablet\nZevit C 4 Kapsul\nZeviton Kaplet"
+        "Vipro G,\nVitacimin,\nVitalong C,\nWood Att / Exp 100 ml,\nWood Att / Exp 60 ml,\nWood Orange,\nWood Original,\nXonce 500 mg 2 Tablet,\nZevit C 4 Kapsul,\nZeviton Kaplet"
       ]
     },
 
